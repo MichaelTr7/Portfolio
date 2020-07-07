@@ -23,8 +23,7 @@ Inspired by the drive to further implement image processing principles learned d
 <br/>
 
 
-| GUI Interface Capture 1 | GUI Interface Capture 2 |
-| <img src="Images/ImTune_1.png" width = "500"> |  <img src="Images/ImTune_2.png" width = "500"> | 
+ <img src="Images/ImTune_1.png" width = "500">   <img src="Images/ImTune_2.png" width = "500"> 
 </p>
 
 ### Features
