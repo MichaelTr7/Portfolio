@@ -34,7 +34,8 @@ Inspired by the drive to further implement image processing principles learned d
 
 ### Languages/Technologies
 
-<img src="Images/MATLAB_Icon.gif" width = "75"> 
+<img src="Images/MATLAB_Icon.gif" width = "75">  <img src="Images/Vectornator_Logo.png" width = "145">
+
 Built using MATLAB and GUI developed programatically.
 
 
