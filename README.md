@@ -38,7 +38,6 @@ Inspired by the drive to further implement image processing principles learned d
 - Brightness and exposure adjustments
 - Intensity plots and histograms in 2-D and 3-D simultaneously
 - Image selection and saving from anywhere on device’s file system
-<br/>
 
 
 ### Languages/Technologies
