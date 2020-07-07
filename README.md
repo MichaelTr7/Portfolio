@@ -23,6 +23,13 @@
 
 ## Summary 
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 ## Contact Information
 Reach out to me at one of the following places!
 
