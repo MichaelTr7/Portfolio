@@ -20,11 +20,14 @@ Inspired by the drive to further implement image processing principles learned d
 
 
 
-<p align="center">
+<p align="left">
 <img src="Images/ImTune_1.png" width = "500">
 <br/>
 <br/>
 <br/>
+</p>
+
+<p align="right">
 
 <img src="Images/ImTune_2.png" width = "500"> 
 
