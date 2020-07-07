@@ -15,32 +15,27 @@
 <br/>
   
 
-
-
-
-
-<p align="left">
-
-<br/>
-<br/>
-<br/>
-</p>
-
-<p align="right">
-
-
-
-</p>
-
 <br/>
 <br/>
 </p>
 
 <img align="left" src="Images/ImTune_1.png" width = "500" alt="Made with Angular" title="Angular" hspace="20"/>
 
+
+
+<br/><br/><br/><br/><br/>
+
+
+
+<img align="right" src="Images/ImTune_2.png" width = "500" alt="Made with Angular" title="Angular" hspace="20"/>
+
 Inspired by the drive to further implement image processing principles learned during undergraduate studies. Compiled standalone application using MATLAB. Coded programmatically and can edit any picture selected by retrieving the image through its path. Uses UI elements including uifigure, uiknob, uibutton, etc. 
 
-
+### Features
+- Hue adjustment using HSI (Hue, Saturation, Intensity) colour space rotation
+- Brightness and exposure adjustments
+- Intensity plots and histograms in 2-D and 3-D simultaneously
+- Image selection and saving from anywhere on device’s file system
 
 
 
@@ -51,14 +46,6 @@ Inspired by the drive to further implement image processing principles learned d
 
 
 
-
-
-
-### Features
-- Hue adjustment using HSI (Hue, Saturation, Intensity) colour space rotation
-- Brightness and exposure adjustments
-- Intensity plots and histograms in 2-D and 3-D simultaneously
-- Image selection and saving from anywhere on device’s file system
 
 ### Languages/Technologies
 
