@@ -1,5 +1,8 @@
 # My Portfolio: A Variety of Personal Projects
 
+<br/>
+<br/>
+
 <p align="center">
   <img src="Images/ImTuneIcon.png" width = "100">
 </p>
@@ -7,7 +10,7 @@
 <p align="center">
 <b> ImTune (Image Processing Application)
 
-
+<br/>
 <br/>
 <br/>
 
