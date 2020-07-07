@@ -14,7 +14,7 @@
 <br/>
 <br/>
   
-  
+### Summary 
 Inspired by the drive to further implement image processing principles learned during undergraduate studies. Compiled standalone application using MATLAB. Coded programmatically and can edit any picture selected by retrieving the image through its path. Uses UI elements including uifigure, uiknob, uibutton, etc. 
 
 <br/>
@@ -37,7 +37,6 @@ Inspired by the drive to further implement image processing principles learned d
 <img src="Images/MATLAB_Icon.gif" width = "75"> 
 Built using MATLAB and GUI developed programatically.
 
-### Summary 
 
 ### Project Files 
 
