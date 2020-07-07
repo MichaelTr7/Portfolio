@@ -1,4 +1,4 @@
-# My Portfolio: A Variety of Personal Projects
+# A Variety of Personal Projects
 
 <br/>
 <br/>
@@ -19,12 +19,14 @@ Inspired by the drive to further implement image processing principles learned d
 
 <br/>
 <br/>
-
-
-| GUI Interface Capture 1 | GUI Interface Capture 2 |
-| :---: |:---:|
-| <img src="Images/ImTune_1.png" width = "500"> |  <img src="Images/ImTune_2.png" width = "500"> | 
 </p>
+
+
+<s>
+ <img src="Images/ImTune_1.png" width = "500">   <img src="Images/ImTune_2.png" width = "500"> 
+</s>
+
+
 
 ### Features
 - Hue adjustment using HSI (Hue, Saturation, Intensity) colour space rotation
