@@ -1,4 +1,4 @@
-# Portfolio a variety of personal projects
+# My Portfolio: A Variety of Personal Projects
 
 
 
