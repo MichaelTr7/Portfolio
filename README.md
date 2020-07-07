@@ -13,16 +13,21 @@
 
 </p>
 
+
 <img align="left" src="Images/ImTune_1.png" width = "500" alt="Made with Angular" title="Angular" hspace="20"/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 Inspired by the drive to further implement image processing principles learned during undergraduate studies. Compiled standalone application using MATLAB. Coded programmatically and can edit any picture selected by retrieving the image through its path. Uses UI elements including uifigure, uiknob, uibutton, etc. 
 
 
-<br/>
-
-
-
 <img align="right" src="Images/ImTune_2.png" width = "500" alt="Made with Angular" title="Angular" hspace="20"/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 ### Features
@@ -33,7 +38,7 @@ Inspired by the drive to further implement image processing principles learned d
 
 
 
-<br/><br/><br/><br/><br/>
+<br/>
 
 
 
