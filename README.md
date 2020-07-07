@@ -7,8 +7,10 @@
 
 ImTune (standalone compiled MATLAB application)
 
-<img src="Images/ImTune_1.png" width = "400"> <img src="Images/ImTune_2.png" width = "400">
 
+
+| Screenshot | Screenshot |
+| <img src="Images/ImTune_1.png" width = "400"> |  <img src="Images/ImTune_2.png" width = "400"> | 
 
 
 ## Table of Contents (Optional)
@@ -28,9 +30,6 @@ ImTune (standalone compiled MATLAB application)
 ## Documentation (Optional)
 
 
-| Screenshot | Screenshot | Screenshot |
-| :---: |:---:| :---:|
-|  |  |  |
 
 Reach out to me at one of the following places!
 
