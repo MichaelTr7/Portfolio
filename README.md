@@ -7,15 +7,13 @@
 <p align="center">
 <b> ImTune (Image Processing Application)
 
-
-
-
 <p align="center">
   <img src="Images/ImTuneIcon.png" width = "100">
 </p>
 
 <br/>
 <br/>
+
 
 | GUI Interface Capture 1 | GUI Interface Capture 2 |
 | :---: |:---:|
@@ -26,13 +24,7 @@
 <br/>
 <br/>
 
-## Table of Contents (Optional)
-
-> If your `README` has a lot of info, section headers might be nice.
-
-- [Installation](#installation)
-- [Features](#features)
-- [Documentation](#documentation)
+## Languages/Technologies
 
 
 ## Features
