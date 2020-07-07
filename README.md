@@ -20,15 +20,11 @@ ImTune (standalone compiled MATLAB application)
 
 - [Installation](#installation)
 - [Features](#features)
-- [Contributing](#contributing)
-- [Team](#team)
-- [FAQ](#faq)
-- [Support](#support)
-- [License](#license)
+- [Documentation](#Documentation)
+
 
 ## Features
-## Usage (Optional)
-## Documentation (Optional)
+## Documentation
 
 
 
