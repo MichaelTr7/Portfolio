@@ -36,7 +36,7 @@ Inspired by the drive to further implement image processing principles learned d
 
 <img src="Images/MATLAB_Icon.gif" width = "75">  <img src="Images/Vectornator_Logo.png" width = "145">
 
-Built using MATLAB and GUI developed programatically.
+Built using MATLAB and GUI developed programatically. Application icon designed using Vectonator Pro.
 
 
 ### Project Files 
