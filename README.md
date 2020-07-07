@@ -5,9 +5,7 @@
 <br/>
 <br/>
 
-## ImTune  
-<br/>
-(standalone compiled MATLAB application)
+## ImTune (Image Processing Application)
 <br/>
 <img src="Images/ImTuneIcon.png" width = "100">
 
