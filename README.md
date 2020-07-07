@@ -1,7 +1,5 @@
 # A Variety of Personal Projects
 
-link to live site https://michaeltr7.github.io/Portfolio/
-
 <br/>
 <br/>
 
