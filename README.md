@@ -26,7 +26,6 @@ Inspired by the drive to further implement image processing principles learned d
 </p>
 
 <br/>
-<br/>
 
 <p align="center">
   <img src="Images/ImTune_2.png" width = "600">
@@ -39,6 +38,7 @@ Inspired by the drive to further implement image processing principles learned d
 - Intensity plots and histograms in 2-D and 3-D simultaneously
 - Image selection and saving from anywhere on device’s file system
 
+<br/>
 
 ### Languages/Technologies
 
