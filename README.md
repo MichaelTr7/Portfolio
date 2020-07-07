@@ -18,8 +18,6 @@
 Inspired by the drive to further implement image processing principles learned during undergraduate studies. Compiled standalone application using MATLAB. Coded programmatically and can edit any picture selected by retrieving the image through its path. Uses UI elements including uifigure, uiknob, uibutton, etc. 
 </p>
 
-<br/>
-<br/>
 
 <p align="center">
   <img src="Images/ImTune_1.png" width = "600">
