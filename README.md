@@ -21,7 +21,7 @@ Inspired by the drive to further implement image processing principles learned d
 
 
 <p align="left">
-<img src="Images/ImTune_1.png" width = "500">
+
 <br/>
 <br/>
 <br/>
@@ -29,7 +29,7 @@ Inspired by the drive to further implement image processing principles learned d
 
 <p align="right">
 
-<img src="Images/ImTune_2.png" width = "500"> 
+
 
 </p>
 
@@ -39,7 +39,9 @@ Inspired by the drive to further implement image processing principles learned d
 
 
 
-
+| <img src="Images/ImTune_1.png" width = "500">  |   |
+|---|---|
+|   | <img src="Images/ImTune_2.png" width = "500">  |
 
 
 
