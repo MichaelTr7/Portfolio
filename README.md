@@ -5,7 +5,9 @@
 <br/>
 <br/>
 
-ImTune (standalone compiled MATLAB application)
+## ImTune  
+<br/>
+(standalone compiled MATLAB application)
 <br/>
 <img src="Images/ImTuneIcon.png" width = "100">
 
