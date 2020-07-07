@@ -9,7 +9,7 @@ ImTune (standalone compiled MATLAB application)
 
 
 
-| Screenshot | Screenshot |
+| GUI Interface Capture 1 | GUI Interface Capture 2 |
 | :---: |:---:|
 | <img src="Images/ImTune_1.png" width = "400"> |  <img src="Images/ImTune_2.png" width = "400"> | 
 
