@@ -11,25 +11,16 @@
   <img src="Images/ImTuneIcon.png" width = "100">
 </p>
 
-<br/>
-<br/>
-
 
 | GUI Interface Capture 1 | GUI Interface Capture 2 |
 | :---: |:---:|
 | <img src="Images/ImTune_1.png" width = "500"> |  <img src="Images/ImTune_2.png" width = "500"> | 
 </p>
-<br/>
-<br/>
-<br/>
-<br/>
 
 ## Languages/Technologies
 
-
 ## Features
 ## Documentation
-
 
 
 Reach out to me at one of the following places!
