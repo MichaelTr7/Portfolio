@@ -1,5 +1,3 @@
-# A Variety of Personal Projects
-
 <br/>
 <br/>
 
