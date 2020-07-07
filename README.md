@@ -19,10 +19,14 @@ Inspired by the drive to further implement image processing principles learned d
 
 <br/>
 <br/>
-
-
- <img src="Images/ImTune_1.png" width = "500">   <img src="Images/ImTune_2.png" width = "500"> 
 </p>
+
+
+<s>
+ <img src="Images/ImTune_1.png" width = "500">   <img src="Images/ImTune_2.png" width = "500"> 
+</s>
+
+
 
 ### Features
 - Hue adjustment using HSI (Hue, Saturation, Intensity) colour space rotation
