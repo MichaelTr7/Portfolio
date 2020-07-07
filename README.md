@@ -20,9 +20,10 @@
 ## Languages/Technologies
 
 ## Features
-## Documentation
 
+## Summary 
 
+## Contact Information
 Reach out to me at one of the following places!
 
 - LinkedIn at <a href="https://www.linkedin.com/in/michaeltroeung/" target="_blank">`LinkedIn/michaeltroeung.com`</a>
