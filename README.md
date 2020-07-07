@@ -8,7 +8,8 @@
 </p>
 
 <p align="center">
-<b> ImTune (Image Processing Application)
+<b> ImTune <br/>
+  (Image Processing Application)
 
 <br/>
 <br/>
