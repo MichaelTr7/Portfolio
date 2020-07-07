@@ -16,18 +16,18 @@
 | <img src="Images/ImTune_1.png" width = "500"> |  <img src="Images/ImTune_2.png" width = "500"> | 
 </p>
 
-#### Features
+### Features
 - Hue adjustment using HSI (Hue, Saturation, Intensity) colour space rotation
 - Brightness and exposure adjustments
 - Intensity plots and histograms in 2-D and 3-D simultaneously
 - Image selection and saving from anywhere on device’s file system
 
-#### Languages/Technologies
+### Languages/Technologies
 
 <img src="Images/MATLAB_Icon.gif" width = "75"> 
 Built using MATLAB and GUI developed programatically.
 
-#### Summary 
+### Summary 
 Inspired by the drive to further implement image processing principles learned during undergraduate studies. Compiled standalone application using MATLAB. Coded programmatically and can edit any picture selected by retrieving the image through its path. Uses UI elements including uifigure, uiknob, uibutton, etc.
 
 <br/>
@@ -37,7 +37,7 @@ Inspired by the drive to further implement image processing principles learned d
 <br/>
 <br/>
 
-#### Contact Information
+### Contact Information
 Reach out to me at one of the following places!
 
 - LinkedIn at <a href="https://www.linkedin.com/in/michaeltroeung/" target="_blank">`LinkedIn/michaeltroeung.com`</a>
