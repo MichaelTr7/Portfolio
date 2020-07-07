@@ -1,12 +1,14 @@
 # My Portfolio: A Variety of Personal Projects
 
-
-
 <br/>
 <br/>
-
-## ImTune (Image Processing Application)
 <br/>
+
+<p align="center">
+<b> ImTune (Image Processing Application)
+</p>
+
+
 
 <p align="center">
   <img src="Images/ImTuneIcon.png" width = "100">
