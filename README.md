@@ -7,8 +7,10 @@
 
 ## ImTune (Image Processing Application)
 <br/>
-<img src="Images/ImTuneIcon.png" width = "100">
 
+<p align="center">
+  <img src="Images/ImTuneIcon.png" width = "100">
+</p>
 
 <br/>
 <br/>
