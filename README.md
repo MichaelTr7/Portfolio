@@ -11,6 +11,28 @@ ImTune (standalone compiled MATLAB application)
 
 
 
+## Table of Contents (Optional)
+
+> If your `README` has a lot of info, section headers might be nice.
+
+- [Installation](#installation)
+- [Features](#features)
+- [Contributing](#contributing)
+- [Team](#team)
+- [FAQ](#faq)
+- [Support](#support)
+- [License](#license)
+
+## Features
+## Usage (Optional)
+## Documentation (Optional)
 
 
+| Screenshot | Screenshot | Screenshot |
+| :---: |:---:| :---:|
+|  |  |  |
+
+Reach out to me at one of the following places!
+
+- LinkedIn at <a href="https://www.linkedin.com/in/michaeltroeung/" target="_blank">`LinkedIn/michaeltroeung.com`</a>
 
