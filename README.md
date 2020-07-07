@@ -19,6 +19,10 @@
 
 ## Languages/Technologies
 
+<img src="Images/MATLAB_Icon.gif" width = "75"> 
+Built using MATLAB and GUI developed programatically.
+
+
 ## Features
 
 ## Summary 
