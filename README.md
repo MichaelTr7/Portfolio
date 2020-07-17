@@ -1,6 +1,23 @@
 <br/>
 
 <p align="center">
+<b> Folder Painter <br/>
+</b>
+
+<br/>
+<br/>
+  
+</p>
+
+A desktop widget/application that can change the colour of folder on MacOS. The project was completed using Bash, Python, JavaScript, and HTML/CSS. Uses the NodeJS and ElectronJS frameworks to combine front-end and back-end code. Inspired by the coloured tags used throughout the apple ecosystem.
+
+
+
+
+<br/>
+
+
+<p align="center">
   <img src="Images/ImTuneIcon.png" width = "100">
 </p>
 
@@ -49,4 +66,6 @@ Built using MATLAB and GUI developed programatically. Application icon designed 
 Reach out to me at one of the following places!
 
 - LinkedIn at <a href="https://www.linkedin.com/in/michaeltroeung/" target="_blank">`LinkedIn/michaeltroeung.com`</a>
+
+
 
