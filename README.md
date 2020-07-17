@@ -9,7 +9,7 @@
   
 </p>
 
-A desktop widget/application that can change the colour of any folder on MacOS. The project was completed using Bash, Python, JavaScript, and HTML/CSS. Uses the NodeJS and ElectronJS frameworks to combine front-end and back-end code. Inspired by the coloured tags used throughout the apple ecosystem.
+A desktop widget/application that can change the colour of any folder on MacOS. The project was completed using Bash, Python, JavaScript and HTML/CSS. Uses the NodeJS and ElectronJS frameworks to combine front-end and back-end code. Inspired by the coloured tags used throughout the apple ecosystem.
 
 
 
