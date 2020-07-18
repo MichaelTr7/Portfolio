@@ -16,7 +16,7 @@ A desktop widget/application that can change the colour of any folder on MacOS. 
 
 |Folder Path Detection|Scalable Colour Library|
 |---|---|
-|<img src="Images/Folder_Painter_Demo.gif" width = "500">|<img src="Images/Folder_Painter_Demo_2.gif" width = "500">|
+|<img src="Images/Folder_Painter_Demo.gif" width = "2000">|<img src="Images/Folder_Painter_Demo_2.gif" width = "2000">|
 
 ### Features
 
