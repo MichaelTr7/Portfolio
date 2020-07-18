@@ -48,12 +48,12 @@ A desktop widget/application that can change the colour of any folder on MacOS. 
 <p align="center">
 <b> ImTune <br/>
   (Image Processing Application) </b>
-
+</p>
 <br/>
 <br/>
   
 A dekstop application inspired by the drive to further implement image processing principles learned during undergraduate studies. Compiled standalone application using MATLAB. Coded programmatically and can edit any picture selected by retrieving the image through its path. Uses UI elements including uifigure, uiknob, uibutton, etc. 
-</p>
+
 
 <br/>
 
