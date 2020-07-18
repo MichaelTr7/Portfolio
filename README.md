@@ -18,6 +18,16 @@ A desktop widget/application that can change the colour of any folder on MacOS. 
 |---|---|
 |<img src="Images/Folder_Painter_Demo.gif" width = "500">|<img src="Images/Folder_Painter_Demo_2.gif" width = "500">|
 
+### Features
+
+
+### Languages/Technologies
+
+
+### Project Files 
+
+
+
 
 <br/>
 <br/>
