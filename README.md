@@ -25,6 +25,7 @@ A desktop widget/application that can change the colour of any folder on MacOS. 
 <img src="Images/Python_Symbol.png" width = "60" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Bash_Logo.png" width = "85"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Open_CV_Logo.png" width = "62">
 
 ### Project Files 
+[Folder Painter Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Folder%20Painter)
 
 
 
@@ -84,7 +85,6 @@ Built using MATLAB and GUI developed programatically. Application icon designed 
 
 ### Project Files 
 [ImTune Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/ImTune)
-
 
 ### Contact Information
 Reach out to me at one of the following places!
