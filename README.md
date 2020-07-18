@@ -21,7 +21,7 @@ A desktop widget/application that can change the colour of any folder on MacOS. 
 ### Features
 
 
-### Languages/Technologies
+### Languages/Frameworks
 
 
 ### Project Files 
