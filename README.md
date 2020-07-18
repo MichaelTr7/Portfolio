@@ -77,7 +77,7 @@ A dekstop application inspired by the drive to further implement image processin
 
 ### Languages/Technologies
 
-<img src="Images/MATLAB_Icon.gif" width = "75"> &nbsp;&nbsp;&nbsp; <img src="Images/Vectornator_Logo.png" width = "75">
+<img src="Images/MATLAB_Icon.gif" width = "80"> &nbsp;&nbsp;&nbsp; <img src="Images/Vectornator_Logo.png" width = "75">
 
 Built using MATLAB and GUI developed programatically. Application icon designed using Vectonator Pro and post processed in ImTune itself.
 
