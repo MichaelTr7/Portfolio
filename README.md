@@ -50,22 +50,22 @@ A desktop widget/application that can change the colour of any folder on MacOS. 
   (Image Processing Application) </b>
 </p>
 <br/>
-<br/>
   
 A dekstop application inspired by the drive to further implement image processing principles learned during undergraduate studies. Compiled standalone application using MATLAB. Coded programmatically and can edit any picture selected by retrieving the image through its path. Uses UI elements including uifigure, uiknob, uibutton, etc. 
 
 
 <br/>
+<br/>
 
 
 <p align="center">
-  <img src="Images/ImTune_1.png" width = "600">
+  <img src="Images/ImTune_1.png" width = "900">
 </p>
 
 <br/>
 
 <p align="center">
-  <img src="Images/ImTune_2.png" width = "600">
+  <img src="Images/ImTune_2.png" width = "900">
 </p>
 
 
