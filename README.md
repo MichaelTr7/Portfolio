@@ -20,6 +20,14 @@ A desktop widget/application that can change the colour of any folder on MacOS. 
 
 
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 <p align="center">
