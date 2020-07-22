@@ -19,13 +19,15 @@ A desktop widget/application that can change the colour of any folder on MacOS. 
 |<img src="Images/Folder_Painter_Demo_Lower_Resolution.gif" width = "2000">|<img src="Images/Folder_Painter_Demo_2.gif" width = "2000">|
 
 ### Features
-- Favourites colour palette 
-- Folder detection through full path name 
+- Folder detection through full path name
+- Favourites colour palette that can be docked and undocked
 - Hue and saturation adjustments
-
 
 ### Languages/Frameworks
 <img src="Images/Python_Symbol.png" width = "60" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Bash_Logo.png" width = "85"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Open_CV_Logo.png" width = "62">
+
+Python and OpenCV used for image processing the folder colour. Javascript and NodeJS used to pop() last field in path name for folder detection. Simple CSS animations and keyframes used to create paint and button transitions. Icon switching implemented using Bash/Shell scripts. 
+
 
 ### Project Files 
 [Folder Painter Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Folder%20Painter)
