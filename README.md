@@ -16,6 +16,8 @@ A desktop widget/application that can change the colour of any folder on MacOS. 
 
 <br/>
 
+<img src="Images/Folder_Painter_Desktop_View.png" width = "2000">
+
 
 |Folder Path Detection (gif) |Favourite Colours Panel (gif)|
 |---|---|
