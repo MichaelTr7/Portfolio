@@ -1,0 +1,50 @@
+{
+  "Hue": [
+    89,
+    38,
+    144,
+    47,
+    180,
+    -10
+  ],
+  "Saturation": [
+    13,
+    35,
+    35,
+    -31,
+    -31,
+    40
+  ],
+  "Path": [
+    "/Users/michael/Documents/Folder_Painter/Favourites/ColourID_89_13.png",
+    "/Users/michael/Documents/Folder_Painter/Favourites/ColourID_38_35.png",
+    "/Users/michael/Documents/Folder_Painter/Favourites/ColourID_144_35.png",
+    "/Users/michael/Documents/Folder_Painter/Favourites/ColourID_47_-31.png",
+    "/Users/michael/Documents/Folder_Painter/Favourites/ColourID_180_-31.png",
+    "/Users/michael/Documents/Folder_Painter/Favourites/ColourID_-10_40.png"
+  ],
+  "Red": [
+    251,
+    121,
+    251,
+    192,
+    195,
+    83
+  ],
+  "Green": [
+    110,
+    88,
+    202,
+    153,
+    251,
+    245
+  ],
+  "Blue": [
+    194,
+    251,
+    88,
+    251,
+    153,
+    251
+  ]
+}
