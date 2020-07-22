@@ -26,6 +26,7 @@ A desktop widget/application that can change the colour of any folder on MacOS. 
 - Folder detection through full path name
 - Favourites colour palette that can be docked and undocked
 - Hue and saturation adjustments
+<br/>
 
 ### Languages/Frameworks
 <img src="Images/Python_Symbol.png" width = "60" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Bash_Logo.png" width = "85"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Open_CV_Logo.png" width = "62">
@@ -33,6 +34,7 @@ A desktop widget/application that can change the colour of any folder on MacOS. 
 
 Python and OpenCV used for image processing the folder colour. Javascript and NodeJS used to pop() last field in path name for folder detection. Simple CSS animations and keyframes used to create paint and button transitions. Icon switching implemented using Bash/Shell scripts. 
 
+<br/>
 
 ### Project Files 
 [Folder Painter Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Folder%20Painter)
@@ -77,6 +79,7 @@ A dekstop application inspired by the drive to further implement image processin
 - Brightness and exposure adjustments
 - Intensity plots and histograms in 2-D and 3-D simultaneously
 - Image selection and saving from anywhere on device’s file system
+<br/>
 
 ### Languages/Technologies
 
@@ -84,6 +87,7 @@ A dekstop application inspired by the drive to further implement image processin
 
 Built using MATLAB and GUI developed programatically. Application icon designed using Vectonator Pro and post processed in ImTune itself.
 
+<br/>
 
 ### Project Files 
 [ImTune Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/ImTune)
