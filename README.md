@@ -37,13 +37,13 @@ Python and OpenCV used for image processing the folder colour. Javascript and No
 ### Project Files 
 [Folder Painter Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Folder%20Painter)
 
+<br/>
+<br/>
+
+
 <p align="center">
   <img src="Images/ImTuneIcon.png" width = "100">
 </p>
-
-
-<br/>
-<br/>
 
 
 <p align="center">
