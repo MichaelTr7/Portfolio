@@ -2,7 +2,6 @@
 
 <p align="center">
 <b> Folder Painter <br/>
-</b>
 
 <br/>
   
