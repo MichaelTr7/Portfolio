@@ -1,8 +1,7 @@
 <br/>
 
 <p align="center">
-<b> Folder Painter <br/>
-
+<b> Folder Painter </b>
 <br/>
   
 </p>
