@@ -121,19 +121,15 @@ A desktop widget/application for visualizing audio actively playing. Built using
 |---|---|
 |<img src="Images/Audio Dock Menu Capture.png" width = "2000">|<img src="Images/Audio Dock Demo 1.gif" width = "2000">|
 
-
-<br/>
-<br/>
-
-
 ### Features
 • Five visualization styles <br/>
 • Easily scalable to allow more styles to be added <br/>
 • Functions: ⌘ + S (style menu) and ⌘ + H (hide visualizer)
 
+<br/>
 ### Languages/Frameworks
 
-
+<br/>
 ### Project Files 
 
 
