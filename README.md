@@ -104,11 +104,23 @@ Built using MATLAB and GUI developed programatically. Application icon designed 
 <br/>
 </p>
 
-
+A desktop widget/application for visualizing audio actively playing. The project was completed using Javascript and HTML/CSS. 
 
 
 <br/>
 <br/>
+
+
+### Features
+• Five visualization styles <br/>
+• Easily scalable to allow more styles to be added <br/>
+• Functions: ⌘ + S (style menu) and ⌘ + H (hide visualizer)
+
+### Languages/Frameworks
+
+
+### Project Files 
+
 
 
 ### Contact Information
