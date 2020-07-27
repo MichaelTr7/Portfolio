@@ -119,7 +119,7 @@ A desktop widget/application for visualizing audio actively playing. Built using
 
 |Dynamic Style Menu|Frost White Style (gif)|
 |---|---|
-|<img src="Images/Audio Dock Menu Capture 2.png" width = "2000">|<img src="Images/Audio Dock Demo 1.gif" width = "2000">|
+|<img src="Images/Audio Dock Menu Capture 2.png" width = "2000">|<img src="Images/Audio Dock Demo 2.gif" width = "2000">|
 
 ### Features
 • Five visualization styles <br/>
