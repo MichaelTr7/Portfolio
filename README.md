@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Images/Folder Painter Logo V2.png" width = "100">
+  <img src="Images/Folder Painter Logo V2.PNG" width = "100">
 </p>
 
 
