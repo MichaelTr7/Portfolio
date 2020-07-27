@@ -52,7 +52,7 @@ Python and OpenCV used for image processing the folder colour. Javascript and No
 <br/>
   
  
-A dekstop application inspired by the drive to further implement image processing principles learned during undergraduate studies. Compiled standalone application using MATLAB. Coded programmatically and can edit any picture selected by retrieving the image through its path. Uses UI elements including uifigure, uiknob, uibutton, etc. 
+A desktop application inspired by the drive to further implement image processing principles learned during undergraduate studies. Compiled standalone application using MATLAB. Coded programmatically and can edit any picture selected by retrieving the image through its path. Uses UI elements including uifigure, uiknob, uibutton, etc. 
 
 
 <br/>
@@ -91,8 +91,24 @@ Built using MATLAB and GUI developed programatically. Application icon designed 
 
 <br/>
 <br/>
+<br/>
 
 
+
+
+<br/>
+<br/>
+
+<p align="center">
+<b> Audio Dock </b>
+<br/>
+</p>
+
+
+
+
+<br/>
+<br/>
 
 
 ### Contact Information
