@@ -112,7 +112,7 @@ A desktop widget/application for visualizing audio actively playing. The project
 <img src="Images/Folder_Painter_Desktop_View.png" width = "2000">
 
 
-|Dynamic Style Menu|HSB Color Style (gif)|
+|Dynamic Style Menu|Frost White Style (gif)|
 |---|---|
 |<img src="Images/Audio Dock Menu Capture.png" width = "2000">|<img src="Images/Audio Dock Demo 1.gif" width = "2000">|
 
