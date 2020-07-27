@@ -2,10 +2,6 @@
   <img src="Images/Folder Painter Logo V2.PNG" width = "100">
 </p>
 
-
-
-<br/>
-
 <p align="center">
 <b> Folder Painter </b>
 <br/>
