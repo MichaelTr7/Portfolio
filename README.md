@@ -127,9 +127,11 @@ A desktop widget/application for visualizing audio actively playing. Built using
 • Functions: ⌘ + S (style menu) and ⌘ + H (hide visualizer)
 
 <br/>
+
 ### Languages/Frameworks
 
 <br/>
+
 ### Project Files 
 
 
