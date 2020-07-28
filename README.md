@@ -101,7 +101,7 @@ Built using MATLAB and GUI developed programatically. Application icon designed 
 <br/>
 
 <p align="center">
-  <img src="Images/Folder Painter Logo V2.PNG" width = "120">
+  <img src="Images/Audio Dock Icon.png" width = "120">
 </p>
 
 
