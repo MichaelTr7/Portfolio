@@ -72,7 +72,7 @@ A desktop widget/application for visualizing audio actively playing. Built using
 ### Languages/Frameworks
 <img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <img src="Images/p5JS Icon.png" width = "60">
 
-Javascript and the p5.js library used to calculate the Fast Fourier Transform (FFT). Canvas drawing uses a combination of standard HTML/CSS and p5.js functions. ElectronJS was used to create the transparent windows used throughout the visualizer and style menu.
+Javascript and the p5.js library used to calculate the Fast Fourier Transform (FFT). Canvas drawing uses a combination of standard HTML/CSS and p5.js functions. ElectronJS was used to create the transparent windows used throughout the visualizer and style menu. Uses ElectronJS getPrimaryDisplay() functions to scale application to various display sizes.
 
 <br/>
 
