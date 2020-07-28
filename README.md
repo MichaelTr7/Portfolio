@@ -47,7 +47,7 @@ Python and OpenCV used for image processing the folder colour. Javascript and No
 
 <p align="center">
   <img src="Images/Audio Dock Icon.png" width = "120"><br/>
-  <b>Audio Dock </b>
+  <b>Audio Dock</b>
 </p>
 
 <br/>
