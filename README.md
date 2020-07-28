@@ -90,9 +90,7 @@ A desktop widget/application for visualizing audio actively playing. Built using
 
 <p align="center">
   <img src="Images/ImTuneIcon.png" width = "100"><br/>
-
-  <b> ImTune <br/>
-  (Image Processing Application) </b>
+  <b> ImTune <br/> (Image Processing Application) </b>
 </p>
 
 <br/>
