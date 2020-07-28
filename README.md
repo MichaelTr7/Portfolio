@@ -10,8 +10,7 @@
 </p>
 
 <br/>
-  
-</p>
+
 
 A desktop widget/application that can change the colour of any folder on MacOS. The project was completed using Bash, Python, JavaScript and HTML/CSS. Uses the NodeJS and ElectronJS frameworks to combine front-end and back-end code. Inspired by the coloured tags used throughout the apple ecosystem.
 
@@ -90,14 +89,12 @@ A desktop widget/application for visualizing audio actively playing. Built using
 
 
 <p align="center">
-  <img src="Images/ImTuneIcon.png" width = "100">
-</p>
+  <img src="Images/ImTuneIcon.png" width = "100"><br/>
 
-
-<p align="center">
-<b> ImTune <br/>
+  <b> ImTune <br/>
   (Image Processing Application) </b>
 </p>
+
 <br/>
   
  
