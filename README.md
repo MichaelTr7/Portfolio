@@ -5,7 +5,7 @@
 
 <p align="center">
   <img src="Images/Folder Painter Logo V2.PNG" width = "120"><br/>
-  <b>Folder Painter &nbsp;</b>
+  <b>Folder Painter&nbsp;</b>
 
 </p>
 
