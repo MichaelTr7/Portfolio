@@ -4,11 +4,11 @@
 
 
 <p align="center">
-  <img src="Images/Folder Painter Logo V2.PNG" width = "120">
+  <img src="Images/Folder Painter Logo V2.PNG" width = "120"><br/>
+  <b> Folder Painter </b>
+
 </p>
 
-<p align="center">
-<b> Folder Painter </b>
 <br/>
   
 </p>
