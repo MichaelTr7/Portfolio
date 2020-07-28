@@ -5,7 +5,7 @@
 
 <p align="center">
   <img src="Images/Folder Painter Logo V2.PNG" width = "120"><br/>
-  <b> Folder Painter </b>
+  <b>Folder Painter</b>
 
 </p>
 
@@ -47,7 +47,7 @@ Python and OpenCV used for image processing the folder colour. Javascript and No
 
 <p align="center">
   <img src="Images/Audio Dock Icon.png" width = "120"><br/>
-  <b> Audio Dock </b>
+  <b>Audio Dock</b>
 </p>
 
 <br/>
@@ -88,7 +88,7 @@ A desktop widget/application for visualizing audio actively playing. Built using
 
 <p align="center">
   <img src="Images/ImTuneIcon.png" width = "100"><br/>
-  <b> ImTune <br/> (Image Processing Application) </b>
+  <b>ImTune<br/>(Image Processing Application)</b>
 </p>
 
 <br/>
