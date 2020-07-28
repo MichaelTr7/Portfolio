@@ -104,8 +104,6 @@ Built using MATLAB and GUI developed programatically. Application icon designed 
   <img src="Images/Audio Dock Icon.png" width = "120">
 </p>
 
-
-<br/>
 <br/>
 
 <p align="center">
