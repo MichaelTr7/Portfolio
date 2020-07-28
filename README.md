@@ -114,7 +114,7 @@ Built using MATLAB and GUI developed programatically. Application icon designed 
 A desktop widget/application for visualizing audio actively playing. Built using Javascript and HTML/CSS. This project was created in response to the spectrum analyzer being phased out of all newer versions of iTunes/Apple Music. Created to blend into the OS and accompany the iTunes/Apple Music miniplayer.
 
 <br/>
-<img src="Images/Folder_Painter_Desktop_View.png" width = "2000">
+<img src="Images/Audio Dock Demo Capture.png" width = "2000">
 
 
 |Dynamic Style Menu|Frost White Style (gif)|
