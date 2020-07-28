@@ -46,13 +46,11 @@ Python and OpenCV used for image processing the folder colour. Javascript and No
 <br/>
 
 <p align="center">
-  <img src="Images/Audio Dock Icon.png" width = "120">
+  <img src="Images/Audio Dock Icon.png" width = "120"><br/>
+  <b> Audio Dock </b>
 </p>
 
-<p align="center">
-<b> Audio Dock </b>
 <br/>
-</p>
 
 A desktop widget/application for visualizing audio actively playing. Built using Javascript and HTML/CSS. This project was created in response to the spectrum analyzer being phased out of all newer versions of iTunes/Apple Music. Created to blend into the OS and accompany the iTunes/Apple Music miniplayer.
 
