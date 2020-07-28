@@ -1,0 +1,28 @@
+{
+  "name": "audio-dock",
+  "productName": "Audio Dock",
+  "version": "1.0.0",
+  "description": "Audio visualization app",
+  "main": "App.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . 'Audio Dock' cp Audio_Dock.icns 'Audio Dock'.app/Contents/Resources/atom.icns"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^9.1.1",
+    "electron-packager": "^15.0.0"
+  },
+  "dependencies": {
+    "p5": "^1.1.9"
+  }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Linking the adjustment panel and audio analysis scripts-->
+    <meta charset = "UTF-8">
+    <script src = "Adjustment_Panel.js"></script>
+    <script src = "Audio_Analysis.js"></script>
+    <link rel = "stylesheet" href = "Adjustment_Panel.css">
+    </head>
+
+<!--Disabling dragging on adjustment panel-->
+<body style = "-webkit-app-region: no drag">
+
+<!--Style cards-->
+  <div class = "Cards">
+      <div class = "card"><div class = "Title_Bar"></div><div class = "Inset"><span id = "Card_Name_1">HSB Color</span></div><img id = "Card_1_Image" src = "Card_Images/HSB_Color_Style.gif"></div>
+      <div class = "card"><div class = "Title_Bar"></div><div class = "Inset"><span id = "Card_Name_1">Frost White</span></div><img id = "Card_2_Image" src = "Card_Images/Frost_White_Style.gif"></div>
+      <div class = "card"><div class = "Title_Bar"></div><div class = "Inset"><span id = "Card_Name_1">Spherical</span></div><img id = "Card_3_Image" src = "Card_Images/Spherical_Style.gif"></div>
+      <div class = "card"><div class = "Title_Bar"></div><div class = "Inset"><span id = "Card_Name_1">Wireframe</span></div><img id = "Card_4_Image" src = "Card_Images/Wireframe_Style.gif"></div>
+      <div class = "card"><div class = "Title_Bar"></div><div class = "Inset"><span id = "Card_Name_1">Waveform</span></div><img id = "Card_5_Image" src = "Card_Images/Waveform_Style.gif"></div>
+  </div>
+
+</body>
+
+<!--Event listeners signalling to "Adjustment_Panel.js" depending on card pressed-->
+<script type = "text/javascript">
+    document.getElementsByClassName('card')[0].addEventListener('click', function(event){
+            // console.log("Pressed Card 1");
+            Clicked_Option_1();
+    });
+
+    document.getElementsByClassName('card')[1].addEventListener('click', function(event){
+            // console.log("Pressed Card 2");
+            Clicked_Option_2();
+    });
+
+    document.getElementsByClassName('card')[2].addEventListener('click', function(event){
+            // console.log("Pressed Card 3");
+            Clicked_Option_3();
+    });
+
+    document.getElementsByClassName('card')[3].addEventListener('click', function(event){
+            // console.log("Pressed Card 4");
+            Clicked_Option_4();
+    });
+
+    document.getElementsByClassName('card')[4].addEventListener('click', function (event){
+            // console.log("Pressed Card 5");
+            Clicked_Option_5();
+    });
+</script>
+
+
+</html>

@@ -1,0 +1,165 @@
+/*Adjustment panel body/window properties*/
+body{
+  -webkit-app-region: no-drag;
+  display: grid;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  place-items: center;
+  background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 3%, rgba(255,255,255,0) 8%, rgba(255,255,255,0) 12%, rgba(255,255,255,0) 22%, rgba(16,2,51,0.7) 100%);
+  animation-name: Panel_Blur;
+  animation-duration: 1.2s;
+}
+
+/*Style card collection properties*/
+.Cards{
+  display:flex;
+  height: 300px;
+  width: 700;
+  margin: 0;
+}
+
+/*Individual style card properties*/
+.card{
+  height: 100px;
+  width: 100px;
+  place-items: center;
+  margin-top: 55px;
+  padding: 2rem;
+  background: rgba(33, 30, 70,1);
+  border-radius: 1rem;
+  border: solid 11px rgba(20, 1, 41,0.5);
+  box-shadow: 4px 4px 15px 2px rgba(0,0,0,0.75);
+  transition: 0.2s;
+}
+
+/*Movement for sibling cards*/
+.card:not(:first-child){
+  margin-left: -4rem;
+}
+
+/*Downwards pull when the card is being focussed on*/
+.card:hover{
+  transform: translateY(1rem);
+}
+
+/*Translation right on sibling cards*/
+.card:hover ~ .card{
+  transform: translateX(4rem);
+}
+
+/*Title border for each card*/
+.Title_Bar{
+  position: absolute;
+  margin-left: -26px;
+  margin-top: -26px;
+  border-radius: 13px;
+  height: 26px;
+  width: 95px;
+  background: rgb(115,54,182);
+  background: linear-gradient(to bottom right, rgba(115,54,182,0.9) 0%, rgba(173,29,153,0.9) 50%, rgba(212,81,81,0.9) 100%);
+}
+
+/*Inner background for the title for each card*/
+.Inset{
+  position: absolute;
+  margin-left: -24px;
+  margin-top: -24px;
+  border-radius: 11px;
+  height: 22px;
+  width: 91px;
+  background: rgba(36, 32, 79,1);
+}
+
+#Card_Name_1{
+  position: relative;
+  display:table;
+  margin: 0 auto;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: 700;
+  background: linear-gradient(to bottom right, rgba(115,54,182,0.9) 0%, rgba(173,29,153,0.9) 50%, rgba(212,81,81,0.9) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  line-height: 22px;
+}
+
+/*Card 1 image properties*/
+#Card_1_Image{
+  height: 65%;
+  width: auto;
+  margin-top: 20px;
+  margin-left: -14px;
+  opacity: 1;
+}
+
+/*Card 2 image properties*/
+#Card_2_Image{
+  height: 65%;
+  width: auto;
+  margin-top: 20px;
+  margin-left: -14px;
+  opacity: 1;
+}
+
+/*Card 3 image properties*/
+#Card_3_Image{
+  height: 120%;
+  width: auto;
+  margin-left: -14px;
+  opacity: 1;
+}
+
+/*Card 4 image properties*/
+#Card_4_Image{
+  height: 130%;
+  width: auto;
+  margin-top: 0px;
+  margin-left: -14px;
+  opacity: 1;
+}
+
+/*Card 5 image properties*/
+#Card_5_Image{
+  height: 130%;
+  width: auto;
+  margin-top: 0px;
+  margin-left: -14px;
+  opacity: 1;
+}
+
+/*Keyframes for blurring at application startup*/
+@keyframes Panel_Blur {
+  0% {filter: blur(50px); opacity: 0}
+  10%{filter: blur(30px); }
+  20%{filter: blur(26px); }
+  30%{filter: blur(14px); }
+  40%{filter: blur(12px); }
+  50%{filter: blur(10px);}
+  60%{filter: blur(8px);}
+  70% {filter: blur(6px);}
+  80% {filter: blur(4px);}
+  90% {filter: blur(2px);}
+  100% {filter: blur(0px); opacity: 1}
+}
+
+
+/*
+.Colour_And_Size_Card{
+height: 175px;
+width: 275px;
+margin-left: -7px;
+margin-top: -4px;
+background-color: rgba(240, 240, 240,1);
+border-radius: 18px;
+-webkit-box-shadow: inset 0px 2px 2px 2px rgba(255,255,255,0.6);
+}
+
+.Style_Card{
+   height: 175px;
+  width: 275px;
+  margin-left: -240px;
+  margin-top: -4px;
+  background-color: rgba(0, 0, 0,1);
+  border-radius: 18px;
+  -webkit-box-shadow: inset 0px 2px 2px 2px rgba(255,255,255,0.6);
+} */
