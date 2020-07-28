@@ -46,10 +46,6 @@ Python and OpenCV used for image processing the folder colour. Javascript and No
 <br/>
 <br/>
 
-<br/>
-<br/>
-<br/>
-
 <p align="center">
   <img src="Images/Audio Dock Icon.png" width = "120">
 </p>
@@ -87,6 +83,10 @@ A desktop widget/application for visualizing audio actively playing. Built using
 ### Project Files 
 
 
+
+<br/>
+<br/>
+<br/>
 
 
 <p align="center">
