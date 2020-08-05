@@ -46,6 +46,48 @@ Python and OpenCV used for image processing the folder colour. Javascript and No
 <br/>
 
 <p align="center">
+  <img src="Images/Folder Painter Logo V2.PNG" width = "120"><br/>
+  <b>Folder Painter </b>
+
+</p>
+
+<br/>
+
+
+A desktop widget/application that can change the colour of any folder on MacOS. The project was completed using Bash, Python, JavaScript and HTML/CSS. Uses the NodeJS and ElectronJS frameworks to combine front-end and back-end code. Inspired by the coloured tags used throughout the apple ecosystem.
+
+<br/>
+
+<img src="Images/Folder_Painter_Desktop_View.png" width = "2000">
+
+
+|Folder Path Detection (gif) |Favourite Colours Panel (gif)|
+|---|---|
+|<img src="Images/Folder_Painter_Demo_Lower_Resolution.gif" width = "2000">|<img src="Images/Folder_Painter_Demo_2.gif" width = "2000">|
+
+
+### Features
+- Folder detection through full path name
+- Favourites colour palette that can be docked and undocked
+- Hue and saturation adjustments
+<br/>
+
+### Languages/Frameworks
+<img src="Images/Python_Symbol.png" width = "60" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Bash_Logo.png" width = "85"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="Images/Open_CV_Logo.png" width = "62">
+
+
+Python and OpenCV used for image processing the folder colour. Javascript and NodeJS used to pop() last field in path name for folder detection. Simple CSS animations and keyframes used to create paint and button transitions. Icon switching implemented using Bash/Shell scripts. 
+
+<br/>
+
+### Project Files 
+[Folder Painter Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Folder%20Painter)
+
+<br/>
+<br/>
+<br/>
+
+<p align="center">
   <img src="Images/Audio Dock Icon.png" width = "120"><br/>
   <b>Audio Dock</b>
 </p>
