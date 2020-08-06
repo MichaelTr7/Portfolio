@@ -28,6 +28,7 @@ A desktop application for graphing the cumulative and term GPAs (Grade Point Ave
 - Graphing CGPA (Cumulative Grade Point Averages) and Term GPA (Grade Point Averages)
 - Pie chart mark distribution
 - All graphing is dynamic as user edits/adds courses
+- Image capture and export to desktop as PNG
 - Adaptable to allow mark upload if academic institutions wish to implement application
 <br/>
 
