@@ -5,7 +5,7 @@
 
 <p align="center">
   <img src="Images/GPA_Grapher_Icon_1024.png" width = "110"><br/>
-  <b>GPA Grapher</b>
+  <b>GPA Grapher </b>
 
 </p>
 
@@ -41,7 +41,7 @@ All animations implemented using CSS. Profile icon supports drag-and-drop functi
 <br/>
 
 ### Project Files 
-[Folder Painter Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Folder%20Painter)
+[GPA Grapher Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/GPA%20Grapher)
 
 <br/>
 <br/>
