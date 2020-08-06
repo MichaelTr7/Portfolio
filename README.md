@@ -19,7 +19,7 @@ A desktop application for graphing the cumulative and term GPAs (Grade Point Ave
 <img src="" width = "2000">
 
 
-|Folder Path Detection (gif) |Favourite Colours Panel (gif)|
+|Dynamic Graphing (gif) |Scrollable and Draggable Elements (gif)|
 |---|---|
 |<img src="" width = "2000">|<img src="" width = "2000">|
 
