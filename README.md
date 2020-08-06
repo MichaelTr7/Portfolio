@@ -25,9 +25,10 @@ A desktop application for graphing the cumulative and term GPAs (Grade Point Ave
 
 
 ### Features
-- Folder detection through full path name
-- Favourites colour palette that can be docked and undocked
-- Hue and saturation adjustments
+- Graphing CGPA (Cumulative Grade Point Averages) and Term GPA (Grade Point Averages)
+- Pie chart mark distribution
+- All graphing is dynamic as user edits/adds courses
+- Adaptable to allow mark upload if academic institutions wish to implement application
 <br/>
 
 ### Languages/Frameworks
