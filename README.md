@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="Images/GPA_Grapher_Icon_1024.png" width = "100"><br/>
+  <img src="Images/GPA_Grapher_Icon_1024.png" width = "110"><br/>
   <b>GPA Grapher</b>
 
 </p>
