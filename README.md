@@ -12,7 +12,7 @@
 <br/>
 
 
-A desktop widget/application that can change the colour of any folder on MacOS. The project was completed using Bash, Python, JavaScript and HTML/CSS. Uses the NodeJS and ElectronJS frameworks to combine front-end and back-end code. Inspired by the coloured tags used throughout the apple ecosystem.
+A desktop application for graphing cumulative and term GPA (Grade Point Averages). The project was completed using JavaScript and HTML/CSS. Uses the NodeJS and ElectronJS frameworks to combine front-end and back-end code. Save data handled using JSON files. 
 
 <br/>
 
@@ -73,7 +73,7 @@ A desktop widget/application that can change the colour of any folder on MacOS. 
 <br/>
 
 ### Languages/Frameworks
-<img src="Images/Python_Symbol.png" width = "60" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Bash_Logo.png" width = "85"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="Images/Open_CV_Logo.png" width = "62">
+<img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Open_CV_Logo.png" width = "62">
 
 
 Python and OpenCV used for image processing the folder colour. Javascript and NodeJS used to pop() last field in path name for folder detection. Simple CSS animations and keyframes used to create paint and button transitions. Icon switching implemented using Bash/Shell scripts. 
