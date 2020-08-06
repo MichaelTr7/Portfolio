@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="Images/Folder Painter Logo V2.PNG" width = "120"><br/>
+  <img src="Images/GPA_Grapher_Icon.png" width = "110"><br/>
   <b>GPA Grapher</b>
 
 </p>
