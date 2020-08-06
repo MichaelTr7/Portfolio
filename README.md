@@ -35,7 +35,7 @@ A desktop application for graphing the cumulative and term GPAs (Grade Point Ave
 <img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Chartjs-Logo.png" width = "75" >
 
 
-All animations implemented using CSS. Profile icon supports drag-and-drop functionality. Chart.js powers the graphing portions of the application. NodeJS modules used for file handling and profile icon retrieval. 
+All animations implemented using CSS. Profile icon supports drag-and-drop functionality. Chart.js powers the graphical portions of the application. NodeJS modules used for file handling and profile icon retrieval. 
 
 
 <br/>
