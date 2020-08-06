@@ -12,7 +12,7 @@
 <br/>
 
 
-A desktop application for graphing cumulative and term GPAs (Grade Point Averages). The project was completed using JavaScript and HTML/CSS. Uses the NodeJS and ElectronJS frameworks to combine front-end and back-end code. Save data handled using JSON files. 
+A desktop application for graphing the cumulative and term GPAs (Grade Point Averages) of students. The project was completed using JavaScript and HTML/CSS. Uses the NodeJS and ElectronJS frameworks to combine front-end and back-end code. Save data handled using JSON files. 
 
 <br/>
 
