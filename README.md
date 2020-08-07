@@ -46,7 +46,7 @@ All animations implemented using CSS. Profile icon supports drag-and-drop functi
 
 MacOS [.dmg] and Windows [.exe] installers in progress, zipped builds below:
 
-[MacOS Build](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/GPA%20Grapher) 
+[MacOS Build](https://drive.google.com/drive/folders/1i9UVuduJUdIOXuQPM5cIgS0J3xjHAySG?usp=sharing) 
 
 <br/>
 <br/>
