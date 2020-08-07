@@ -19,9 +19,9 @@ A desktop application for graphing the cumulative and term GPAs (Grade Point Ave
 <img src = "Images/GPA Grapher Image.png" width = "2000">
 
 
-|Dynamic Graphing (gif) |Scrollable and Draggable Elements (gif)|
+|Scrollable and Draggable Elements (gif) |Dynamic Graphing (gif)|
 |---|---|
-|<img src = "Images/GPA Grapher 1.gif" width = "2000">|<img src = "Images/GPA Grapher 2.gif" width = "2000">|
+|<img src = "Images/GPA Grapher 1.gif" width = "2200">|<img src = "Images/GPA Grapher 2.gif" width = "1800">|
 
 
 ### Features
