@@ -126,7 +126,9 @@ Javascript and the p5.js library used to calculate the Fast Fourier Transform (F
 <br/>
 
 ### Project Files 
-[Audio Dock Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Audio%20Dock)
+[Audio Dock Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Audio%20Dock)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build](https://drive.google.com/drive/folders/1Z-g9GOXuyJG1UygZ2Er74UJ8IfL5ECuD?usp=sharing)
+
+MacOS [.dmg] and Windows [.exe] installers in progress, zipped builds available above.
 
 
 <br/>
