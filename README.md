@@ -16,12 +16,12 @@ A desktop application for graphing the cumulative and term GPAs (Grade Point Ave
 
 <br/>
 
-<img src="" width = "2000">
+<img src = "Images/GPA Grapher Image.png" width = "2000">
 
 
 |Dynamic Graphing (gif) |Scrollable and Draggable Elements (gif)|
 |---|---|
-|<img src="" width = "2000">|<img src="" width = "2000">|
+|<img src = "Images/GPA Grapher 1.gif" width = "2000">|<img src = "Images/GPA Grapher 2.gif" width = "2000">|
 
 
 ### Features
@@ -66,7 +66,7 @@ A desktop widget/application that can change the colour of any folder on MacOS. 
 
 |Folder Path Detection (gif) |Favourite Colours Panel (gif)|
 |---|---|
-|<img src="Images/Folder_Painter_Demo_Lower_Resolution.gif" width = "2000">|<img src="Images/Folder_Painter_Demo_2.gif" width = "2000">|
+|<img src="Images/Folder_Painter_Demo_Lower_Resolution.gif" width = "2200">|<img src="Images/Folder_Painter_Demo_2.gif" width = "2000">|
 
 
 ### Features
