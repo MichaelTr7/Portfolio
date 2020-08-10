@@ -42,9 +42,11 @@ All animations implemented using CSS. Profile icon supports drag-and-drop functi
 <br/>
 
 ### Project Files 
-[GPA Grapher Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/GPA%20Grapher)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](https://drive.google.com/drive/folders/1fYnlrETRuJdpkjXwaHgSEzMxSFhZcrHZ?usp=sharing)
+[GPA Grapher Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/GPA%20Grapher)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](https://drive.google.com/drive/folders/1HKVSya3CwY_vwsjX5w_pc1payJniDMHA?usp=sharing)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Windows Build [exe]](https://drive.google.com/drive/folders/1zcelsNSHBWuEIjWm4K8EeRCr6eBVwG7k?usp=sharing)
 
-MacOS [.dmg] and Windows [.exe] installers in progress, zipped builds available above. <b> Right click and open to override warning. </b>
+
+
+MacOS [.dmg] and Windows [.exe] installers available above. <b> NOTE: On MacOS right click and open to override warning. </b>
 
 
 <br/>
