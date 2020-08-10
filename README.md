@@ -78,6 +78,7 @@ A desktop widget/application that can change the colour of any folder on MacOS. 
 - Folder detection through full path name
 - Favourites colour palette that can be docked and undocked
 - Hue and saturation adjustments
+- Supports dragging and dropping of folders
 <br/>
 
 ### Languages/Frameworks
