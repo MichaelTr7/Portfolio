@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+    <!-- <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+    <script src="./renderer.js"></script>
+    <link rel = "stylesheet" href = "Main_Panel.css">
+    <script src = "Cyan_Tile.js"></script>
+    <script src = "Course_Cards.js"></script>
+    <script src = "Close_Window.js"></script>
+    <script src = "node_modules/chart.js/dist/Chart.js"></script>
+    <script src="./node_modules/chart.js/dist/Chart.min.js"></script>
+  </head>
+
+
+
+
+  <body>
+    <button id = "Close_Button" onclick = "Close_Window();"> &#10005; </button>
+<script type="text/javascript">
+// const remote_electron = require('electron').remote;
+//
+//
+// function Close_Window(){
+// console.log("Closing window");
+//
+//
+// var Main_Window = remote_electron.getCurrentWindow();
+// Main_Window.close();
+//
+// }
+</script>
+
+
+
+
+<div id = "Exported_Image_Notification" style="-webkit-app-region: drag">Graph Image Exported to Desktop
+  <button id = "PDF_Button" onclick = "Export_To_PDF();"> ⇧ </button>
+</div>
+
+
+
+  <div id = "Program_Goals">
+    <label class = "Label_Fields" id = "Name_Label" max = "100" onkeypress="Key_Pressed(this,event)" onpaste="return false;" spellcheck="false">Nickname</label>
+    <button id = "Edit_Button" onclick="Edit();">✎</button>
+
+
+    <div id = "Program_Goals_Inset">
+      <label class = "Label_Fields" id = "School_Label" max = "100" onkeypress="Key_Pressed(this,event)" onpaste="return false;" spellcheck="false">School Name</label>
+      <label class = "Label_Fields" id = "Program_Label" max = "100" onkeypress="Key_Pressed(this,event)" onpaste="return false;" spellcheck="false">Major/Program</label>
+
+
+    <div id = "Profile_Island">
+
+
+      <div id="Drop_File" onmouseover = "Glow_Profile_Border();" onmouseleave = "Deglow_Profile_Border();">Drag Image</div>
+
+      <!-- <div id = "Drag_Image_Caption">Drag Image</div> -->
+    </div>
+  </div>
+
+  </div>
+  <div id = "Graph">
+  <label id = "Graph_Title">GPA Grapher</label>
+
+  <div id="Graph_Inset">
+    <canvas id = "GPA_Grapher" width="1050" height="630"></canvas>
+
+  </div>
+
+
+<div id = "Inset_Cut"></div>
+<div id = "Semester_Selector">
+<div id = "Semester_1" class = "Semester_Selector_Box" onclick = "Selecting_Semester(1);">Semester 1</div>
+<hr class = "Selector_Line">
+<div id = "Semester_2" class = "Semester_Selector_Box" onclick = "Selecting_Semester(2);">Semester 2</div>
+<hr class = "Selector_Line">
+<div id = "Semester_3" class = "Semester_Selector_Box" onclick = "Selecting_Semester(3);">Semester 3</div>
+<hr class = "Selector_Line">
+<div id = "Semester_4" class = "Semester_Selector_Box" onclick = "Selecting_Semester(4);">Semester 4</div>
+<hr class = "Selector_Line">
+<div id = "Semester_5" class = "Semester_Selector_Box" onclick = "Selecting_Semester(5);">Semester 5</div>
+<hr class = "Selector_Line">
+<div id = "Semester_6" class = "Semester_Selector_Box" onclick = "Selecting_Semester(6);">Semester 6</div>
+<hr class = "Selector_Line">
+<div id = "Semester_7" class = "Semester_Selector_Box" onclick = "Selecting_Semester(7);">Semester 7</div>
+<hr class = "Selector_Line">
+<div id = "Semester_8" class = "Semester_Selector_Box" onclick = "Selecting_Semester(8);">Semester 8+</div>
+</div>
+
+
+</div>
+
+
+
+  </div>
+
+
+<div id = "PI_Graph">
+<div id = "PI_Graph_Inset">
+  <div id = "PI_Graph_Border"></div>
+
+  <canvas id="PI_Grapher" width="160" height="120"></canvas>
+</div>
+</div>
+
+
+
+<div id = "Shader">
+</div>
+
+
+<div class = "Term_Group" id = "Term_1">
+   <div id = "Scrollable_1" class = "scrollable">
+     <div id = "Course_Block_1" class = "Course_Blocks">
+       <label id = "Course_Code_Label_1" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+       <label id = "Course_Name_Label_1" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+       <button id = "Course_Edit_Button_1" class = "Course_Edit_Button" onclick="Edit_Course_Card(1);">edit</button>
+       <label class = "GPA">GPA:</label>
+       <label id = "GPA_Label_1" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+       <div class = "Weight">Weight</div>
+       <label id = "Weight_Label_1" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+     </div>
+     <div id = "Course_Block_2" class = "Course_Blocks">
+       <label id = "Course_Code_Label_2" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+       <label id = "Course_Name_Label_2" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+       <button id = "Course_Edit_Button_2" class = "Course_Edit_Button" onclick="Edit_Course_Card(2);">edit</button>
+       <label class = "GPA">GPA:</label>
+       <label id = "GPA_Label_2" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+       <div class = "Weight">Weight</div>
+       <label id = "Weight_Label_2" class = "Weight_Label">1.00</label>
+     </div>
+     <div id = "Course_Block_3" class = "Course_Blocks">
+       <label id = "Course_Code_Label_3" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+       <label id = "Course_Name_Label_3" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+       <button id = "Course_Edit_Button_3" class = "Course_Edit_Button" onclick="Edit_Course_Card(3);">edit</button>
+       <label class = "GPA">GPA:</label>
+       <label id = "GPA_Label_3" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+       <div class = "Weight">Weight</div>
+       <label id = "Weight_Label_3" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+     </div>
+     <div id = "Course_Block_4" class = "Course_Blocks">
+       <label id = "Course_Code_Label_4" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+       <label id = "Course_Name_Label_4" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+       <button id = "Course_Edit_Button_4" class = "Course_Edit_Button" onclick="Edit_Course_Card(4);">edit</button>
+       <label class = "GPA">GPA:</label>
+       <label id = "GPA_Label_4" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+       <div class = "Weight">Weight</div>
+       <label id = "Weight_Label_4" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+     </div>
+     <div id = "Course_Block_5" class = "Course_Blocks">
+       <label id = "Course_Code_Label_5" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+       <label id = "Course_Name_Label_5" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+       <button id = "Course_Edit_Button_5" class = "Course_Edit_Button" onclick="Edit_Course_Card(5);">edit</button>
+       <label class = "GPA">GPA:</label>
+       <label id = "GPA_Label_5" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+       <div class = "Weight">Weight</div>
+       <label id = "Weight_Label_5" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+     </div>
+     <div id = "Course_Block_6" class = "Course_Blocks">
+       <label id = "Course_Code_Label_6" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+       <label id = "Course_Name_Label_6" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+       <button id = "Course_Edit_Button_6" class = "Course_Edit_Button" onclick="Edit_Course_Card(6);">edit</button>
+       <label class = "GPA">GPA:</label>
+       <label id = "GPA_Label_6" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+       <div class = "Weight">Weight</div>
+       <label id = "Weight_Label_6" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+     </div>
+     <div id = "Course_Block_7" class = "Course_Blocks">
+       <label id = "Course_Code_Label_7" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+       <label id = "Course_Name_Label_7" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+       <button id = "Course_Edit_Button_7" class = "Course_Edit_Button" onclick="Edit_Course_Card(7);">edit</button>
+       <label class = "GPA">GPA:</label>
+       <label id = "GPA_Label_7" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+       <div class = "Weight">Weight</div>
+       <label id = "Weight_Label_7" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+     </div>
+     <div id = "Course_Block_8" class = "Course_Blocks">
+       <label id = "Course_Code_Label_8" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+       <label id = "Course_Name_Label_8" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+       <button id = "Course_Edit_Button_8" class = "Course_Edit_Button" onclick="Edit_Course_Card(8);">edit</button>
+       <label class = "GPA">GPA:</label>
+       <label id = "GPA_Label_8" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+       <div class = "Weight">Weight</div>
+       <label id = "Weight_Label_8" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+     </div>
+     <div id = "Course_Block_9" class = "Course_Blocks">
+       <label id = "Course_Code_Label_9" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+       <label id = "Course_Name_Label_9" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+       <button id = "Course_Edit_Button_9" class = "Course_Edit_Button" onclick="Edit_Course_Card(9);">edit</button>
+       <label class = "GPA">GPA:</label>
+       <label id = "GPA_Label_9" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+       <div class = "Weight">Weight</div>
+       <label id = "Weight_Label_9" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+     </div>
+     <div id = "Course_Block_10" class = "Course_Blocks">
+       <label id = "Course_Code_Label_10" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+       <label id = "Course_Name_Label_10" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+       <button id = "Course_Edit_Button_10" class = "Course_Edit_Button" onclick="Edit_Course_Card(10);">edit</button>
+       <label class = "GPA">GPA:</label>
+       <label id = "GPA_Label_10" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+       <div class = "Weight">Weight</div>
+       <label id = "Weight_Label_10" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+     </div>
+     <div id = "Course_Block_11" class = "Course_Blocks">
+       <label id = "Course_Code_Label_11" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+       <label id = "Course_Name_Label_11" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+       <button id = "Course_Edit_Button_11" class = "Course_Edit_Button" onclick="Edit_Course_Card(11);">edit</button>
+       <label class = "GPA">GPA:</label>
+       <label id = "GPA_Label_11" class = "GPA_Label" max = "5" onkeypress="Key_Pressed(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+       <div class = "Weight">Weight</div>
+       <label id = "Weight_Label_11" class = "Weight_Label" max = "4" onkeypress="Key_Pressed(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+     </div>
+     <div id = "Course_Block_12" class = "Course_Blocks">
+       <label id = "Course_Code_Label_12" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+       <label id = "Course_Name_Label_12" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+       <button id = "Course_Edit_Button_12" class = "Course_Edit_Button" onclick="Edit_Course_Card(12);">edit</button>
+       <label class = "GPA">GPA:</label>
+       <label id = "GPA_Label_12" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+       <div class = "Weight">Weight</div>
+       <label id = "Weight_Label_12" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+     </div>
+     <div id = "Course_Block_13" class = "Course_Blocks">
+       <label id = "Course_Code_Label_13" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+       <label id = "Course_Name_Label_13" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+       <button id = "Course_Edit_Button_13" class = "Course_Edit_Button" onclick="Edit_Course_Card(13);">edit</button>
+       <label class = "GPA">GPA:</label>
+       <label id = "GPA_Label_13" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+       <div class = "Weight">Weight</div>
+       <label id = "Weight_Label_13" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+     </div>
+     <div id = "Course_Block_14" class = "Course_Blocks">
+       <label id = "Course_Code_Label_14" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+       <label id = "Course_Name_Label_14" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+       <button id = "Course_Edit_Button_14" class = "Course_Edit_Button" onclick="Edit_Course_Card(14);">edit</button>
+       <label class = "GPA">GPA:</label>
+       <label id = "GPA_Label_14" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+       <div class = "Weight">Weight</div>
+       <label id = "Weight_Label_14" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+     </div>
+     <div id = "Course_Block_15" class = "Course_Blocks">
+       <label id = "Course_Code_Label_15" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+       <label id = "Course_Name_Label_15" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+       <button id = "Course_Edit_Button_15" class = "Course_Edit_Button" onclick="Edit_Course_Card(15);">edit</button>
+       <label class = "GPA">GPA:</label>
+       <label id = "GPA_Label_15" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+       <div class = "Weight">Weight</div>
+       <label id = "Weight_Label_15" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+     </div>
+   </div>
+</div>
+
+<div class = "Term_Group" id = "Term_2">
+  <div class = "scrollable">
+    <div id = "Course_Block_16" class = "Course_Blocks">
+      <label id = "Course_Code_Label_16" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_16" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_16" class = "Course_Edit_Button" onclick="Edit_Course_Card(16);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_16" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_16" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_17" class = "Course_Blocks">
+      <label id = "Course_Code_Label_17" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_17" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_17" class = "Course_Edit_Button" onclick="Edit_Course_Card(17);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_17" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_17" class = "Weight_Label">1.00</label>
+    </div>
+    <div id = "Course_Block_18" class = "Course_Blocks">
+      <label id = "Course_Code_Label_18" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_18" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_18" class = "Course_Edit_Button" onclick="Edit_Course_Card(18);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_18" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_18" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_19" class = "Course_Blocks">
+      <label id = "Course_Code_Label_19" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_19" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_19" class = "Course_Edit_Button" onclick="Edit_Course_Card(19);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_19" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_19" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_20" class = "Course_Blocks">
+      <label id = "Course_Code_Label_20" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_20" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_20" class = "Course_Edit_Button" onclick="Edit_Course_Card(20);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_20" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_20" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_21" class = "Course_Blocks">
+      <label id = "Course_Code_Label_21" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_21" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_21" class = "Course_Edit_Button" onclick="Edit_Course_Card(21);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_21" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_21" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_22" class = "Course_Blocks">
+      <label id = "Course_Code_Label_22" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_22" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_22" class = "Course_Edit_Button" onclick="Edit_Course_Card(22);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_22" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_22" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_23" class = "Course_Blocks">
+      <label id = "Course_Code_Label_23" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_23" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_23" class = "Course_Edit_Button" onclick="Edit_Course_Card(23);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_23" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_23" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_24" class = "Course_Blocks">
+      <label id = "Course_Code_Label_24" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_24" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_24" class = "Course_Edit_Button" onclick="Edit_Course_Card(24);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_24" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_24" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_25" class = "Course_Blocks">
+      <label id = "Course_Code_Label_25" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_25" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_25" class = "Course_Edit_Button" onclick="Edit_Course_Card(25);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_25" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_25" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_26" class = "Course_Blocks">
+      <label id = "Course_Code_Label_26" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_26" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_26" class = "Course_Edit_Button" onclick="Edit_Course_Card(26);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_26" class = "GPA_Label" max = "5" onkeypress="Key_Pressed(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_26" class = "Weight_Label" max = "4" onkeypress="Key_Pressed(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_27" class = "Course_Blocks">
+      <label id = "Course_Code_Label_27" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_27" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_27" class = "Course_Edit_Button" onclick="Edit_Course_Card(27);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_27" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_27" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_28" class = "Course_Blocks">
+      <label id = "Course_Code_Label_28" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_28" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_28" class = "Course_Edit_Button" onclick="Edit_Course_Card(28);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_28" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_28" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_29" class = "Course_Blocks">
+      <label id = "Course_Code_Label_29" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_29" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_29" class = "Course_Edit_Button" onclick="Edit_Course_Card(29);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_29" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_29" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_30" class = "Course_Blocks">
+      <label id = "Course_Code_Label_30" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_30" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_30" class = "Course_Edit_Button" onclick="Edit_Course_Card(30);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_30" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_30" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+  </div>
+</div>
+
+<div class = "Term_Group" id = "Term_3">
+  <div class = "scrollable">
+    <div id = "Course_Block_31" class = "Course_Blocks">
+      <label id = "Course_Code_Label_31" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_31" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_31" class = "Course_Edit_Button" onclick="Edit_Course_Card(31);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_31" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_31" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_32" class = "Course_Blocks">
+      <label id = "Course_Code_Label_32" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_32" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_32" class = "Course_Edit_Button" onclick="Edit_Course_Card(32);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_32" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_32" class = "Weight_Label">1.00</label>
+    </div>
+    <div id = "Course_Block_33" class = "Course_Blocks">
+      <label id = "Course_Code_Label_33" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_33" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_33" class = "Course_Edit_Button" onclick="Edit_Course_Card(33);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_33" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_33" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_34" class = "Course_Blocks">
+      <label id = "Course_Code_Label_34" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_34" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_34" class = "Course_Edit_Button" onclick="Edit_Course_Card(34);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_34" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_34" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_35" class = "Course_Blocks">
+      <label id = "Course_Code_Label_35" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_35" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_35" class = "Course_Edit_Button" onclick="Edit_Course_Card(35);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_35" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_35" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_36" class = "Course_Blocks">
+      <label id = "Course_Code_Label_36" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_36" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_36" class = "Course_Edit_Button" onclick="Edit_Course_Card(36);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_36" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_36" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_37" class = "Course_Blocks">
+      <label id = "Course_Code_Label_37" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_37" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_37" class = "Course_Edit_Button" onclick="Edit_Course_Card(37);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_37" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_37" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_38" class = "Course_Blocks">
+      <label id = "Course_Code_Label_38" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_38" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_38" class = "Course_Edit_Button" onclick="Edit_Course_Card(38);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_38" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_38" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_39" class = "Course_Blocks">
+      <label id = "Course_Code_Label_39" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_39" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_39" class = "Course_Edit_Button" onclick="Edit_Course_Card(39);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_39" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_39" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_40" class = "Course_Blocks">
+      <label id = "Course_Code_Label_40" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_40" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_40" class = "Course_Edit_Button" onclick="Edit_Course_Card(40);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_40" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_40" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_41" class = "Course_Blocks">
+      <label id = "Course_Code_Label_41" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_41" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_41" class = "Course_Edit_Button" onclick="Edit_Course_Card(41);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_41" class = "GPA_Label" max = "5" onkeypress="Key_Pressed(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_41" class = "Weight_Label" max = "4" onkeypress="Key_Pressed(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_42" class = "Course_Blocks">
+      <label id = "Course_Code_Label_42" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_42" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_42" class = "Course_Edit_Button" onclick="Edit_Course_Card(42);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_42" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_42" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_43" class = "Course_Blocks">
+      <label id = "Course_Code_Label_43" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_43" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_43" class = "Course_Edit_Button" onclick="Edit_Course_Card(43);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_43" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_43" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_44" class = "Course_Blocks">
+      <label id = "Course_Code_Label_44" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_44" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_44" class = "Course_Edit_Button" onclick="Edit_Course_Card(44);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_44" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_44" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_45" class = "Course_Blocks">
+      <label id = "Course_Code_Label_45" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_45" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_45" class = "Course_Edit_Button" onclick="Edit_Course_Card(45);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_45" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_45" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+  </div>
+</div>
+
+<div class = "Term_Group" id = "Term_4">
+  <div class = "scrollable">
+    <div id = "Course_Block_46" class = "Course_Blocks">
+      <label id = "Course_Code_Label_46" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_46" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_46" class = "Course_Edit_Button" onclick="Edit_Course_Card(46);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_46" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_46" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_47" class = "Course_Blocks">
+      <label id = "Course_Code_Label_47" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_47" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_47" class = "Course_Edit_Button" onclick="Edit_Course_Card(47);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_47" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_47" class = "Weight_Label">1.00</label>
+    </div>
+    <div id = "Course_Block_48" class = "Course_Blocks">
+      <label id = "Course_Code_Label_48" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_48" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_48" class = "Course_Edit_Button" onclick="Edit_Course_Card(48);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_48" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_48" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_49" class = "Course_Blocks">
+      <label id = "Course_Code_Label_49" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_49" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_49" class = "Course_Edit_Button" onclick="Edit_Course_Card(49);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_49" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_49" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_50" class = "Course_Blocks">
+      <label id = "Course_Code_Label_50" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_50" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_50" class = "Course_Edit_Button" onclick="Edit_Course_Card(50);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_50" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_50" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_51" class = "Course_Blocks">
+      <label id = "Course_Code_Label_51" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_51" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_51" class = "Course_Edit_Button" onclick="Edit_Course_Card(51);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_51" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_51" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_52" class = "Course_Blocks">
+      <label id = "Course_Code_Label_52" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_52" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_52" class = "Course_Edit_Button" onclick="Edit_Course_Card(52);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_52" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_52" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_53" class = "Course_Blocks">
+      <label id = "Course_Code_Label_53" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_53" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_53" class = "Course_Edit_Button" onclick="Edit_Course_Card(53);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_53" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_53" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_54" class = "Course_Blocks">
+      <label id = "Course_Code_Label_54" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_54" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_54" class = "Course_Edit_Button" onclick="Edit_Course_Card(54);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_54" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_54" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_55" class = "Course_Blocks">
+      <label id = "Course_Code_Label_55" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_55" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_55" class = "Course_Edit_Button" onclick="Edit_Course_Card(55);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_55" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_55" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_56" class = "Course_Blocks">
+      <label id = "Course_Code_Label_56" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_56" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_56" class = "Course_Edit_Button" onclick="Edit_Course_Card(56);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_56" class = "GPA_Label" max = "5" onkeypress="Key_Pressed(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_56" class = "Weight_Label" max = "4" onkeypress="Key_Pressed(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_57" class = "Course_Blocks">
+      <label id = "Course_Code_Label_57" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_57" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_57" class = "Course_Edit_Button" onclick="Edit_Course_Card(57);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_57" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_57" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_58" class = "Course_Blocks">
+      <label id = "Course_Code_Label_58" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_58" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_58" class = "Course_Edit_Button" onclick="Edit_Course_Card(58);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_58" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_58" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_59" class = "Course_Blocks">
+      <label id = "Course_Code_Label_59" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_59" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_59" class = "Course_Edit_Button" onclick="Edit_Course_Card(59);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_59" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_59" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_60" class = "Course_Blocks">
+      <label id = "Course_Code_Label_60" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_60" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_60" class = "Course_Edit_Button" onclick="Edit_Course_Card(60);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_60" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_60" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+  </div>
+</div>
+
+<div class = "Term_Group" id = "Term_5">
+  <div class = "scrollable">
+    <div id = "Course_Block_61" class = "Course_Blocks">
+      <label id = "Course_Code_Label_61" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_61" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_61" class = "Course_Edit_Button" onclick="Edit_Course_Card(61);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_61" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_61" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_62" class = "Course_Blocks">
+      <label id = "Course_Code_Label_62" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_62" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_62" class = "Course_Edit_Button" onclick="Edit_Course_Card(62);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_62" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_62" class = "Weight_Label">1.00</label>
+    </div>
+    <div id = "Course_Block_63" class = "Course_Blocks">
+      <label id = "Course_Code_Label_63" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_63" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_63" class = "Course_Edit_Button" onclick="Edit_Course_Card(63);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_63" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_63" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_64" class = "Course_Blocks">
+      <label id = "Course_Code_Label_64" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_64" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_64" class = "Course_Edit_Button" onclick="Edit_Course_Card(64);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_64" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_64" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_65" class = "Course_Blocks">
+      <label id = "Course_Code_Label_65" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_65" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_65" class = "Course_Edit_Button" onclick="Edit_Course_Card(65);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_65" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_65" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_66" class = "Course_Blocks">
+      <label id = "Course_Code_Label_66" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_66" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_66" class = "Course_Edit_Button" onclick="Edit_Course_Card(66);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_66" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_66" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_67" class = "Course_Blocks">
+      <label id = "Course_Code_Label_67" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_67" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_67" class = "Course_Edit_Button" onclick="Edit_Course_Card(67);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_67" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_67" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_68" class = "Course_Blocks">
+      <label id = "Course_Code_Label_68" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_68" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_68" class = "Course_Edit_Button" onclick="Edit_Course_Card(68);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_68" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_68" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_69" class = "Course_Blocks">
+      <label id = "Course_Code_Label_69" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_69" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_69" class = "Course_Edit_Button" onclick="Edit_Course_Card(69);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_69" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_69" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_70" class = "Course_Blocks">
+      <label id = "Course_Code_Label_70" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_70" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_70" class = "Course_Edit_Button" onclick="Edit_Course_Card(70);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_70" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_70" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_71" class = "Course_Blocks">
+      <label id = "Course_Code_Label_71" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_71" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_71" class = "Course_Edit_Button" onclick="Edit_Course_Card(71);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_71" class = "GPA_Label" max = "5" onkeypress="Key_Pressed(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_71" class = "Weight_Label" max = "4" onkeypress="Key_Pressed(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_72" class = "Course_Blocks">
+      <label id = "Course_Code_Label_72" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_72" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_72" class = "Course_Edit_Button" onclick="Edit_Course_Card(72);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_72" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_72" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_73" class = "Course_Blocks">
+      <label id = "Course_Code_Label_73" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_73" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_73" class = "Course_Edit_Button" onclick="Edit_Course_Card(73);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_73" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_73" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_74" class = "Course_Blocks">
+      <label id = "Course_Code_Label_74" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_74" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_74" class = "Course_Edit_Button" onclick="Edit_Course_Card(74);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_74" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_74" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_75" class = "Course_Blocks">
+      <label id = "Course_Code_Label_75" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_75" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_75" class = "Course_Edit_Button" onclick="Edit_Course_Card(75);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_75" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_75" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+  </div>
+</div>
+
+<div class = "Term_Group" id = "Term_6">
+  <div class = "scrollable">
+    <div id = "Course_Block_76" class = "Course_Blocks">
+      <label id = "Course_Code_Label_76" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_76" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_76" class = "Course_Edit_Button" onclick="Edit_Course_Card(76);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_76" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_76" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_77" class = "Course_Blocks">
+      <label id = "Course_Code_Label_77" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_77" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_77" class = "Course_Edit_Button" onclick="Edit_Course_Card(77);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_77" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_77" class = "Weight_Label">1.00</label>
+    </div>
+    <div id = "Course_Block_78" class = "Course_Blocks">
+      <label id = "Course_Code_Label_78" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_78" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_78" class = "Course_Edit_Button" onclick="Edit_Course_Card(78);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_78" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_78" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_79" class = "Course_Blocks">
+      <label id = "Course_Code_Label_79" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_79" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_79" class = "Course_Edit_Button" onclick="Edit_Course_Card(79);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_79" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_79" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_80" class = "Course_Blocks">
+      <label id = "Course_Code_Label_80" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_80" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_80" class = "Course_Edit_Button" onclick="Edit_Course_Card(80);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_80" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_80" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_81" class = "Course_Blocks">
+      <label id = "Course_Code_Label_81" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_81" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_81" class = "Course_Edit_Button" onclick="Edit_Course_Card(81);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_81" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_81" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_82" class = "Course_Blocks">
+      <label id = "Course_Code_Label_82" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_82" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_82" class = "Course_Edit_Button" onclick="Edit_Course_Card(82);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_82" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_82" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_83" class = "Course_Blocks">
+      <label id = "Course_Code_Label_83" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_83" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_83" class = "Course_Edit_Button" onclick="Edit_Course_Card(83);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_83" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_83" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_84" class = "Course_Blocks">
+      <label id = "Course_Code_Label_84" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_84" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_84" class = "Course_Edit_Button" onclick="Edit_Course_Card(84);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_84" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_84" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_85" class = "Course_Blocks">
+      <label id = "Course_Code_Label_85" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_85" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_85" class = "Course_Edit_Button" onclick="Edit_Course_Card(85);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_85" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_85" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_86" class = "Course_Blocks">
+      <label id = "Course_Code_Label_86" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_86" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_86" class = "Course_Edit_Button" onclick="Edit_Course_Card(86);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_86" class = "GPA_Label" max = "5" onkeypress="Key_Pressed(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_86" class = "Weight_Label" max = "4" onkeypress="Key_Pressed(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_87" class = "Course_Blocks">
+      <label id = "Course_Code_Label_87" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_87" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_87" class = "Course_Edit_Button" onclick="Edit_Course_Card(87);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_87" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_87" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_88" class = "Course_Blocks">
+      <label id = "Course_Code_Label_88" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_88" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_88" class = "Course_Edit_Button" onclick="Edit_Course_Card(88);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_88" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_88" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_89" class = "Course_Blocks">
+      <label id = "Course_Code_Label_89" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_89" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_89" class = "Course_Edit_Button" onclick="Edit_Course_Card(89);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_89" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_89" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_90" class = "Course_Blocks">
+      <label id = "Course_Code_Label_90" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_90" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_90" class = "Course_Edit_Button" onclick="Edit_Course_Card(90);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_90" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_90" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+  </div>
+</div>
+
+<div class = "Term_Group" id = "Term_7">
+  <div class = "scrollable">
+    <div id = "Course_Block_91" class = "Course_Blocks">
+      <label id = "Course_Code_Label_91" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_91" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_91" class = "Course_Edit_Button" onclick="Edit_Course_Card(91);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_91" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_91" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_92" class = "Course_Blocks">
+      <label id = "Course_Code_Label_92" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_92" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_92" class = "Course_Edit_Button" onclick="Edit_Course_Card(92);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_92" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_92" class = "Weight_Label">1.00</label>
+    </div>
+    <div id = "Course_Block_93" class = "Course_Blocks">
+      <label id = "Course_Code_Label_93" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_93" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_93" class = "Course_Edit_Button" onclick="Edit_Course_Card(93);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_93" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_93" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_94" class = "Course_Blocks">
+      <label id = "Course_Code_Label_94" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_94" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_94" class = "Course_Edit_Button" onclick="Edit_Course_Card(94);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_94" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_94" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_95" class = "Course_Blocks">
+      <label id = "Course_Code_Label_95" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_95" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_95" class = "Course_Edit_Button" onclick="Edit_Course_Card(95);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_95" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_95" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_96" class = "Course_Blocks">
+      <label id = "Course_Code_Label_96" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_96" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_96" class = "Course_Edit_Button" onclick="Edit_Course_Card(96);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_96" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_96" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_97" class = "Course_Blocks">
+      <label id = "Course_Code_Label_97" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_97" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_97" class = "Course_Edit_Button" onclick="Edit_Course_Card(97);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_97" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_97" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_98" class = "Course_Blocks">
+      <label id = "Course_Code_Label_98" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_98" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_98" class = "Course_Edit_Button" onclick="Edit_Course_Card(98);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_98" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_98" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_99" class = "Course_Blocks">
+      <label id = "Course_Code_Label_99" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_99" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_99" class = "Course_Edit_Button" onclick="Edit_Course_Card(99);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_99" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_99" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_100" class = "Course_Blocks">
+      <label id = "Course_Code_Label_100" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_100" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_100" class = "Course_Edit_Button" onclick="Edit_Course_Card(100);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_100" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_100" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_101" class = "Course_Blocks">
+      <label id = "Course_Code_Label_101" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_101" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_101" class = "Course_Edit_Button" onclick="Edit_Course_Card(101);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_101" class = "GPA_Label" max = "5" onkeypress="Key_Pressed(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_101" class = "Weight_Label" max = "4" onkeypress="Key_Pressed(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_102" class = "Course_Blocks">
+      <label id = "Course_Code_Label_102" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_102" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_102" class = "Course_Edit_Button" onclick="Edit_Course_Card(102);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_102" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_102" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_103" class = "Course_Blocks">
+      <label id = "Course_Code_Label_103" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_103" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_103" class = "Course_Edit_Button" onclick="Edit_Course_Card(103);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_103" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_103" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_104" class = "Course_Blocks">
+      <label id = "Course_Code_Label_104" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_104" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_104" class = "Course_Edit_Button" onclick="Edit_Course_Card(104);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_104" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_104" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_105" class = "Course_Blocks">
+      <label id = "Course_Code_Label_105" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_105" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_105" class = "Course_Edit_Button" onclick="Edit_Course_Card(105);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_105" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_105" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+  </div>
+</div>
+
+<div  class = "Term_Group" id = "Term_8">
+  <div class = "scrollable">
+    <div id = "Course_Block_106" class = "Course_Blocks">
+      <label id = "Course_Code_Label_106" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_106" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_106" class = "Course_Edit_Button" onclick="Edit_Course_Card(106);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_106" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_106" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_107" class = "Course_Blocks">
+      <label id = "Course_Code_Label_107" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_107" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_107" class = "Course_Edit_Button" onclick="Edit_Course_Card(107);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_107" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_107" class = "Weight_Label">1.00</label>
+    </div>
+    <div id = "Course_Block_108" class = "Course_Blocks">
+      <label id = "Course_Code_Label_108" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_108" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_108" class = "Course_Edit_Button" onclick="Edit_Course_Card(108);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_108" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_108" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_109" class = "Course_Blocks">
+      <label id = "Course_Code_Label_109" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_109" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_109" class = "Course_Edit_Button" onclick="Edit_Course_Card(109);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_109" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_109" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_110" class = "Course_Blocks">
+      <label id = "Course_Code_Label_110" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_110" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_110" class = "Course_Edit_Button" onclick="Edit_Course_Card(110);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_110" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_110" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_111" class = "Course_Blocks">
+      <label id = "Course_Code_Label_111" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_111" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_111" class = "Course_Edit_Button" onclick="Edit_Course_Card(111);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_111" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_111" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_112" class = "Course_Blocks">
+      <label id = "Course_Code_Label_112" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_112" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_112" class = "Course_Edit_Button" onclick="Edit_Course_Card(112);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_112" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_112" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_113" class = "Course_Blocks">
+      <label id = "Course_Code_Label_113" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_113" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_113" class = "Course_Edit_Button" onclick="Edit_Course_Card(113);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_113" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_113" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_114" class = "Course_Blocks">
+      <label id = "Course_Code_Label_114" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_114" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_114" class = "Course_Edit_Button" onclick="Edit_Course_Card(114);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_114" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_114" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_115" class = "Course_Blocks">
+      <label id = "Course_Code_Label_115" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_115" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_115" class = "Course_Edit_Button" onclick="Edit_Course_Card(115);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_115" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_115" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_117" class = "Course_Blocks">
+      <label id = "Course_Code_Label_116" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_116" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_116" class = "Course_Edit_Button" onclick="Edit_Course_Card(116);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_116" class = "GPA_Label" max = "5" onkeypress="Key_Pressed(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_116" class = "Weight_Label" max = "4" onkeypress="Key_Pressed(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_117" class = "Course_Blocks">
+      <label id = "Course_Code_Label_117" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_117" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_117" class = "Course_Edit_Button" onclick="Edit_Course_Card(117);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_117" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_117" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_118" class = "Course_Blocks">
+      <label id = "Course_Code_Label_118" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_118" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_118" class = "Course_Edit_Button" onclick="Edit_Course_Card(118);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_118" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_118" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_119" class = "Course_Blocks">
+      <label id = "Course_Code_Label_119" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_119" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_119" class = "Course_Edit_Button" onclick="Edit_Course_Card(119);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_119" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_119" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+    <div id = "Course_Block_120" class = "Course_Blocks">
+      <label id = "Course_Code_Label_120" class = "Course_Code_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Code</label>
+      <label id = "Course_Name_Label_120" class = "Course_Name_Label" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false" onkeypress="Block_Enter(this,event)" onpaste="return false;" spellcheck="false">Course Name</label>
+      <button id = "Course_Edit_Button_120" class = "Course_Edit_Button" onclick="Edit_Course_Card(120);">edit</button>
+      <label class = "GPA">GPA:</label>
+      <label id = "GPA_Label_120" class = "GPA_Label" max = "6" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">Score</label>
+      <div class = "Weight">Weight</div>
+      <label id = "Weight_Label_120" class = "Weight_Label" max = "5" onkeypress="Key_Pressed_Course(this,event)" onpaste="return false;" spellcheck="false">1.00</label>
+    </div>
+  </div>
+</div>
+
+
+<!-- <label id = "Semester_1_Label">Semester 1</label> -->
+
+<div id = "Scroll_Indicator">Scroll &nbsp; ➠</div>
+
+<div id = "Notification_Panel">
+
+  <div id = "Inner_Notification_Panel">
+
+  </div>
+  <div id = "Notification_Button" onclick="Close_Notification_Shade();">&#10005;</div>
+
+
+</div>
+
+
+
+  </body>
+
+  <script>
+
+ // function Create_Graph(){
+    var GPA_Array = [0, 0, 0, 0, 0, 0, 0, 0];
+    var Term_GPA_Array = [0, 0, 0, 0, 0, 0, 0, 0];
+
+  // Generating canvas context
+    var Canvas_Context = document.getElementById('GPA_Grapher').getContext('2d');
+
+  // Creating the new chart on top of the canvas context
+    var GPA_Graph = new Chart(Canvas_Context, {
+
+  // Graph type
+    type: 'line',
+
+  // DATA
+    data: {
+  // X-axis scale
+      labels: [1,2,3,4,5,6,7,8],
+
+      datasets:
+      [{data: GPA_Array,label: "CGPA",borderColor: "rgba(255, 255, 255,0.7)",fill: false},
+      {data: Term_GPA_Array,label: "Term GPA",borderColor: "rgba(0, 255, 242,0.7)",fill: false}]
+
+          },
+
+  // OPTIONS
+    options: {
+
+  // Legend properties
+    legend: {
+      labels: {fontColor: 'rgba(0,0,0,0.3)',fontFamily: 'Arial',fontSize: 10, boxWidth: 7}
+            },
+
+      scales: {
+               yAxes: [{
+                   ticks: {
+                       beginAtZero:true,
+                       fontColor: 'rgba(0,0,0,0.3)',
+                       fontSize: 10,
+                       autoSkip: false,
+                       max: 4.33
+                   },
+               }],
+             xAxes: [{
+                   ticks: {
+                       fontColor: 'rgba(0,0,0,0.3)',
+                       fontSize: 10
+                   },
+               }]
+           }
+    }
+  });
+
+  // return GPA_Graph;
+  // }
+
+  function Update_Graph_Display(Term_GPA_Data,Cumulative_GPA_Data){
+      GPA_Graph.data.datasets[0].data = Cumulative_GPA_Data;
+      GPA_Graph.data.datasets[1].data = Term_GPA_Data;
+      GPA_Graph.update();
+  }
+
+  Chart.defaults.global.legend.labels.usePointStyle = true;
+   var PIGraph = new Chart(document.getElementById("PI_Grapher"), {
+      type: 'doughnut',
+      data: {
+        labels: ["0.0+","1.0+", "2.0+", "3.0+", "4.0+"],
+        datasets: [
+          {
+            // label: "Population (millions)",
+            backgroundColor: ["rgba(174,255,0,1)","rgba(79,227,157,0.9)", "rgba(255,128,0,0.9)","rgba(255,0,135,0.9)","rgba(20, 224, 255,0.9)"],
+            data: [20,20,20,20,20],
+            borderWidth: 0,
+            borderColor: "rgba(240,240,240,0)"
+          }
+        ]
+      },
+      options: {
+        legend: {
+          position: 'left',
+          labels: {fontColor: 'rgba(0,0,0,0.3)',fontFamily: 'Arial',fontSize: 8, boxWidth: 7, fontStyle: "bold"}
+                },
+
+        title: {
+          display: true,
+          // text: 'Predicted world population (millions) in 2050'
+        }
+      }
+  });
+
+  function Update_PI_Graph_Display(Counts){
+      PIGraph.data.datasets[0].data = Counts;
+      PIGraph.update();
+  }
+
+
+  </script>
+
+  <script>
+      (function () {
+          var Container = document.getElementById('Drop_File');
+
+          Container.ondragover = () => {
+              return false;
+          };
+
+          Container.ondragleave = () => {
+              return false;
+          };
+
+          Container.ondragend = () => {
+              return false;
+          };
+
+          Container.ondrop = (e) => {
+              e.preventDefault();
+
+              for (let File of e.dataTransfer.files) {
+              var File_Path = File.path;
+              Copy_Image(File_Path);
+              }
+
+              return false;
+          };
+      })();
+  </script>
+
+</html>

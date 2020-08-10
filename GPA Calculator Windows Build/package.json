@@ -1,0 +1,36 @@
+{
+  "name": "gpa-calculator",
+  "version": "1.0.0",
+  "description": "GPA Graphing Calculator",
+  "main": "App.js",
+  "author": "GitHub",
+  "license": "CC0-1.0",
+
+  "scripts": {
+    "dist": "electron-builder",
+    "start": "electron ."
+  },
+
+  "devDependencies": {
+    "electron": "^9.2.0",
+    "electron-builder": "^22.8.0"
+  },
+
+  "dependencies": {
+    "chart.js": "^2.9.3"
+  },
+
+  "build":{
+    "appId": "com.MichaelTr7.app",
+    "productName": "GPA Grapher",
+    "target": "nsis",
+    "icon": "build/icon.ico",
+    "extraFiles":[
+      "Profile_Data"
+    ],
+    "directories":{
+      "output": "built"
+    }
+  }
+
+}

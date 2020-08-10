@@ -1,0 +1,844 @@
+/*Formatting background panel*/
+body{
+  height: 500px;
+  width: 5000px;
+  background: rgba(40, 40, 40,1);
+  /* background: rgba(240, 240, 240,1); */
+
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-app-region: drag;
+  /* animation-name: Panel_Blur;
+  animation-duration: 1s; */
+}
+
+/*Disabling highlighting on tap throughout application*/
+*{
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+  -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
+  outline: none !important;
+}
+
+/*Disabling drag on all buttons*/
+button{
+  -webkit-app-region: no-drag;
+}
+
+/*Disabling highlighting/copying across panel*/
+*, *::after, *::before{
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-app-region: no-drag;
+  cursor: default;
+}
+
+#Notification_Panel{
+  display: block;
+  position: absolute;
+  padding: 25px;
+  z-index: 25;
+  top: -120px;
+  left: 300px;
+  height: 50px;
+  width: 150px;
+  font-size: 12px;
+  font-family: Arial;
+  color: rgba(255,255,255,0.2);
+  border-radius: 20px;
+  /* border: 5px solid rgba(255,255,255,0.2); */
+  background: rgba(0,0,0,0.5);
+
+}
+
+#Notification_Panel{
+  display: none;
+  background: rgba(220, 220, 220, 1);
+  -webkit-box-shadow: 0px 10px 17px 5px rgb(70,70,70,1);
+  box-shadow: 0px 6px 7px 2px rgb(0,0,0,0.5);
+}
+
+#Notification_Panel:before {
+  content: "Notification";
+  text-align: center;
+  position: absolute;
+  line-height: 27px;
+  z-index: -1;
+  top: 0;
+  right: 0%;
+  bottom:75%;
+  left: 0;
+  color: rgba(100,100,100,0.9);
+  font-weight: bold;
+  background: rgba(190, 190, 190, 1);
+  border-radius: 15px 15px 0px 0px;
+  -webkit-box-shadow: inset 0px 2px 3px 1px rgba(255,255,255,0.5);
+}
+
+#Inner_Notification_Panel{
+  display: none;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: -20px;;
+  align-self: center;
+  padding: 10px;
+  height: 50px;
+  width: 170px;
+  border-radius: 20px;
+  font-weight: 200;
+  font-size: 11.5px;
+  background: rgba(255,255,255,0);
+  color: rgba(150,150,150,0.8);
+}
+
+#Notification_Button{
+  display: none;
+  margin-left: 152px;
+  margin-top: -101px;
+  height: 17px;
+  width: 17px;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 200;
+  color: rgba(190,190,190,1);
+  text-align: center;
+  line-height: 18px;
+  background: rgba(255,255,255,0.4);
+  transition-duration: 0.5s;
+}
+
+#Notification_Button:hover{
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+  color: rgba(90,90,90,0.9);
+}
+
+#Exported_Image_Notification{
+  position: absolute;
+  display: inline-block;
+  font-size: 12px;
+  font-family: Arial;
+  line-height: 22px;
+  height: 10px;
+  width: 200px;
+  color: rgba(0,0,0,0);
+  margin-left: 500px;
+}
+
+#PDF_Button{
+  position: absolute;
+  margin-left: 10px;
+  height: 20px;
+  width: 35px;
+  background: rgba(50,50,50,0.5);
+  color: rgba(200,200,200,0.5);
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0);
+  transition-duration: 0.5s;
+}
+
+#PDF_Button:hover{
+  transform: scale(1.15);
+  border: 1px solid rgba(200,200,200,0.5);
+  transition-duration: 0.5s;
+}
+
+
+
+#Program_Goals{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 10px;
+  height: 250px;
+  width: 200px;
+  x: 0px;
+  y: 200px;
+  background: rgb(79,227,157);
+  background: linear-gradient(0deg, rgba(79,227,157,1) 6%, rgba(0,212,193,1) 62%, rgba(0,217,215,1) 99%);
+  border-radius: 20px 25px 25px 25px;
+  -webkit-box-shadow: 0px 10px 17px 5px rgb(70,70,70,1);
+  box-shadow: 0px 15px 7px 2px rgb(0,0,0,0.5);
+
+}
+
+#Name_Label{
+  display:block;
+  overflow: hidden;
+  position: absolute;
+  text-overflow: ellipsis;
+  text-align: left;
+  left: 16px;
+  width: 120px;
+  margin-top: 5px;
+  margin-left: -2px;
+  background-color: rgba(0,0,0,0);
+  background-size: 100px 500px;
+  border-radius: 10px;
+  border: 1.5px solid rgba(240,240,240,0);
+  padding: 1px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 17px;
+  overflow: hidden;
+  color: rgba(240,240,240,1);
+  white-space: nowrap;
+}
+
+
+
+#Program_Goals_Inset{
+margin-top: 5px;
+margin-left: 5px;
+/* border: solid 2px rgba(0, 148, 133,1); */
+border-radius: 20px 20px 20px 20px;
+background: rgb(1,204,108);
+background: linear-gradient(0deg, rgba(1,204,108,1) 6%, rgba(1,177,161,1) 62%, rgba(9,185,183,1) 99%);
+width: 170px;
+height: 210px;
+-webkit-box-shadow: inset 0px -5px 4px 5px rgba(0,0,0,0.2);
+}
+
+/* #Drag_Image_Caption{
+font-family: Arial;
+font-size: 10px;
+text-align: center;
+margin-top: 60px;
+color: rgba(250,250,250,0.7);
+
+} */
+
+#Drop_File{
+  font-family: Arial;
+  font-size: 10px;
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background: rgba(255,255,255,0.1);
+  color: rgba(250,250,250,0);
+  transition-duration: 0.5s;
+  background-size: 100px;
+  background-repeat: no-repeat;
+  transition-timing-function: ease-out;
+}
+
+#Drop_File:hover{
+  color: rgba(250,250,250,0.85);
+  transition-duration: 0.2s;
+}
+
+
+#Profile_Island{
+position: absolute;
+margin-top: 70px;
+margin-left: 30px;
+width: 100px;
+height: 100px;
+border-radius: 60px;
+border: 5px solid rgba(255,255,255,0.5);
+background: rgba(0,0,0,0.3);
+box-shadow: 0px 7px 10px 2px rgb(0,0,0,0.5);
+transition-duration: 0.5s;
+}
+
+#Profile_Island:hover{
+  transform: scale(1.05);
+  transition-duration: 1s;
+}
+
+
+#School_Label{
+  display:block;
+  overflow: hidden;
+  position: absolute;
+  text-align: left;
+
+  justify-content: flex-end;
+  text-overflow: ellipsis;
+  left: 16px;
+  width: 140px;
+  margin-top: 12px;
+  margin-left: 0px;
+  background-size: 100px 500px;
+  border-radius: 5px;
+  border: 1.5px solid rgba(240,240,240,0);
+  padding: 0px;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-family: Arial;
+  font-size: 11px;
+  overflow: hidden;
+  color: rgba(2,112,105,1);
+  white-space: nowrap;
+
+}
+
+#Program_Label{
+  display:block;
+  overflow: hidden;
+  position: absolute;
+  text-overflow: ellipsis;
+  text-align: left;
+
+  left: 16px;
+  width: 140px;
+  height: 14px;
+  margin-top: 28px;
+  margin-left: 0px;
+  background-size: 100px 500px;
+  border-radius: 5px;
+  border: 1.5px solid rgba(240,240,240,0);
+  padding: 0px;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-family: Arial;
+  font-size: 11px;
+  overflow: hidden;
+  color: rgba(2,112,105,1);
+  white-space: nowrap;
+
+}
+
+
+#Edit_Button{
+  height: 20px;
+  width: 40px;
+  margin-top: 7px;
+  margin-left: 145px;
+  border: 1.2px solid rgba(0,0,0,0.17);
+  border-radius: 20px;
+  font-style: Arial;
+  font-size: 12px;
+  color: rgba(2,112,105,1);
+  background-color: rgba(0,0,0,0.1);
+  transition-duration: 0.2s;
+}
+
+#Edit_Button:hover{
+  transform: scale(1.1);
+  /* cursor: pointer; */
+  border: 1.2px solid rgba(255,255,255,0.6);
+  /* -webkit-box-shadow: inset 0px -1px 2px 0.1px rgba(255,255,255,0.5); */
+  transition-duration: 0.5s;
+
+}
+
+
+#Graph{
+  display: inline-flex;
+  position: relative;
+  height: 270px;
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 230px;
+  background: rgb(240,240,240,1);
+  border-radius: 25px;
+  background: rgb(255,128,0);
+  background: linear-gradient(-40deg, rgba(255,128,0,1) 1%, rgba(255,0,135,1) 100%);
+  -webkit-box-shadow: 0px 10px 17px 5px rgb(70,70,70,1);
+  box-shadow: 0px 6px 7px 2px rgb(0,0,0,0.5);
+}
+
+#Graph_Title{
+font-family: Arial;
+font-weight: bold;
+font-size: 17px;
+color: rgba(0,0,0,0.5);
+margin-left: 30px;
+margin-top: 8px;
+}
+
+#Graph_Inset{
+  /* display: inline-flex; */
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 7px;
+  padding-left: 8px;
+  padding-right: 10px;
+  height:220px;
+  width: 360px;
+  background: rgba(0,0,0,0.3);
+  border-radius: 20px 0 20px 20px;
+  -webkit-box-shadow: inset 0px -10px 4px 5px rgba(0,0,0,0.1);
+}
+
+.Triangle_Decals{
+  background: rgba(0,0,0,0.2);
+}
+
+#Inset_Cut{
+  background: rgba(0,0,0,0.3);
+margin-top: 7px;
+margin-left: 16px;
+border-radius: 20px 20px 0 0;
+height: 28px;
+width: 233px;
+clip-path: polygon(100% 100%, 100% 0%, 18% 0%, 0% 100%);
+-webkit-box-shadow: inset 2px 2px 4px 5px rgba(0,0,0,0.1);
+}
+
+#Semester_Selector{
+position: absolute;
+margin-top: 7px;
+margin-left: 390px;
+height: 250px;
+width: 90px;
+border-radius: 20px;
+background: rgba(0,0,0,0.1)
+}
+
+.Semester_Selector_Box{
+margin-top: 9px;
+margin-left: 15px;
+height: 12px;
+width: 70px;
+color: rgba(255,255,255,0.2);
+font-size: 12px;
+font-family: Arial;
+background: rgba(255,255,255,0);
+transition-duration: 0.2s;
+}
+
+.Semester_Selector_Box:hover{
+  transform:scale(1.1);
+  transition-duration: 0.2s;
+}
+
+#Semester_1{
+  color: rgba(255,255,255,0.7);
+}
+
+.Selector_Line{
+height:2px;
+width: 70px;
+border-width:0;
+color:gray;
+background-color: rgba(255,255,255,0.1);
+}
+
+
+#PI_Graph{
+  position: absolute;
+  z-index: -1;
+  margin-top: -35px;
+  margin-left: 10px;
+  height:175px;
+  width: 200px;
+  x: 0px;
+  y: 200px;
+  background: rgb(240,240,240,1);
+  border-radius: 25px 25px 25px 25px;
+  background: rgb(181,0,255);
+  background: linear-gradient(0deg, rgba(181,0,255,1) 0%, rgba(117,56,191,1) 100%);
+  -webkit-box-shadow: 0px 10px 17px 5px rgb(70,70,70,1);
+  box-shadow: 0px 15px 7px 2px rgb(0,0,0,0.5);
+}
+
+#PI_Graph_Inset{
+  margin-top: 40px;
+  margin-left: 5px;
+  height:125px;
+  width: 170px;
+  background: rgba(0,0,0,0.12);
+  border-radius: 20px;
+  -webkit-box-shadow: inset 0px -5px 4px 5px rgba(0,0,0,0.2);
+}
+
+#PI_Grapher{
+position: absolute;
+margin-top: -20px;
+margin-left: 3px;
+padding-right: 10px;
+}
+
+#PI_Graph_Border{
+position: absolute;
+height: 102px;
+width: 102px;
+border-radius: 51px;
+background: rgba(0,0,0,0.2);
+left: 65.45px;
+top: 49.5px;
+filter: blur(2px);
+}
+
+
+.Term_Group{
+  position: absolute;
+  top: 320px;
+  left: 220px;
+  height: 140px;
+  width: 550px;
+  overflow-y: hidden;
+}
+
+.Course_Blocks{
+  display: inline-block;
+  margin: 5px;
+  margin-left: 1px;
+  height: 110px;
+  width: 85px;
+  border-radius: 20px;
+  background: rgba(240,240,240,1);
+  border: 5px solid rgba(0,0,0,0.2);
+  /* -webkit-box-shadow: inset 2px 2px 5px 2px rgba(255,255,255,1); */
+  -webkit-box-shadow: 0px 10px 17px 5px rgb(70,70,70,1);
+  box-shadow: 0px 5px 7px 1px rgb(0,0,0,0.5);
+  transition-duration: 0.5s;
+}
+
+.Course_Blocks:hover{
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+}
+
+
+.scrollable{
+  height: 270px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.Course_Edit_Button{
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  width: 40px;
+  padding-top: 2px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 24px;
+  border: 1.5px solid rgba(200,200,200,1);
+  border-radius: 20px;
+  font-style: Arial;
+  font-size: 10px;
+  color: rgba(250,250,250,1);
+  background-color: rgba(200,200,200,1);
+  transition-duration: 0.5s;
+
+}
+
+.Course_Edit_Button:hover{
+  transform: scale(1.1);
+  /* cursor: pointer; */
+  transition-duration: 0.5s;
+}
+
+
+#Semester_1_Label{
+  top: 360px;
+  left:430px;
+  font-weight: bold;
+  font-family: Arial;
+  position: absolute;
+  display: block;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 100px;
+}
+
+.Full_Course_Bank{
+  height:100px;
+  width: 500px;
+  background: rgba(255,255,255,0.5);
+}
+
+#Shader{
+position: relative;
+display: block;
+z-index: 10;
+margin-top: 15px;
+margin-left: 210px;
+height: 140px;
+width: 600px;
+background: rgba(40,40,40,1);
+filter: opacity(0);
+visibility: hidden;
+}
+
+#Course_Block_1{
+  margin-left: 11px;
+}
+
+#Course_Block_16{
+  margin-left: 11px;
+}
+
+#Course_Block_31{
+  margin-left: 11px;
+}
+
+#Course_Block_46{
+  margin-left: 11px;
+}
+
+#Course_Block_61{
+  margin-left: 11px;
+}
+
+#Course_Block_76{
+  margin-left: 11px;
+}
+
+#Course_Block_91{
+  margin-left: 11px;
+}
+
+#Course_Block_106{
+  margin-left: 10px;
+}
+
+
+#Term_1{
+  /* visibility: hidden; */
+
+}
+
+#Term_2{
+  visibility: hidden;
+}
+
+#Term_3{
+  visibility: hidden;
+}
+
+#Term_4{
+  visibility: hidden;
+}
+
+#Term_5{
+  visibility: hidden;
+}
+
+#Term_6{
+  visibility: hidden;
+}
+
+#Term_7{
+  visibility: hidden;
+}
+
+#Term_8{
+  visibility: hidden;
+}
+
+.Course_Code_Label{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  display: block;
+  text-align: center;
+  top: 7px;
+  left: 0px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: solid 3px rgba(240,240,240,1);
+  color: rgba(150, 150, 150, 1);
+  font-family: Arial;
+}
+
+
+.Course_Name_Label{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  display: block;
+  text-align: center;
+  top: 4px;
+  left: 0px;
+  font-size: 10px;
+  border-radius: 7px;
+  border-radius: 10px;
+  border: solid 3px rgba(240,240,240,1);
+  color: rgba(150, 150, 150, 1);
+  font-family: Arial;
+
+}
+
+.GPA{
+  position: relative;
+  text-align: center;
+  top: 20px;
+  left: -52.5px;
+  font-size: 11px;
+  color: rgba(150, 150, 150, 1);
+  font-family: Arial;
+}
+
+
+.GPA_Label{
+text-overflow: clip;
+position: relative;
+text-align: center;
+top: 20px;
+left: -53.5px;
+font-size: 11px;
+color: rgba(150, 150, 150, 1);
+font-family: Arial;
+border-radius: 10px;
+background-size: 10px 20px;
+}
+
+.Weight{
+  position: relative;
+  display: block;
+  text-align: center;
+  top: 20px;
+  left: 0px;
+  font-size: 10px;
+  color: rgba(150, 150, 150, 1);
+  font-family: Arial;
+}
+
+.Weight_Label{
+  position: relative;
+  display: block;
+  text-align: center;
+  top: 20px;
+  left: 0px;
+  font-size: 10px;
+  color: rgba(150, 150, 150, 1);
+  font-family: Arial;
+  border-radius: 10px;
+}
+
+#Scroll_Indicator{
+  position: absolute;
+  display: inline-block;
+  font-size: 11px;
+  font-family: Arial;
+  line-height: 8px;
+  height: 10px;
+  width: 200px;
+  color: rgba(255,255,255,0.6);
+  margin-left: 680px;
+  filter: blur(0.1px);
+}
+
+
+.Glow_Animation{
+  -webkit-animation: Glow_Frames 0.2s;
+  animation: Glow_Frames 0.2s ease-in-out;
+}
+
+@keyframes Glow_Frames{
+0%{color: rgba(255,255,255,0.2)}
+100%{color: rgba(255,255,255,0.7)}
+}
+
+.Pulse_Animation{
+  -webkit-animation: Pulse_Frames 3s;
+  animation: Pulse_Frames 3s linear;
+}
+
+@keyframes Pulse_Frames{
+0%{color: rgba(255,255,255,0)}
+50%{color: rgba(255,255,255,0.8)}
+100%{color: rgba(255,255,255,0)}
+}
+
+
+
+.Fade_Sequence_Animation{
+  -webkit-animation: Fade_Sequence_Frames 0.3s;
+  animation: Fade_Sequence_Frames 0.3s ease-in-out;
+}
+
+@keyframes Fade_Sequence_Frames{
+0%{filter: opacity(0); visibility: visible;}
+100%{filter: opacity(1); visibility: visible;}
+}
+
+.Fade_Sequence_Animation_In{
+  -webkit-animation: Fade_Sequence_Frames_In 0.5s;
+  animation: Fade_Sequence_Frames_In 0.5s ease-in-out;
+}
+
+
+@keyframes Fade_Sequence_Frames_In{
+  0%{filter: opacity(1); visibility: visible;}
+  100%{filter: opacity(0); visibility: visible;}
+}
+
+
+.Border_Ring_Animation{
+  -webkit-animation: Border_Ring 1s;
+  animation: Border_Ring 1s ease-in-out;
+}
+
+
+@keyframes Border_Ring{
+0%{border: 5px solid rgba(0,0,0,0.2);}
+100%{border: 5px solid rgba(253,78,83,1);}
+}
+
+.Border_Ring_Animation_Fade{
+  -webkit-animation: Border_Ring_Fade 1s;
+  animation: Border_Ring_Fade 1s ease-in-out;
+}
+
+
+@keyframes Border_Ring_Fade{
+0%{border: 5px solid rgba(253,78,83,1);}
+100%{border: 5px solid rgba(0,0,0,0.2);}
+}
+
+.Glow_Pulse_Animation{
+  -webkit-animation: Glow_Pulse_Frames 1s;
+  animation: Glow_Pulse_Frames 1s linear;
+}
+
+@keyframes Glow_Pulse_Frames{
+0%{border: 5px solid rgba(255,255,255,0.5);}
+100%{border: 5px solid rgba(255,255,255,0.85);}
+}
+
+
+.Deglow_Pulse_Animation{
+  -webkit-animation: Deglow_Pulse_Frames 0.5s;
+  animation: Deglow_Pulse_Frames 0.5s linear;
+}
+
+@keyframes Deglow_Pulse_Frames{
+0%{border: 5px solid rgba(255,255,255,0.85);}
+100%{border: 5px solid rgba(255,255,255,0.5);}
+}
+
+/* .Blur_Panel_Animation{
+  -webkit-animation: Blur_Panel_Frames 2s;
+  animation: Blur_Panel_Frames 2s linear;
+}
+
+@keyframes Blur_Panel_Frames{
+0%{transform: blur(20px);}
+100%{transform: blur(0px);}
+} */
+
+@keyframes Panel_Blur {
+  0% {filter: blur(20px);}
+  100% {filter: blur(0px);}
+}
+
+.Bounce_Up_Animation{
+  -webkit-animation: Bounce_Up_Frames 0.8s;
+  animation: Bounce_Up_Frames 0.8s ease-in;
+}
+
+@keyframes Bounce_Up_Frames{
+  0% {top: 10px;}
+  30% {top: 20px;}
+  100%{top: -120px;}
+}
+
+.Bounce_Down_Animation{
+  -webkit-animation: Bounce_Down_Frames 1s;
+  animation: Bounce_Down_Frames 1s ease-out;
+}
+
+@keyframes Bounce_Down_Frames{
+  0% {top: -120px;}
+  70% {top: 20px;}
+  100%{top: 10px;}
+}
