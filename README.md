@@ -90,8 +90,6 @@ Resizing images and conversion from PNG to .incs and .ico takes advantage of the
 <p align ="center">
 <img src = "Images/IconConverter DMG.png" width = "500">
 </p>
-<br/>
-
 
 ### Project Files 
 [GPA Grapher Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/GPA%20Grapher)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](https://drive.google.com/drive/folders/16CnL6BPPoXdi-hbTKbkRuKbJGT2Dc7y5?usp=sharing)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
