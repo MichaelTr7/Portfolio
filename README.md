@@ -66,12 +66,13 @@ A desktop widget for converting PNG images into MacOS and Windows application ic
 
 <br/>
 
-<img src = "" width = "2000">
 
 
 |Scrollable and Draggable Elements (gif) |Dynamic Graphing (gif)|
 |---|---|
 |<img src = "Images/IconConverter_Demo_1.gif" width = "2000">|<img src = "Images/IconConverter_Demo_2.gif" width = "2000">|
+
+<img src = "Images/IconConverter DMG.png" width = "500">
 
 
 ### Features
