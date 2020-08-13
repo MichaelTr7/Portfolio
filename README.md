@@ -71,9 +71,7 @@ A desktop widget for converting PNG images into MacOS and Windows application ic
 |Drag and Drop Files (gif) |File Type Detection (gif)|
 |---|---|
 |<img src = "Images/IconConverter_Demo_1.gif" width = "2000">|<img src = "Images/IconConverter_Demo_2.gif" width = "2000">|
-<p align ="center">
-<img src = "Images/IconConverter DMG.png" width = "500">
-</p>
+
 
 ### Features
 - Converts PNG images into .icns and .ico icon formats
@@ -89,8 +87,14 @@ Resizing images and conversion from PNG to .incs and .ico takes advantage of the
 
 <br/>
 
+<p align ="center">
+<img src = "Images/IconConverter DMG.png" width = "500">
+</p>
+<br/>
+
+
 ### Project Files 
-[GPA Grapher Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/GPA%20Grapher)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](https://drive.google.com/drive/folders/1HKVSya3CwY_vwsjX5w_pc1payJniDMHA?usp=sharing)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[GPA Grapher Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/GPA%20Grapher)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](https://drive.google.com/drive/folders/16CnL6BPPoXdi-hbTKbkRuKbJGT2Dc7y5?usp=sharing)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 MacOS [.dmg] installer available above. <b> NOTE: On MacOS right click and open to override warning. </b>
