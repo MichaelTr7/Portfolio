@@ -54,6 +54,54 @@ MacOS [.dmg] and Windows [.exe] installers available above. <b> NOTE: On MacOS r
 <br/>
 
 <p align="center">
+  <img src="" width = "110"><br/>
+<b>IconConverter </b>
+
+</p>
+
+<br/>
+
+
+A desktop widget for converting PNG images into MacOS and Windows application icons. The core resizing and conversion methods were implemented using shell scripts while the front-end was built using HTML/CSS. The animations and keyframes were controlled with only JavaScript and CSS animations standard to the language. 
+
+<br/>
+
+<img src = "" width = "2000">
+
+
+|Scrollable and Draggable Elements (gif) |Dynamic Graphing (gif)|
+|---|---|
+|<img src = "" width = "2200">|<img src = "" width = "1850">|
+
+
+### Features
+- Converts PNG images into .icns and .ico icon formats
+- Icons generated include a series of resolutions that support a variety of sizes used throught each Operating System (OS).
+- Exports all files directly onto the desktop
+<br/>
+
+### Languages/Frameworks
+<img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Chartjs-Logo.png" width = "75" >
+
+
+Resizing images and conversion from PNG to .incs and .ico takes advantage of the speed of shell scripts. NodeJS' child process module was used to connect the interface with the shell scripts. The curves of the User-Interface (UI) was implemented by writing SVG line paths in the HTML code opposed loading SVG images which allows for future flexibility.
+
+<br/>
+
+### Project Files 
+[GPA Grapher Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/GPA%20Grapher)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](https://drive.google.com/drive/folders/1HKVSya3CwY_vwsjX5w_pc1payJniDMHA?usp=sharing)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Windows Build [exe]](https://drive.google.com/drive/folders/1zcelsNSHBWuEIjWm4K8EeRCr6eBVwG7k?usp=sharing)
+
+
+
+MacOS [.dmg] and Windows [.exe] installers available above. <b> NOTE: On MacOS right click and open to override warning. </b>
+
+
+<br/>
+<br/>
+<br/>
+
+
+<p align="center">
   <img src="Images/Folder Painter Logo V2.PNG" width = "120"><br/>
   <b>Folder Painter </b>
 
