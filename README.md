@@ -71,9 +71,9 @@ A desktop widget for converting PNG images into MacOS and Windows application ic
 |Scrollable and Draggable Elements (gif) |Dynamic Graphing (gif)|
 |---|---|
 |<img src = "Images/IconConverter_Demo_1.gif" width = "2000">|<img src = "Images/IconConverter_Demo_2.gif" width = "2000">|
-
+<p align ="center">
 <img src = "Images/IconConverter DMG.png" width = "500">
-
+</p>
 
 ### Features
 - Converts PNG images into .icns and .ico icon formats
@@ -82,7 +82,7 @@ A desktop widget for converting PNG images into MacOS and Windows application ic
 <br/>
 
 ### Languages/Frameworks
-<img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Chartjs-Logo.png" width = "75" >
+<img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Shell_Script_Icon.png" width = "75" >
 
 
 Resizing images and conversion from PNG to .incs and .ico takes advantage of the speed of shell scripts. NodeJS' child process module was used to connect the interface with the shell scripts. The curves of the User-Interface (UI) was implemented by writing SVG line paths in the HTML code opposed loading SVG images which allows for future flexibility.
