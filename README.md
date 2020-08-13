@@ -54,7 +54,7 @@ MacOS [.dmg] and Windows [.exe] installers available above. <b> NOTE: On MacOS r
 <br/>
 
 <p align="center">
-  <img src="" width = "110"><br/>
+  <img src="Images/IconConverter.png" width = "110"><br/>
 <b>IconConverter </b>
 
 </p>
