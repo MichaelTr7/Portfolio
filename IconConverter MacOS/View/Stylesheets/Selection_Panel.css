@@ -1,0 +1,484 @@
+
+#Panel_Body{
+  height: 1000px;
+  width: 1000px;
+  overflow: hidden;
+  background: rgba(240,240,240,0.8);
+  -webkit-app-region: drag;
+}
+
+/*Disabling highlighting on tap throughout application*/
+*{
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+  -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
+  outline: none !important;
+}
+
+/*Disabling drag on all buttons*/
+button{
+  -webkit-app-region: no-drag;
+}
+
+/*Disabling highlighting/copying across panel*/
+*, *::after, *::before{
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  cursor: default;
+}
+
+
+#Shader_Overlay_1{
+  position: absolute;
+  z-index: -1;
+  height: 300px;
+  width: 300px;
+  margin-left: -8px;
+  margin-top: 0px;
+  background-color: rgba(40,40,40,1);
+  background: rgb(196,4,100);
+  background: linear-gradient(221deg, rgba(196,4,100,1) 0%, rgba(6,191,133,1) 100%);
+  background-size: 300px 300px;
+  -webkit-app-region: drag;
+  box-shadow: inset 6px 4px 20px 0px rgba(255,255,255,0.15);
+}
+
+#Shader_Overlay_2{
+  height: 300px;
+  width: 300px;
+  margin-left: -8px;
+  margin-top: -8px;
+  background-color: rgba(40,40,40,1);
+  background: rgb(70,115,159);
+  background: linear-gradient(0deg, rgba(70,115,159,0.9) 0%, rgba(51,255,227,0.9) 100%);
+  background-size: 300px 300px;
+  -webkit-app-region: drag;
+}
+
+#Notification_Panel{
+position: absolute;
+top: 320px;
+left: 60px;
+height: 32px;
+width: 170px;
+border-radius: 10px;
+text-align: right;
+padding-right: 10px;
+font-weight: bold;
+font-family: Arial;
+line-height: 30px;
+color: rgba(100,100,100,0.8);
+font-size: 11px;
+background: rgba(215,215,215);
+/* background: linear-gradient(250deg, rgba(196,4,100,0.3) 0%, rgba(6,191,133,0.3) 100%); */
+box-shadow: inset 1px 1px 5px 0px rgba(245,245,245,0.4),2px 2px 10px 0.5px rgba(20,20,20,0.5);
+transition-duration: 0.5s;
+}
+
+#Notification_Panel:hover{
+  transform: scale(1.02);
+  transition-duration: 0.5s;
+}
+
+
+#Drop_Zone{
+  /*Position*/
+  position: absolute;
+  top: 68px;
+  left: 58px;
+  /*Size and colour*/
+  height: 180px;
+  width: 180px;
+  border-radius: 30px;
+  background: rgba(50,100,120,0);
+  /*Font style*/
+  text-align: center;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(195,195,195,0.9);
+  -webkit-app-region: no-drag;
+  -webkit-user-select: none;
+  border : 2px solid rgba(255,255,255,0);
+  box-shadow: inset 0px 5px 6px 5px rgba(0,0,0,0.2);
+  transition-duration: 0.5s;
+
+}
+
+#Drop_Zone_Label{
+  z-index: 5;
+  /*Position*/
+  height: 180px;
+  width: 180px;
+  position: relative;
+  text-align: center;
+  top: -12px;
+  /*Font style*/
+  background: rgba(255,255,255,0);
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(195,195,195,0.9);
+  -webkit-app-region: no-drag;
+  -webkit-user-select: none;
+}
+
+#Drop_Label{
+  /*Position*/
+  position: absolute;
+  top: 68px;
+  left: 58px;
+  /*Size and colour*/
+  height: 180px;
+  width: 180px;
+  border-radius: 30px;
+  background: rgba(50,100,120,0.9);
+  /*Font style*/
+  text-align: center;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(220,220,220,1);
+  -webkit-app-region: no-drag;
+  -webkit-user-select: none;
+  border : 2px solid rgba(255,255,255,0);
+  box-shadow: inset 0px 5px 6px 5px rgba(0,0,0,0.2);
+  transition-duration: 0.5s;
+  -webkit-app-region: no-drag;
+}
+
+#Arrow{
+font-size: 50px;
+font-weight: bold;
+}
+
+
+#Converting_Label{
+position: absolute;
+opacity: 0;
+top: 210px;
+left: 100px;
+font-family: Arial;
+font-size: 12px;
+color: rgba(220,220,220,1);
+font-weight: bold;
+text-align: center;
+height: 20px;
+width: 100px;
+background: rgba(255,0,0,0);
+}
+
+#Preview_Image{
+  /*Position*/
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  /*Size and colour*/
+  height: 100px;
+  width: 100px;
+  border-radius: 0px;
+  background: rgba(255,255,255,0);
+  /*Font style*/
+  text-align: center;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 600;
+  background-size: 100px auto;
+  background-repeat: no-repeat;
+  color: rgba(195,195,195,0.9);
+  -webkit-app-region: no-drag;
+  -webkit-user-select: none;
+  transition-duration: 0.5s;
+}
+
+#Closed_Overlay{
+visibility: hidden;
+opacity: 0;
+position: absolute;
+top: 60px;
+left: 50px;
+height: 200px;
+width: 200px;
+background: rgba(255,255,255,0.5);
+}
+
+
+#Result_Panel{
+  display: block;
+  position: absolute;
+  padding: 25px;
+  z-index: 25;
+  top: 320px;
+  left: 15px;
+  height: 170px;
+  width: 220px;
+  font-size: 12px;
+  font-family: Arial;
+  color: rgba(255,255,255,0.2);
+  border-radius: 40px 40px 20px 20px;
+  background: rgba(240,240,240,1);
+  background: linear-gradient(0deg, rgba(70,200,240,1) 0%, rgba(51,255,227,1) 100%);
+  box-shadow: inset 1px 1px 5px 0px rgba(245,245,245,0.4), 0px 4px 10px 0.5px rgba(20,20,20,0.5);
+  transition-duration: 0.5s;
+}
+
+#Result_Panel:before {
+  content: "Icons Generated";
+  text-align: center;
+  position: absolute;
+  line-height: 27px;
+  z-index: -1;
+  top: 0;
+  right: 0%;
+  bottom: 82%;
+  left: 0;
+  line-height: 40px;
+  color: rgba(100,100,100,0.9);
+  font-weight: bold;
+  background: rgba(190, 190, 190, 1);
+  border-radius: 20px 20px 4px 4px;
+  -webkit-box-shadow: inset 0px 2px 3px 1px rgba(255,255,255,0.5);
+}
+
+#Result_Panel:hover{
+  transform: scale(1.01);
+  transition-duration: 0.5s;
+}
+
+
+
+#Back_Button{
+position: relative;
+top: -16px;
+left: -10px;
+height: 22px;
+width: 40px;
+color: rgba(140,140,140,0.95);
+border-radius: 20px;
+transform: rotate(180deg);
+border: 1.5px solid rgba(250,250,250,0.1);
+background: rgba(250,250,250,0);
+font-family: Arial;
+font-size: 14px;
+transition-duration: 1s;
+}
+
+#Back_Button:hover{
+
+border-color: rgba(250,250,250,0.7);
+transition-duration: 1s;
+}
+
+#Result_Panel_Inset{
+position: relative;
+top: 8px;
+left: -5px;
+height: 150px;
+width: 230px;
+border-radius: 20px;
+color: rgba(20,20,20,0.8);
+background: rgb(196,4,100);
+background: linear-gradient(220deg, rgba(196,4,100,0.55) 0%, rgba(6,191,133,0.75) 100%);
+box-shadow: inset 0px 5px 6px 10px rgba(0,0,0,0.2);
+}
+
+#Exported_Notification{
+position: absolute;
+top: 15px;
+left: 15px;
+font-family: Arial;
+font-weight: bold;
+color: rgba(255,255,255,0.8);
+width: 200px;
+text-align: center;
+background: rgba(0,0,0,0);
+}
+
+#MacOS_Icon{
+position: relative;
+top: 30px;
+left: 24px;
+height: 80px;
+width: 80px;
+background: rgba(250,250,250,0);
+background-size: 80px auto;
+transition-duration: 1s;
+font-size: 80px;
+text-align: center;
+}
+
+#MacOS_Icon:hover{
+  color: rgba(250,250,250,0.7);
+  transition-duration: 1s;
+}
+
+#Windows_Icon{
+  position: relative;
+  top: -52px;
+  left: 117px;
+  padding-left: 10px;
+  height: 80px;
+  width: 80px;
+  background-size: 80px auto;
+  background: rgba(250,250,250,0);
+  font-size: 110px;
+  line-height: 90px;
+  transition-duration: 1s;
+  transform: rotate(45deg);
+}
+
+#Windows_Icon:hover{
+  color: rgba(250,250,250,0.7);
+  transition-duration: 1s;
+
+}
+
+
+#MacOS_Label{
+position: relative;
+top: -38px;
+left: 39px;
+width: 20px;
+padding: 5px;
+text-align: center;
+background: rgba(255,255,255,0);
+color: rgba(0, 101, 105, 1);
+font-family: Arial;
+font-weight: bold;
+-webkit-app-region: no-drag;
+-webkit-user-select: none;
+transition-duration: 1s;
+
+}
+
+#MacOS_Label:hover{
+  color: rgba(250,250,250,0.7);
+  transition-duration: 1s;
+
+
+
+}
+
+
+#Windows_Label{
+  position: relative;
+  padding: 5px;
+  top: -38px;
+  left: 79px;
+  width: 40px;
+  background: rgba(255,255,255,0);
+  color: rgba(0, 101, 105,1);
+  font-family: Arial;
+  text-align: center;
+  font-weight: bold;
+  -webkit-app-region: no-drag;
+  -webkit-user-select: none;
+  transition-duration: 1s;
+
+}
+
+#Windows_Label:hover{
+  color: rgba(250,250,250,0.7);
+  transition-duration: 1s;
+
+
+
+}
+
+
+.Fade_In_Animation{
+  -webkit-animation: Fade_In_Text 1s;
+  animation: Fade_In_Text 1s ease-out;
+}
+
+@keyframes Fade_In_Text{
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+.Fade_Out_Animation{
+  -webkit-animation: Fade_Out_Text 1s;
+  animation: Fade_Out_Text 1s ease-out;
+}
+
+
+@keyframes Fade_Out_Text{
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+
+.Bounce_Up_Animation{
+  -webkit-animation: Bounce_Up_Frames 0.8s;
+  animation: Bounce_Up_Frames 0.8s ease-out;
+}
+
+@keyframes Bounce_Up_Frames{
+  0% {top: 320px;}
+  70% {top: 255px;}
+  100%{top: 260px;}
+}
+
+.Bounce_Down_Animation{
+  -webkit-animation: Bounce_Down_Frames 1s;
+  animation: Bounce_Down_Frames 1s linear;
+}
+
+@keyframes Bounce_Down_Frames{
+  0% {top: 260px;}
+  20% {top: 255px;}
+  100%{top: 330px;}
+}
+
+.Push_Results_Animation{
+  -webkit-animation: Push_Results_Keyframes 1s;
+  animation: Push_Results_Keyframes 1s ease-out;
+}
+
+@keyframes Push_Results_Keyframes{
+  0% {top: 320px;}
+  70% {top: 55px;}
+  100%{top: 60px;}
+}
+
+.Drop_Results_Animation{
+  -webkit-animation: Drop_Results_Keyframes 0.6s;
+  animation: Drop_Results_Keyframes 0.6s linear;
+}
+
+@keyframes Drop_Results_Keyframes{
+  0% {top: 60px;}
+  30% {top: 55px;}
+  100%{top: 320px;}
+}
+
+
+.Bounce_Animation{
+  -webkit-animation: Bounce_Frames 0.7s;
+  animation: Bounce_Frames 0.7s ease-in;
+}
+
+
+@keyframes Bounce_Frames{
+0%{top: -62px;}
+10%{top: -50px;}
+50%{top: -70px;}
+80%{top: -55px;}
+90%{top: -65px;}
+100%{top: -62px;}
+
+}
+
+
+
+ .Spin_Animation{
+  -webkit-animation: Spin_Keyframes 0.7s;
+  animation: Spin_Keyframes 0.7s ease-out;
+}
+
+
+@keyframes Spin_Keyframes{
+0%{transform: rotate3d(0,1,0,0deg);}
+100%{transform: rotate3d(0,1,0,360deg);}
+
+}
