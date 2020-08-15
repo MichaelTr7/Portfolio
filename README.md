@@ -75,7 +75,7 @@ A desktop widget for converting PNG images into MacOS and Windows application ic
 
 ### Features
 - Converts PNG images into .icns and .ico icon formats
-- Icons generated include a series of resolutions that support a variety of sizes used throught each Operating System (OS).
+- Icons generated include a series of resolutions that support a variety of sizes used through each Operating System (OS)
 - Exports all files directly onto the desktop
 <br/>
 
