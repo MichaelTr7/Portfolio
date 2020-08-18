@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="Images/GPA_Grapher_Icon_1024.png" width = "110"><br/>
+  <img src="" width = "110"><br/>
 <b>Simple Connect4 </b>
 
 </p>
@@ -31,15 +31,15 @@ A minimalist Connect4 game used to practice working with arrays of arrays/pseudo
 <br/>
 
 ### Languages/Frameworks
-<img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Chartjs-Logo.png" width = "75" >
+<img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">
 
 
-All animations implemented using CSS variables and keyframes. Sound effects loaded as mp3 audio file and triggered by click event listeners. 
+All animations implemented using CSS variables and keyframes. Sound effects loaded as mp3 audio files and triggered by click event listeners. 
 
 <br/>
 
 ### Project Files 
-[GPA Grapher Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/GPA%20Grapher)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Windows Build [exe]]()
+[GPA Grapher Source Files]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Windows Build [exe]]()
 
 
 
