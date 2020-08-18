@@ -26,7 +26,7 @@ A minimalist Connect4 game used to practice working with arrays of arrays/pseudo
 
 ### Features
 - Interactive counters/tokens
-- 2-player and winner validation
+- 2-player mode and winner validation
 - Original drop sound effect created in Garageband
 <br/>
 
@@ -34,7 +34,7 @@ A minimalist Connect4 game used to practice working with arrays of arrays/pseudo
 <img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">
 
 
-All animations implemented using CSS variables and keyframes. Sound effects loaded as mp3 audio files and triggered by click event listeners. 
+All animations implemented using CSS variables and keyframes. Sound effects loaded as mp3 audio files and triggered by click event listeners. Arrays or arrays used to record the grid of tokens dropped.
 
 <br/>
 
