@@ -147,7 +147,7 @@ Python and OpenCV used for image processing the folder colour. Javascript and No
 
 
 <p align="center">
-  <img src="Images/Simple Connect4 Icon 3.png" width = "110"><br/>
+  <img src="Images/Simple Connect4 Icon 3.png" width = "105"><br/>
 <b>Simple Connect4 </b>
 
 </p>
