@@ -178,6 +178,10 @@ All animations implemented using CSS variables and keyframes. Sound effects load
 
 <br/>
 
+<p align ="center">
+<img src = "Images/Simple Connect4 DMG Setup Image.png" width = "500">
+</p>
+
 ### Project Files 
 [Simple Connect4 Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Simple%20Connect4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Windows Build [exe]]()
 
