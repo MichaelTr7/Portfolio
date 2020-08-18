@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="Images/Simple Connect4 Icon.png" width = "110"><br/>
+  <img src="Images/Simple Connect4 Icon 2.png" width = "110"><br/>
 <b>Simple Connect4 </b>
 
 </p>
