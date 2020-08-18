@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="" width = "110"><br/>
+  <img src="Images/MacOS_Icon.icns" width = "110"><br/>
 <b>Simple Connect4 </b>
 
 </p>
@@ -18,7 +18,7 @@ A minimalist Connect4 game used to practice working with arrays of arrays/pseudo
 
 |Main Interface|Dynamic Graphing (gif)|
 |---|---|
-|<img src = "Images/Simple Connect4 Image.png" width = "1500">|<img src = "" width = "1850">|
+|<img src = "Images/Simple Connect4 Image.png" width = "1500">|<img src = "Images/Simple Connect4 Demo 1.gif" width = "1500">|
 
 
 ### Features
