@@ -5,6 +5,54 @@
 
 <p align="center">
   <img src="Images/GPA_Grapher_Icon_1024.png" width = "110"><br/>
+<b>Simple Connect4 </b>
+
+</p>
+
+<br/>
+
+A minimalist Connect4 game used to practice working with arrays of arrays/pseudo 2D-arrays. The project was focusses on solely using modern web-technologies including JavaScript and HTML/CSS.  
+
+
+<br/>
+
+<img src = "Images/GPA Grapher Image.png" width = "2000">
+
+
+|Scrollable and Draggable Elements (gif) |Dynamic Graphing (gif)|
+|---|---|
+|<img src = "Images/GPA Grapher 1.gif" width = "2200">|<img src = "Images/GPA Grapher 2.gif" width = "1850">|
+
+
+### Features
+- Graphing CGPA (Cumulative Grade Point Averages) and Term GPA (Grade Point Averages)
+- Pie chart mark distribution
+- All graphing is dynamic as user edits/adds courses
+- Image capture and export to desktop as PNG
+- Adaptable to allow mark upload if academic institutions wish to implement application
+<br/>
+
+### Languages/Frameworks
+<img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Chartjs-Logo.png" width = "75" >
+
+
+All animations implemented using CSS. Profile icon supports drag-and-drop functionality. Chart.js powers the graphical portions of the application. NodeJS modules used for file handling and profile icon retrieval. 
+
+
+<br/>
+
+### Project Files 
+[GPA Grapher Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/GPA%20Grapher)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](https://drive.google.com/drive/folders/1HKVSya3CwY_vwsjX5w_pc1payJniDMHA?usp=sharing)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Windows Build [exe]](https://drive.google.com/drive/folders/1zcelsNSHBWuEIjWm4K8EeRCr6eBVwG7k?usp=sharing)
+
+
+
+<br/>
+<br/>
+<br/>
+
+
+<p align="center">
+  <img src="Images/GPA_Grapher_Icon_1024.png" width = "110"><br/>
 <b>GPA Grapher </b>
 
 </p>
