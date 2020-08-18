@@ -11,17 +11,17 @@
 
 <br/>
 
-A minimalist Connect4 game used to practice working with arrays of arrays/pseudo 2D-arrays. The project focusses on solely using modern web-technologies including JavaScript and HTML/CSS. Implementing cursor tracking and interactivity was also a goal of this project.
+A minimalist Connect4 game used to practice working with arrays of arrays/pseudo 2D-arrays. The project focusses on solely using modern web-technologies including JavaScript and HTML/CSS. Implementing cursor tracking and interactivity was a main learning goal of this project.
 
 
 <br/>
 
-<img src = "Images/GPA Grapher Image.png" width = "2000">
+<img src = "" width = "2000">
 
 
 |Scrollable and Draggable Elements (gif) |Dynamic Graphing (gif)|
 |---|---|
-|<img src = "Images/GPA Grapher 1.gif" width = "2200">|<img src = "Images/GPA Grapher 2.gif" width = "1850">|
+|<img src = "" width = "2200">|<img src = "" width = "1850">|
 
 
 ### Features
@@ -39,7 +39,7 @@ All animations implemented using CSS variables and keyframes. Sound effects load
 <br/>
 
 ### Project Files 
-[GPA Grapher Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/GPA%20Grapher)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](https://drive.google.com/drive/folders/1HKVSya3CwY_vwsjX5w_pc1payJniDMHA?usp=sharing)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Windows Build [exe]](https://drive.google.com/drive/folders/1zcelsNSHBWuEIjWm4K8EeRCr6eBVwG7k?usp=sharing)
+[GPA Grapher Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/GPA%20Grapher)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Windows Build [exe]]()
 
 
 
