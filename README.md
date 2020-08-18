@@ -16,7 +16,7 @@ A minimalist Connect4 game used to practice working with arrays of arrays/pseudo
 
 <br/>
 
-<img src = "" width = "2000">
+<img src = "Images/Simple Connect4 Image.png" width = "1000">
 
 
 |Scrollable and Draggable Elements (gif) |Dynamic Graphing (gif)|
