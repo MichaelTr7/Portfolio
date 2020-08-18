@@ -11,7 +11,7 @@
 
 <br/>
 
-A minimalist Connect4 game used to practice working with arrays of arrays/pseudo 2D-arrays. The project was focusses on solely using modern web-technologies including JavaScript and HTML/CSS.  
+A minimalist Connect4 game used to practice working with arrays of arrays/pseudo 2D-arrays. The project focusses on solely using modern web-technologies including JavaScript and HTML/CSS.  
 
 
 <br/>
