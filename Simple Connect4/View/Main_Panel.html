@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Simple Connect4</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <!-- <script src = "Main_Panel_Layout.js"></script> -->
+    <link rel = "stylesheet" href = "./Main_Panel.css">
+    <script src = "Movement.js"></script>
+    <script src = "Win_Check.js"></script>
+  </head>
+
+
+  <body style="-webkit-app-region: drag" onclick="Clicked()">
+
+    <audio id = "Drop_Sound_Effect">
+      <source src = "Sound_Effects/Sound_Effect_2.mp3" type="audio/mpeg">
+    </audio>
+
+<div id = "Win_Panel" onclick="Reload()">Red wins: Click for new game</div>
+
+<div id = "Drop_Token"></div>
+<div id = "Indicator_0" class = "Indicator"></div>
+<div id = "Indicator_1" class = "Indicator"></div>
+<div id = "Indicator_2" class = "Indicator"></div>
+<div id = "Indicator_3" class = "Indicator"></div>
+<div id = "Indicator_4" class = "Indicator"></div>
+<div id = "Indicator_5" class = "Indicator"></div>
+<div id = "Indicator_6" class = "Indicator"></div>
+
+
+<div id = "Main_Backdrop">
+<img src = "Connect4 Template SVG.svg">
+</div>
+
+<div id = "Counter00" class = "Counters"></div>
+<div id = "Counter01" class = "Counters"></div>
+<div id = "Counter02" class = "Counters"></div>
+<div id = "Counter03" class = "Counters"></div>
+<div id = "Counter04" class = "Counters"></div>
+<div id = "Counter05" class = "Counters"></div>
+<div id = "Counter06" class = "Counters"></div>
+
+<div id = "Counter10" class = "Counters"></div>
+<div id = "Counter11" class = "Counters"></div>
+<div id = "Counter12" class = "Counters"></div>
+<div id = "Counter13" class = "Counters"></div>
+<div id = "Counter14" class = "Counters"></div>
+<div id = "Counter15" class = "Counters"></div>
+<div id = "Counter16" class = "Counters"></div>
+
+<div id = "Counter20" class = "Counters"></div>
+<div id = "Counter21" class = "Counters"></div>
+<div id = "Counter22" class = "Counters"></div>
+<div id = "Counter23" class = "Counters"></div>
+<div id = "Counter24" class = "Counters"></div>
+<div id = "Counter25" class = "Counters"></div>
+<div id = "Counter26" class = "Counters"></div>
+
+<div id = "Counter30" class = "Counters"></div>
+<div id = "Counter31" class = "Counters"></div>
+<div id = "Counter32" class = "Counters"></div>
+<div id = "Counter33" class = "Counters"></div>
+<div id = "Counter34" class = "Counters"></div>
+<div id = "Counter35" class = "Counters"></div>
+<div id = "Counter36" class = "Counters"></div>
+
+<div id = "Counter40" class = "Counters"></div>
+<div id = "Counter41" class = "Counters"></div>
+<div id = "Counter42" class = "Counters"></div>
+<div id = "Counter43" class = "Counters"></div>
+<div id = "Counter44" class = "Counters"></div>
+<div id = "Counter45" class = "Counters"></div>
+<div id = "Counter46" class = "Counters"></div>
+
+<div id = "Counter50" class = "Counters"></div>
+<div id = "Counter51" class = "Counters"></div>
+<div id = "Counter52" class = "Counters"></div>
+<div id = "Counter53" class = "Counters"></div>
+<div id = "Counter54" class = "Counters"></div>
+<div id = "Counter55" class = "Counters"></div>
+<div id = "Counter56" class = "Counters"></div>
+
+<div id = "Simple_Connect4">Simple Connect4</div>
+
+
+  </body>
+</html>

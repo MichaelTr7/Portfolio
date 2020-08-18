@@ -1,0 +1,450 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  min-height: 100px;
+  min-width: 100px;
+  background: rgba(240,240,240,0.1);
+}
+
+#Win_Panel{
+  z-index: 5;
+  top: -50px;
+  left: 130px;
+  position: absolute;
+  height: 40px;
+  width: 220px;
+  text-align: center;
+  font-family: Arial;
+  line-height: 38px;
+  font-weight: bold;
+  font-size: 12px;
+  color: rgba(90,90,90,1);
+  border-radius: 10px;
+  background: rgba(245, 245, 245,1);
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+  transition-duration: 0.5s;
+}
+
+#Win_Panel:hover{
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+}
+
+#New_Game_Button{
+position: relative;
+display: block;
+height: 30px;
+width: 30px;
+top: -39px;
+left: 95px;
+font-size: 20px;
+color: rgba(90,90,90,0.9);
+/* background: rgba(240,240,240,1); */
+transition-duration: 0.5s;
+}
+
+#New_Game_Button:hover{
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+#Drop_Token{
+position: absolute;
+display: block;
+height: 30px;
+width: 30px;
+left: 10px;
+border-radius: 30px;
+border: 5px solid rgba(0,0,0,0.1);
+background: rgba(240,50,50,1);
+box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5), inset 0px 4px 1px 0px rgba(0,0,0,0.05);
+}
+
+#Drop_Token:hover{
+  cursor: pointer;
+}
+
+
+#Main_Backdrop{
+  position: absolute;
+  top: 50px;
+  left: 65px;
+  height: 320px;
+  width: 370px;
+  border-radius: 20px;
+  background: rgba(0,124,247,0);
+  /* background-image: url('./Connect4 Template.png'); */
+  box-shadow: 0px 10px 20px 4px rgba(0,0,0,0.5), inset 0px -3px 10px 2px rgba(0,0,0,0.1);
+}
+
+.Counters{
+  position: absolute;
+  display: block;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  border: 6px solid rgba(0,0,0,0.1);
+  background: rgba(0,124,247,0.01);
+  box-shadow: 0px 2px 0.5px 0px rgba(0,0,0,0.5), inset 0px 4px 1px 0px rgba(0,0,0,0.05);
+}
+
+#Counter00{
+top: 69px;
+left: 79px;
+}
+
+#Counter01{
+  top: 69px;
+  left: 129px;
+}
+
+#Counter02{
+  top: 69px;
+  left: 179px;
+}
+
+#Counter03{
+  top: 69px;
+  left: 229px;
+}
+
+#Counter04{
+  top: 69px;
+  left: 279px;
+}
+
+#Counter05{
+  top: 69px;
+  left: 329px;
+}
+
+#Counter06{
+  top: 69px;
+  left: 379px;
+}
+
+
+#Counter10{
+top: 119px;
+left: 79px;
+}
+
+#Counter11{
+  top: 119px;
+  left: 129px;
+}
+
+#Counter12{
+  top: 119px;
+  left: 179px;
+}
+
+#Counter13{
+  top: 119px;
+  left: 229px;
+}
+
+#Counter14{
+  top: 119px;
+  left: 279px;
+}
+
+#Counter15{
+  top: 119px;
+  left: 329px;
+}
+
+#Counter16{
+  top: 119px;
+  left: 379px;
+}
+
+#Counter20{
+top: 169px;
+left: 79px;
+}
+
+#Counter21{
+  top: 169px;
+  left: 129px;
+}
+
+#Counter22{
+  top: 169px;
+  left: 179px;
+}
+
+#Counter23{
+  top: 169px;
+  left: 229px;
+}
+
+#Counter24{
+  top: 169px;
+  left: 279px;
+}
+
+#Counter25{
+  top: 169px;
+  left: 329px;
+}
+
+#Counter26{
+  top: 169px;
+  left: 379px;
+}
+
+#Counter30{
+top: 219px;
+left: 79px;
+}
+
+#Counter31{
+  top: 219px;
+  left: 129px;
+}
+
+#Counter32{
+  top: 219px;
+  left: 179px;
+}
+
+#Counter33{
+  top: 219px;
+  left: 229px;
+}
+
+#Counter34{
+  top: 219px;
+  left: 279px;
+}
+
+#Counter35{
+  top: 219px;
+  left: 329px;
+}
+
+#Counter36{
+  top: 219px;
+  left: 379px;
+}
+
+#Counter40{
+top: 269px;
+left: 79px;
+}
+
+#Counter41{
+  top: 269px;
+  left: 129px;
+}
+
+#Counter42{
+  top: 269px;
+  left: 179px;
+}
+
+#Counter43{
+  top: 269px;
+  left: 229px;
+}
+
+#Counter44{
+  top: 269px;
+  left: 279px;
+}
+
+#Counter45{
+  top: 269px;
+  left: 329px;
+}
+
+#Counter46{
+  top: 269px;
+  left: 379px;
+}
+
+#Counter50{
+  top: 319px;
+  left: 79px;
+}
+
+#Counter51{
+  top: 319px;
+  left: 129px;
+}
+
+#Counter52{
+  top: 319px;
+  left: 179px;
+}
+
+#Counter53{
+  top: 319px;
+  left: 229px;
+}
+
+#Counter54{
+  top: 319px;
+  left: 279px;
+}
+
+#Counter55{
+  top: 319px;
+  left: 329px;
+}
+
+#Counter56{
+  top: 319px;
+  left: 379px;
+}
+
+.Indicator{
+height: 5px;
+width: 40px;
+background: rgba(60,222,238,0);
+transition-duration: 0.5s;
+}
+
+
+#Indicator_0{
+position: absolute;
+z-index: 1;
+top: 58px;
+left: 80px;
+border-radius: 5px;
+}
+
+#Indicator_1{
+position: absolute;
+z-index: 1;
+top: 58px;
+left: 130px;
+border-radius: 5px;
+}
+
+#Indicator_2{
+position: absolute;
+z-index: 1;
+top: 58px;
+left: 180px;
+border-radius: 5px;
+}
+
+#Indicator_3{
+position: absolute;
+z-index: 1;
+top: 58px;
+left: 230px;
+border-radius: 5px;
+}
+
+#Indicator_4{
+position: absolute;
+z-index: 1;
+top: 58px;
+left: 280px;
+border-radius: 5px;
+}
+
+#Indicator_5{
+position: absolute;
+z-index: 1;
+top: 58px;
+left: 330px;
+border-radius: 5px;
+}
+
+#Indicator_6{
+position: absolute;
+z-index: 1;
+top: 58px;
+left: 380px;
+border-radius: 5px;
+}
+
+.Slide_Animation{
+  animation-duration: 0.5s;
+  animation-name: Slide_Keyframes;
+}
+
+#Simple_Connect4{
+position: absolute;
+top: 385px;
+left: 100px;
+width: 300px;
+font-family: Arial;
+text-align: center;
+font-size: 25px;
+font-weight: bold;
+color: rgba(90,90,90,0.3);
+text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
+
+
+
+@keyframes Slide_Keyframes{
+0%{
+left: var(Start_Position,0px);
+}
+
+80%{
+left: var(--End_Position,100px);
+}
+
+100%{
+left: var(--End_Position,100px);
+}
+
+}
+
+
+.Drop_Animation{
+  animation-duration: 1s;
+  animation-name: Drop_Frames;
+}
+
+@keyframes Drop_Frames{
+0%{transform: translateY(0); transform: rotate3d(0,1,0,180deg);}
+20%{transform: translateY(0); transform: rotate3d(0,1,0,360deg);}
+30%{transform: translateY(-15px);}
+80%{transform: translateY(var(--Drop_Length,0px));}
+90%{transform: translateY(var(--Drop_Length,0px)); visibility: hidden;}
+100%{transform: translateY(var(--Drop_Length,0px)); visibility: hidden;}
+}
+
+.Fade_Sequence_Animation{
+  -webkit-animation: Fade_Sequence_Frames 0.8s;
+  animation: Fade_Sequence_Frames 0.8s ease-in-out;
+}
+
+@keyframes Fade_Sequence_Frames{
+0%{filter: opacity(0); visibility: visible;}
+100%{filter: opacity(1); visibility: visible;}
+}
+
+.Notification_Drop_Animation{
+  animation-duration: 0.5s;
+  animation-name: Notification_Frames;
+}
+
+@keyframes Notification_Frames{
+  0%{top: -50px;}
+  100%{top: 5px;}
+}
+
+/* .Shake_Off_Animation{
+  -webkit-animation: Shake_Off_Keyframes 0.8s;
+  animation: Shake_Off_Keyframes 0.8s ease-in-out;
+}
+
+@keyframes Shake_Off_Keyframes{
+0%{transform: translateY(0px);}
+100%{transform: translateY(300px);}
+
+} */
