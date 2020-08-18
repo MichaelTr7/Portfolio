@@ -2,49 +2,6 @@
 <br/>
 <br/>
 
-
-<p align="center">
-  <img src="Images/Simple Connect4 Icon 3.png" width = "110"><br/>
-<b>Simple Connect4 </b>
-
-</p>
-
-<br/>
-
-A minimalist Connect4 game used to practice working with arrays of arrays/pseudo 2D-arrays. The project focusses on solely using modern web-technologies including JavaScript and HTML/CSS. Implementing cursor tracking and interactivity was a main learning goal of this project.
-
-
-<br/>
-
-|Main Interface|Dynamic Graphing (gif)|
-|---|---|
-|<img src = "Images/Simple Connect4 Image.png" width = "1500">|<img src = "Images/Simple Connect4 Demo 1.gif" width = "1500">|
-
-
-### Features
-- Interactive counters/tokens
-- 2-player mode and winner validation
-- Original drop sound effect created in Garageband
-<br/>
-
-### Languages/Frameworks
-<img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">
-
-
-All animations implemented using CSS variables and keyframes. Sound effects loaded as mp3 audio files and triggered by click event listeners. Arrays or arrays used to record the grid of tokens dropped.
-
-<br/>
-
-### Project Files 
-[Simple Connect4 Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Simple%20Connect4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Windows Build [exe]]()
-
-
-
-<br/>
-<br/>
-<br/>
-
-
 <p align="center">
   <img src="Images/GPA_Grapher_Icon_1024.png" width = "110"><br/>
 <b>GPA Grapher </b>
@@ -139,7 +96,6 @@ Resizing images and conversion from PNG to .incs and .ico takes advantage of the
 
 MacOS [.dmg] installer available above. <b> NOTE: On MacOS right click and open to override warning. </b>
 
-
 <br/>
 <br/>
 <br/>
@@ -183,6 +139,47 @@ Python and OpenCV used for image processing the folder colour. Javascript and No
 
 ### Project Files 
 [Folder Painter Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Folder%20Painter)
+
+<br/>
+<br/>
+<br/>
+
+
+
+<p align="center">
+  <img src="Images/Simple Connect4 Icon 3.png" width = "110"><br/>
+<b>Simple Connect4 </b>
+
+</p>
+
+<br/>
+
+A minimalist Connect4 game used to practice working with arrays of arrays/pseudo 2D-arrays. The project focusses on solely using modern web-technologies including JavaScript and HTML/CSS. Implementing cursor tracking and interactivity was a main learning goal of this project.
+
+
+<br/>
+
+|Main Interface|Winner Validation Algorithm (gif)|
+|---|---|
+|<img src = "Images/Simple Connect4 Image.png" width = "1500">|<img src = "Images/Simple Connect4 Demo 1.gif" width = "1500">|
+
+
+### Features
+- Interactive counters/tokens
+- 2-player mode and winner validation
+- Original drop sound effect created in Garageband
+<br/>
+
+### Languages/Frameworks
+<img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">
+
+
+All animations implemented using CSS variables and keyframes. Sound effects loaded as mp3 audio files and triggered by click event listeners. Arrays or arrays used to record the grid of tokens dropped.
+
+<br/>
+
+### Project Files 
+[Simple Connect4 Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Simple%20Connect4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Windows Build [exe]]()
 
 <br/>
 <br/>
