@@ -11,7 +11,7 @@
 
 <br/>
 
-A minimalist Connect4 game used to practice working with arrays of arrays/pseudo 2D-arrays. The project focusses on solely using modern web-technologies including JavaScript and HTML/CSS.  
+A minimalist Connect4 game used to practice working with arrays of arrays/pseudo 2D-arrays. The project focusses on solely using modern web-technologies including JavaScript and HTML/CSS. Implementing cursor tracking and interactivity was also a goal of this project.
 
 
 <br/>
@@ -25,19 +25,16 @@ A minimalist Connect4 game used to practice working with arrays of arrays/pseudo
 
 
 ### Features
-- Graphing CGPA (Cumulative Grade Point Averages) and Term GPA (Grade Point Averages)
-- Pie chart mark distribution
-- All graphing is dynamic as user edits/adds courses
-- Image capture and export to desktop as PNG
-- Adaptable to allow mark upload if academic institutions wish to implement application
+- Interactive counters/tokens
+- 2-player and winner validation
+- Original drop sound effect created in Garageband
 <br/>
 
 ### Languages/Frameworks
 <img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Chartjs-Logo.png" width = "75" >
 
 
-All animations implemented using CSS. Profile icon supports drag-and-drop functionality. Chart.js powers the graphical portions of the application. NodeJS modules used for file handling and profile icon retrieval. 
-
+All animations implemented using CSS variables and keyframes. Sound effects loaded as mp3 audio file and triggered by click event listeners. 
 
 <br/>
 
