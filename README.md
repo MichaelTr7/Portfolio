@@ -179,7 +179,7 @@ All animations implemented using CSS variables and keyframes. Sound effects load
 <br/>
 
 <p align ="center">
-<img src = "Images/Simple Connect4 DMG Setup Image.png" width = "400">
+<img src = "Images/Simple Connect4 Setup Page.png" width = "400">
 </p>
 
 ### Project Files 
