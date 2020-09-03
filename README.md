@@ -1,15 +1,4 @@
 
-<br/>
-<br/>
-<br/>
-
-<p align="center">
-<b>Habit 60 </b>
-</p>
-
-<p align="center">
-  <img src="Images/Habit 60 Iphone 6.png" width = "300"><br/>
-</p>
 
 <br/>
 <br/>
