@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="Images/GPA_Grapher_Icon_1024.png" width = "110"><br/>
+  <img src="Images/Habit 60 Iphone 6.png" width = "500"><br/>
 </p>
 
 <br/>
