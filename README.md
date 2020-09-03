@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="Images/Habit 60 Iphone 6.png" width = "500"><br/>
+  <img src="Images/Habit 60 Iphone 6.png" width = "300"><br/>
 </p>
 
 <br/>
