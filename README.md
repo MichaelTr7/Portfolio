@@ -3,6 +3,49 @@
 <br/>
 
 <p align="center">
+  <img src="" width = "110"><br/>
+<b>GPA Grapher </b>
+
+</p>
+
+<br/>
+
+
+A desktop application for graphing the cumulative and term GPAs (Grade Point Averages) of students. The project was completed using JavaScript and HTML/CSS. Uses the NodeJS and ElectronJS frameworks to combine front-end and back-end code. Save data handled using JSON files. MacOS and Windows compatible.
+
+<br/>
+
+<img src = "" width = "2000">
+
+
+|||
+|---|---|
+|<img src = "" width = "2200">|<img src = "" width = "1850">|
+
+
+### Features
+
+<br/>
+
+### Languages/Frameworks
+<img src="" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="" width = "90">&nbsp;&nbsp;&nbsp;&nbsp;<img src="" width = "75" >
+
+
+
+
+<br/>
+
+### Project Files 
+[Habit 60 Source Files]()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+<br/>
+<br/>
+<br/>
+
+
+<p align="center">
   <img src="Images/GPA_Grapher_Icon_1024.png" width = "110"><br/>
 <b>GPA Grapher </b>
 
