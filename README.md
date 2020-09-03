@@ -3,6 +3,18 @@
 <br/>
 <br/>
 
+<p align="center">
+<b>Habit 60 </b>
+</p>
+
+<p align="center">
+  <img src="Images/GPA_Grapher_Icon_1024.png" width = "110"><br/>
+</p>
+
+<br/>
+<br/>
+<br/>
+
 
 <p align="center">
   <img src="Images/GPA_Grapher_Icon_1024.png" width = "110"><br/>
