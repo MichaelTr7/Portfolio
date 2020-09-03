@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="" width = "110"><br/>
-<b>GPA Grapher </b>
+<b>Habit 60 </b>
 
 </p>
 
