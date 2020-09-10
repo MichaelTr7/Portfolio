@@ -1,5 +1,5 @@
 
-[<img src="">](https://www.linkedin.com/in/michaeltroeung)
+[<img src="Images/LinkedIn Badge.png">](https://www.linkedin.com/in/michaeltroeung)
 
 [<img src="">](https://michaeltr7.github.io/Michael-Troeung-Portfolio/)
 
