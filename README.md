@@ -8,6 +8,9 @@
 Electrical Engineering Graduate
 </p>
 
+<br/>
+<br/>
+
 <p align="center">
   <img src="Images/GPA_Grapher_Icon_1024.png" width = "110"><br/>
 <b>GPA Grapher </b>
