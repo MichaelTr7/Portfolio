@@ -1,3 +1,6 @@
+<p align="center">
+<b>Portfolio by Michael Troeung</b>
+</p>
 
 [<img src="Images/LinkedIn Profile Icon.png" width = "200">](https://www.linkedin.com/in/michaeltroeung)
 
