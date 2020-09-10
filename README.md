@@ -1,3 +1,7 @@
+<br/>
+<br/>
+<br/>
+
 <p align="center">
 <b>Portfolio by Michael Troeung</b>
 <br>
@@ -9,11 +13,6 @@ Electrical Engineering Graduate
 [<img src="">](https://michaeltr7.github.io/Michael-Troeung-Portfolio/)
 
 [<img src="">](https://stackoverflow.com/story/michaeltr7/)
-
-
-<br/>
-<br/>
-<br/>
 
 
 <p align="center">
