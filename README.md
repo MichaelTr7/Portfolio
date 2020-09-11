@@ -1,4 +1,4 @@
-[<img src="Images/LinkedIn Badge 2.png" width = "200">]()
+[<img src="Images/LinkedIn Badge 3.png" width = "200">]()
 [<img src="Images/Stackoverflow Badge 2.png" width = "200">]()
 [<img src="Images/GitHub Badge 2.png" width = "200">]()
 
