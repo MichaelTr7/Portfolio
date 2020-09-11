@@ -1,3 +1,9 @@
+[<img src="Images/LinkedIn Badge.png">]()
+[<img src="Images/Stackoverflow Badge.png">]()
+[<img src="Images/GitHub Badge.png">]()
+
+
+
 <br/>
 <br/>
 <br/>
