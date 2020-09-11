@@ -1,6 +1,6 @@
-[<img src="Images/LinkedIn Badge 2.png" width = "100">]()
-[<img src="Images/Stackoverflow Badge 2.png" width = "100">]()
-[<img src="Images/GitHub Badge 2.png" width = "120">]()
+[<img src="Images/LinkedIn Badge 2.png" width = "200">]()
+[<img src="Images/Stackoverflow Badge 2.png" width = "200">]()
+[<img src="Images/GitHub Badge 2.png" width = "200">]()
 
 
 
