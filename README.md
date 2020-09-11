@@ -1,10 +1,8 @@
-[<img src="Images/LinkedIn Badge 3.png" width = "200" align = "right">](https://www.linkedin.com/in/michaeltroeung)
-[<img src="Images/Stackoverflow Badge 3.png" width = "200" align = "right">](https://stackoverflow.com/story/michaeltr7/)
-[<img src="Images/GitHub Badge 3.png" width = "200" align = "right">](https://michaeltr7.github.io/Michael-Troeung-Portfolio/)
+[<img src="Images/LinkedIn Badge 3.png" width = "200">](https://www.linkedin.com/in/michaeltroeung)
+[<img src="Images/Stackoverflow Badge 3.png" width = "200">](https://stackoverflow.com/story/michaeltr7/)
+[<img src="Images/GitHub Badge 3.png" width = "200">](https://michaeltr7.github.io/Michael-Troeung-Portfolio/)
 
 
-
-<br/>
 <br/>
 <br/>
 
@@ -14,6 +12,7 @@
 Electrical Engineering Graduate
 </p>
 
+<br/>
 <br/>
 <br/>
 
