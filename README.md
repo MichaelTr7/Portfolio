@@ -23,7 +23,7 @@ Electrical Engineering Graduate
 
 
 
-|<img src="Images/Screen Shot 2020-09-08 at 6.23.02 PM.png" width = "300">|<img src="Images/Screen Shot 2020-09-08 at 6.22.22 PM.png" width = "300">|<img src="Images/Screen Shot 2020-09-08 at 6.22.37 PM.png" width = "300">|
+|<img src="Images/Screen Shot 2020-09-08 at 6.23.02 PM.png" width = "350">|<img src="Images/Screen Shot 2020-09-08 at 6.22.22 PM.png" width = "350">|<img src="Images/Screen Shot 2020-09-08 at 6.22.37 PM.png" width = "350">|
 |---|---|---|
 
 
