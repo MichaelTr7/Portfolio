@@ -21,12 +21,10 @@ Electrical Engineering Graduate
   <img src="" width = "110"><br/>
 <b>Habit 60 (Beta)</b>
 
-</p>
 
 
-|<img src="Images/Screen Shot 2020-09-08 at 6.23.02 PM.png" width = "200">|<img src="Images/Screen Shot 2020-09-08 at 6.22.22 PM.png" width = "200">|<img src="Images/Screen Shot 2020-09-08 at 6.22.37 PM.png" width = "200">|
+|<img src="Images/Screen Shot 2020-09-08 at 6.23.02 PM.png" width = "300">|<img src="Images/Screen Shot 2020-09-08 at 6.22.22 PM.png" width = "300">|<img src="Images/Screen Shot 2020-09-08 at 6.22.37 PM.png" width = "300">|
 |---|---|---|
-
 
 
 
