@@ -23,7 +23,9 @@ Electrical Engineering Graduate
 
 </p>
 
-  <img src="Images/GPA_Grapher_Icon_1024.png" width = "110">
+  <img src="Images/Screen Shot 2020-09-08 at 6.23.02 PM.png" width = "200">
+  <img src="Images/Screen Shot 2020-09-08 at 6.22.22 PM.png" width = "200">
+  <img src="Images/Screen Shot 2020-09-08 at 6.22.37 PM.png" width = "200">
 
 
 
