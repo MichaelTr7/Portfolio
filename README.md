@@ -2,7 +2,6 @@
 [<img src="Images/Stackoverflow Badge 3.png" width = "200">](https://stackoverflow.com/story/michaeltr7/)
 [<img src="Images/GitHub Badge 3.png" width = "200">](https://michaeltr7.github.io/Michael-Troeung-Portfolio/)
 
-
 <br/>
 <br/>
 
@@ -15,6 +14,23 @@ Electrical Engineering Graduate
 <br/>
 <br/>
 <br/>
+
+
+
+<p align="center">
+  <img src="" width = "110"><br/>
+<b>Habit 60 </b>
+
+</p>
+
+  <img src="Images/GPA_Grapher_Icon_1024.png" width = "110">
+
+
+
+
+
+
+
 
 <p align="center">
   <img src="Images/GPA_Grapher_Icon_1024.png" width = "110"><br/>
