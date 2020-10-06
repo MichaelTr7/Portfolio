@@ -16,7 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "caman": "^4.1.2",
-    "electron": "^9.1.0",
+    "electron": "^9.3.0",
     "python": "0.0.4",
     "python-shell": "^2.0.1",
     "shell": "^0.5.0"
