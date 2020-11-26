@@ -5,10 +5,6 @@
 <br/>
 <br/>
 
-<p align ="center">
-<img src = "Images/Top Icon.png" width = "150">
-</p>
-
 <p align="center">
 <b>Portfolio by Michael Troeung</b>
 <br>Electrical Engineering Graduate</br>
