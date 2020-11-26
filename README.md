@@ -44,7 +44,6 @@ A desktop application for graphing the cumulative and term GPAs (Grade Point Ave
 <p align="center">
   <img src="Images/GPA Grapher Summary Page 3.png" width = "700"><br/>
 
-
 ### Features
 - Graphing CGPA (Cumulative Grade Point Averages) and Term GPA (Grade Point Averages)
 - Pie chart mark distribution
@@ -58,8 +57,6 @@ A desktop application for graphing the cumulative and term GPAs (Grade Point Ave
 
 
 All animations implemented using CSS. Profile icon supports drag-and-drop functionality. Chart.js powers the graphical portions of the application. NodeJS modules used for file handling and profile icon retrieval. 
-
-
 <br/>
 
 ### Project Files 
