@@ -41,7 +41,7 @@ A desktop application for graphing the cumulative and term GPAs (Grade Point Ave
 <br/>
 
 <p align="center">
-  <img src="Images/GPA Grapher Summary Page 2.png" width = "700"><br/>
+  <img src="Images/GPA Grapher Summary Page 3.png" width = "700"><br/>
 <b>IconConverter </b>
 
 
