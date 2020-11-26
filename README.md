@@ -17,7 +17,7 @@
 
 
 <p align="center">
-  <img src="" width = "110"><br/>
+  <img src="/Images/Habit 60 Icon.png" width = "110"><br/>
 <b>Habit 60 (Beta)</b>
 <br>
 
