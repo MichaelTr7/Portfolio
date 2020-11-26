@@ -8,7 +8,6 @@
 <p align="center">
 <b>Portfolio by Michael Troeung</b>
 <br>
-<br/>
 
 Electrical Engineering Graduate
 </p>
@@ -22,13 +21,14 @@ Electrical Engineering Graduate
 <p align="center">
   <img src="" width = "110"><br/>
 <b>Habit 60 (Beta)</b>
+<br>
 
 
 <p align="center">
   <img src="Images/Habit 60 Summary Page 2.png" width = "700"><br/>
 
 <br>
-<br>
+<br/>
 
 <p align="center">
   <img src="Images/GPA Grapher Icon 2.png" width = "110"><br/>
