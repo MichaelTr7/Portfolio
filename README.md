@@ -22,12 +22,9 @@ Electrical Engineering Graduate
 <b>Habit 60 (Beta)</b>
 
 
-
-|<img src="Images/Screen Shot 2020-09-08 at 6.23.02 PM.png" width = "350">|<img src="Images/Screen Shot 2020-09-08 at 6.22.22 PM.png" width = "350">|<img src="Images/Screen Shot 2020-09-08 at 6.22.37 PM.png" width = "350">|
-|---|---|---|
-
-
-
+<p align="center">
+  <img src="Images/Habit 60 Summary Page.png" width = "700"><br/>
+<b>IconConverter </b>
 
 
 <p align="center">
@@ -94,7 +91,7 @@ A desktop widget for converting PNG images into MacOS and Windows application ic
 <br/>
 
 <p align ="center">
-<img src = "Images/Icon Converter Summary Page.png" width = "800">
+<img src = "Images/Icon Converter Summary Page.png" width = "500">
 </p>
 
 ### Features
