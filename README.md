@@ -93,12 +93,9 @@ A desktop widget for converting PNG images into MacOS and Windows application ic
 
 <br/>
 
-
-
-|Drag and Drop Files (gif) |File Type Detection (gif)|
-|---|---|
-|<img src = "Images/IconConverter_Demo_1.gif" width = "2000">|<img src = "Images/IconConverter_Demo_2.gif" width = "2000">|
-
+<p align ="center">
+<img src = "Images/Icon Converter Summary Page.png" width = "500">
+</p>
 
 ### Features
 - Converts PNG images into .icns and .ico icon formats
@@ -113,10 +110,6 @@ A desktop widget for converting PNG images into MacOS and Windows application ic
 Resizing images and conversion from PNG to .incs and .ico takes advantage of the speed of shell scripts. NodeJS' child process module was used to connect the interface with the shell scripts. The curves of the User-Interface (UI) was implemented by writing SVG line paths in the HTML code opposed loading SVG images which allows for future flexibility. Windows .ico conversion uses png-to-ico module.
 
 <br/>
-
-<p align ="center">
-<img src = "Images/IconConverter DMG.png" width = "500">
-</p>
 
 ### Project Files 
 [IconConverter Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/IconConverter%20MacOS)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](https://drive.google.com/drive/folders/16CnL6BPPoXdi-hbTKbkRuKbJGT2Dc7y5?usp=sharing)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
