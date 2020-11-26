@@ -206,12 +206,10 @@ All animations implemented using CSS variables and keyframes. Sound effects load
 A desktop widget/application for visualizing audio actively playing. Built using JavaScript and HTML/CSS. This project was created in response to the spectrum analyzer being phased out of all newer versions of iTunes/Apple Music. Created to blend seamlessly into the OS and accompany the iTunes/Apple Music miniplayer.
 
 <br/>
-<img src="Images/Audio Dock Demo Capture.png" width = "2000">
 
-
-|Dynamic Style Menu|Frost White Style (gif)|
-|---|---|
-|<img src="Images/Audio Dock Menu Capture 2.png" width = "2000">|<img src="Images/Audio Dock Demo 2.gif" width = "2000">|
+<p align ="center">
+<img src = "Images/Audio Dock Summary Page.png" width = "700">
+</p>
 
 ### Features
 • Five visualization styles <br/>
