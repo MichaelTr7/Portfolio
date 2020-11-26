@@ -250,13 +250,13 @@ A desktop application inspired by the drive to further implement image processin
 
 
 <p align="center">
-  <img src="Images/ImTune_1.png" width = "900">
+  <img src="Images/ImTune Image 1.png" width = "900">
 </p>
 
 <br/>
 
 <p align="center">
-  <img src="Images/ImTune_2.png" width = "900">
+  <img src="Images/ImTune Image 2.png" width = "900">
 </p>
 
 
