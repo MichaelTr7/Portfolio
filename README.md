@@ -7,7 +7,7 @@
 
 <p align="center">
 <b>Portfolio by Michael Troeung</b>
-Electrical Engineering Graduate
+<br>Electrical Engineering Graduate</br>
 </p>
 
 <br/>
