@@ -74,8 +74,6 @@ MacOS [.dmg] and Windows [.exe] installers available above. <b> NOTE: On MacOS r
 
 <p align="center">
   <img src="Images/IconConverter.png" width = "110"><br/>
-<b>IconConverter </b>
-
 </p>
 
 <br/>
@@ -129,8 +127,6 @@ A desktop widget/application that can change the colour of any folder on MacOS. 
 
 <p align="center">
   <img src="Images/Folder Painter Summary Page.png" width = "700"><br/>
-<b>IconConverter </b>
-
 
 ### Features
 - Folder detection through full path name
