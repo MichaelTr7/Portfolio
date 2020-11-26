@@ -91,7 +91,7 @@ A desktop widget for converting PNG images into MacOS and Windows application ic
 <br/>
 
 <p align ="center">
-<img src = "Images/Icon Converter Summary Page.png" width = "500">
+<img src = "Images/Icon Converter Summary Page.png" width = "700">
 </p>
 
 ### Features
