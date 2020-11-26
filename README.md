@@ -24,7 +24,6 @@ Electrical Engineering Graduate
 
 <p align="center">
   <img src="Images/Habit 60 Summary Page 2.png" width = "700"><br/>
-<b>IconConverter </b>
 
 
 <p align="center">
@@ -42,7 +41,6 @@ A desktop application for graphing the cumulative and term GPAs (Grade Point Ave
 
 <p align="center">
   <img src="Images/GPA Grapher Summary Page 3.png" width = "700"><br/>
-<b>IconConverter </b>
 
 
 ### Features
