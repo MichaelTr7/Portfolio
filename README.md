@@ -25,6 +25,8 @@ Electrical Engineering Graduate
 <p align="center">
   <img src="Images/Habit 60 Summary Page 2.png" width = "700"><br/>
 
+<br>
+<br>
 
 <p align="center">
   <img src="Images/GPA Grapher Icon 2.png" width = "110"><br/>
