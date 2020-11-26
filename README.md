@@ -1,9 +1,35 @@
-<br/>
+[<img src="Images/LinkedIn Badge 3.png" width = "200">](https://www.linkedin.com/in/michaeltroeung)
+[<img src="Images/Stackoverflow Badge 3.png" width = "200">](https://stackoverflow.com/story/michaeltr7/)
+[<img src="Images/GitHub Badge 3.png" width = "200">](https://michaeltr7.github.io/Michael-Troeung-Portfolio/)
+
 <br/>
 <br/>
 
 <p align="center">
-  <img src="Images/GPA_Grapher_Icon_1024.png" width = "110"><br/>
+<b>Portfolio by Michael Troeung</b>
+<br>
+Electrical Engineering Graduate
+</p>
+
+<br/>
+<br/>
+<br/>
+
+
+
+<p align="center">
+  <img src="" width = "110"><br/>
+<b>Habit 60 (Beta)</b>
+
+
+<p align="center">
+  <img src="Images/Habit 60 Summary Page 2.png" width = "700"><br/>
+
+<br>
+<br>
+
+<p align="center">
+  <img src="Images/GPA Grapher Icon 2.png" width = "110"><br/>
 <b>GPA Grapher </b>
 
 </p>
@@ -15,12 +41,8 @@ A desktop application for graphing the cumulative and term GPAs (Grade Point Ave
 
 <br/>
 
-<img src = "Images/GPA Grapher Image.png" width = "2000">
-
-
-|Scrollable and Draggable Elements (gif) |Dynamic Graphing (gif)|
-|---|---|
-|<img src = "Images/GPA Grapher 1.gif" width = "2200">|<img src = "Images/GPA Grapher 2.gif" width = "1850">|
+<p align="center">
+  <img src="Images/GPA Grapher Summary Page 3.png" width = "700"><br/>
 
 
 ### Features
@@ -54,8 +76,7 @@ MacOS [.dmg] and Windows [.exe] installers available above. <b> NOTE: On MacOS r
 
 <p align="center">
   <img src="Images/IconConverter.png" width = "110"><br/>
-<b>IconConverter </b>
-
+<b>Icon Converter</b>
 </p>
 
 <br/>
@@ -65,12 +86,9 @@ A desktop widget for converting PNG images into MacOS and Windows application ic
 
 <br/>
 
-
-
-|Drag and Drop Files (gif) |File Type Detection (gif)|
-|---|---|
-|<img src = "Images/IconConverter_Demo_1.gif" width = "2000">|<img src = "Images/IconConverter_Demo_2.gif" width = "2000">|
-
+<p align ="center">
+<img src = "Images/Icon Converter Summary Page.png" width = "700">
+</p>
 
 ### Features
 - Converts PNG images into .icns and .ico icon formats
@@ -85,10 +103,6 @@ A desktop widget for converting PNG images into MacOS and Windows application ic
 Resizing images and conversion from PNG to .incs and .ico takes advantage of the speed of shell scripts. NodeJS' child process module was used to connect the interface with the shell scripts. The curves of the User-Interface (UI) was implemented by writing SVG line paths in the HTML code opposed loading SVG images which allows for future flexibility. Windows .ico conversion uses png-to-ico module.
 
 <br/>
-
-<p align ="center">
-<img src = "Images/IconConverter DMG.png" width = "500">
-</p>
 
 ### Project Files 
 [IconConverter Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/IconConverter%20MacOS)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](https://drive.google.com/drive/folders/16CnL6BPPoXdi-hbTKbkRuKbJGT2Dc7y5?usp=sharing)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -114,13 +128,8 @@ A desktop widget/application that can change the colour of any folder on MacOS. 
 
 <br/>
 
-<img src="Images/Folder_Painter_Desktop_View.png" width = "2000">
-
-
-|Folder Path Detection (gif) |Favourite Colours Panel (gif)|
-|---|---|
-|<img src="Images/Folder_Painter_Demo_Lower_Resolution.gif" width = "2200">|<img src="Images/Folder_Painter_Demo_2.gif" width = "2000">|
-
+<p align="center">
+  <img src="Images/Folder Painter Summary Page.png" width = "700"><br/>
 
 ### Features
 - Folder detection through full path name
@@ -159,10 +168,9 @@ A minimalist Connect4 game used to practice working with arrays of arrays/pseudo
 
 <br/>
 
-|Main Interface|Winner Validation Algorithm (gif)|
-|---|---|
-|<img src = "Images/Simple Connect4 Image.png" width = "1500">|<img src = "Images/Simple Connect4 Demo 1.gif" width = "1500">|
-
+<p align ="center">
+<img src = "Images/Simple Connect4 Summary Page.png" width = "700">
+</p>
 
 ### Features
 - Interactive counters/tokens
@@ -177,10 +185,6 @@ A minimalist Connect4 game used to practice working with arrays of arrays/pseudo
 All animations implemented using CSS variables and keyframes. Sound effects loaded as mp3 audio files and triggered by click event listeners. Arrays or arrays used to record the grid of tokens dropped.
 
 <br/>
-
-<p align ="center">
-<img src = "Images/Simple Connect4 Setup Page.png" width = "500">
-</p>
 
 ### Project Files 
 [Simple Connect4 Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Simple%20Connect4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](https://drive.google.com/drive/folders/1lfDyGsYl_j4C993BLizrCVzV11KzKXua?usp=sharing)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Online Pages Demo](https://michaeltr7.github.io/Simple-Connect4/)
@@ -199,12 +203,10 @@ All animations implemented using CSS variables and keyframes. Sound effects load
 A desktop widget/application for visualizing audio actively playing. Built using JavaScript and HTML/CSS. This project was created in response to the spectrum analyzer being phased out of all newer versions of iTunes/Apple Music. Created to blend seamlessly into the OS and accompany the iTunes/Apple Music miniplayer.
 
 <br/>
-<img src="Images/Audio Dock Demo Capture.png" width = "2000">
 
-
-|Dynamic Style Menu|Frost White Style (gif)|
-|---|---|
-|<img src="Images/Audio Dock Menu Capture 2.png" width = "2000">|<img src="Images/Audio Dock Demo 2.gif" width = "2000">|
+<p align ="center">
+<img src = "Images/Audio Dock Summary Page.png" width = "700">
+</p>
 
 ### Features
 • Five visualization styles <br/>
@@ -248,13 +250,13 @@ A desktop application inspired by the drive to further implement image processin
 
 
 <p align="center">
-  <img src="Images/ImTune_1.png" width = "900">
+  <img src="Images/ImTune Image 1.png" width = "900">
 </p>
 
 <br/>
 
 <p align="center">
-  <img src="Images/ImTune_2.png" width = "900">
+  <img src="Images/ImTune Image 2.png" width = "900">
 </p>
 
 
