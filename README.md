@@ -23,7 +23,7 @@ Electrical Engineering Graduate
 
 
 <p align="center">
-  <img src="Images/Habit 60 Summary Page.png" width = "700"><br/>
+  <img src="Images/Habit 60 Summary Page 2.png" width = "700"><br/>
 <b>IconConverter </b>
 
 
