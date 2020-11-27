@@ -279,6 +279,9 @@ Built using MATLAB and GUI developed programatically. Application icon designed 
 
 MacOS [.dmg] and Windows [.exe] installers in progress, zipped builds available above. <b> Right click and open to override warning. </b>
 
+<br/>
+<br/>
+
 <p align="center">
   <img src="Images/App Icon Design Page.png" width = "500"><br/>
 </p>
