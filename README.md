@@ -294,8 +294,8 @@ MacOS [.dmg] and Windows [.exe] installers in progress, zipped builds available 
 ### Contact Information
 Reach out to me at one of the following places!
 
-- LinkedIn at <a href="https://www.linkedin.com/in/michaeltroeung/" target="_blank">`LinkedIn/michaeltroeung.com`</a>
-- Stackoverflow at <a href="https://stackoverflow.com/users/13669087/michaeltr7" target="_blank">`Stackoverflow/michaeltroeung.com`</a>
+- LinkedIn at <a href="https://www.linkedin.com/in/michaeltroeung/" target="_blank">`LinkedIn.com`</a>
+- Stackoverflow at <a href="https://stackoverflow.com/users/13669087/michaeltr7" target="_blank">`Stackoverflow/MichaelTr7.com`</a>
 
 
 
