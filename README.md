@@ -44,6 +44,7 @@ A desktop application for graphing the cumulative and term GPAs (Grade Point Ave
 
 <p align="center">
   <img src="Images/GPA Grapher Summary Page 3.png" width = "700"><br/>
+</p>
 
 ### Features
 - Graphing CGPA (Cumulative Grade Point Averages) and Term GPA (Grade Point Averages)
@@ -116,7 +117,6 @@ MacOS [.dmg] installer available above. <b> NOTE: On MacOS right click and open 
 <p align="center">
   <img src="Images/Folder Painter Logo V2.PNG" width = "120"><br/>
   <b>Folder Painter </b>
-
 </p>
 
 <br/>
@@ -128,6 +128,7 @@ A desktop widget/application that can change the colour of any folder on MacOS. 
 
 <p align="center">
   <img src="Images/Folder Painter Summary Page.png" width = "700"><br/>
+</p>
 
 ### Features
 - Folder detection through full path name
