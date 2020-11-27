@@ -10,7 +10,7 @@
   <b>Portfolio by Michael Troeung</b>
 <br>Electrical Engineering Graduate</br>
 </p>
-<br/>
+</br>
 
 <p align="center">
   <img src="Images/App Dock.png" width = "700"><br/>
