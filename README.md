@@ -6,10 +6,14 @@
 <br/>
 
 
-
 <p align="center">
   <b>Portfolio by Michael Troeung</b>
 <br>Electrical Engineering Graduate</br>
+</p>
+<br/>
+
+<p align="center">
+  <img src="Images/App Dock.png" width = "700"><br/>
 </p>
 
 <br/>
