@@ -5,15 +5,27 @@
 <br/>
 <br/>
 
+
+
 <p align="center">
-<b>Portfolio by Michael Troeung</b>
+  <b>Portfolio by Michael Troeung</b>
 <br>Electrical Engineering Graduate</br>
+</p>
+
+<br/>
+<br/>
+
+<p align="center">
+  <img src="Images/App Icon Design Page.png" width = "500"><br/>
 </p>
 
 <br/>
 <br/>
 <br/>
 
+<p align="center">
+  <img src="Images/Habit 60 Summary Page 2.png" width = "700"><br/>
+</p>
 
 
 <p align="center">
@@ -24,10 +36,10 @@
 
 <p align="center">
   <img src="Images/Habit 60 Summary Page 2.png" width = "700"><br/>
-
+</p>
 <br>
 <br/>
-</p>
+
 
 <p align="center">
   <img src="Images/GPA Grapher Icon 2.png" width = "110"><br/>
