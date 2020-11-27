@@ -14,13 +14,6 @@
 
 <br/>
 <br/>
-
-<p align="center">
-  <img src="Images/App Icon Design Page.png" width = "500"><br/>
-</p>
-
-<br/>
-<br/>
 <br/>
 
 <p align="center">
@@ -285,6 +278,10 @@ Built using MATLAB and GUI developed programatically. Application icon designed 
 [ImTune Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Projects/ImTune) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [zip]](https://drive.google.com/drive/folders/10Wm7Y13gPYRx8QjkQi8mBrokyo62O_TN?usp=sharing)
 
 MacOS [.dmg] and Windows [.exe] installers in progress, zipped builds available above. <b> Right click and open to override warning. </b>
+
+<p align="center">
+  <img src="Images/App Icon Design Page.png" width = "500"><br/>
+</p>
 
 ### Contact Information
 Reach out to me at one of the following places!
