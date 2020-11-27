@@ -14,11 +14,8 @@
 
 <p align="center">
   <img src="Images/App Dock.png" width = "700"><br/>
-</p>
+</p>&nbsp;&nbsp;&nbsp;
 
-<br/>
-<br/>
-<br/>
 
 <p align="center">
   <img src="/Images/Habit 60 Icon.png" width = "110"><br/>
