@@ -20,11 +20,10 @@
 <br/>
 
 
-<p align="center">
-  <img src="Images/Launch Page.png" width = "700"><br/>
-</p>
+[<img src="./Preview Images/Launch Page.png" width = "1000">](https://michaeltr7.github.io/Mult-e-Kit/index.html)
+
 <br>
-<br/>
+<br>
 
 
 <p align="center">
