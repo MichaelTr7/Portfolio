@@ -20,7 +20,7 @@
 <br/>
 
 
-[<img src="./Preview Images/Launch Page.png" width = "1000">](https://michaeltr7.github.io/Mult-e-Kit/index.html)
+[<img src="./Images/Launch Page.png" width = "1000">](https://michaeltr7.github.io/Mult-e-Kit/index.html)
 
 <br>
 <br>
