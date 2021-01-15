@@ -19,6 +19,14 @@
 <br/>
 <br/>
 
+
+<p align="center">
+  <img src="Images/Launch Page.png" width = "700"><br/>
+</p>
+<br>
+<br/>
+
+
 <p align="center">
   <img src="Images/Habit 60 Icon.png" width = "110"><br/>
 <b>&nbsp;Habit 60 (Beta)</b>
