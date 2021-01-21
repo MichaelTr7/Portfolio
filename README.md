@@ -44,8 +44,10 @@ A habit agenda used to incentivize important routines. An experimental project u
 <p align="center">
   <img src="Images/Habit 60 Summary Page 2.png" width = "700"><br/>
 </p>
+
+<hr>
 <br>
-<br/>
+<br>
 
 
 <p align="center">
@@ -248,11 +250,9 @@ Javascript and the p5.js library used to calculate the Fast Fourier Transform (F
 
 MacOS [.dmg] and Windows [.exe] installers in progress, zipped builds available above. <b> Right click and open to override warning. </b>
 
-
-<br/>
-<br/>
-<br/>
-
+<hr>
+<br>
+<br>
 
 <p align="center">
   <img src="Images/ImTuneIcon.png" width = "100"><br/>
