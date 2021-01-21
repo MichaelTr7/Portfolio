@@ -25,7 +25,7 @@
 ### Features
 
 
-
+<hr>
 <br>
 <br>
 
@@ -88,9 +88,9 @@ All animations implemented using CSS. Profile icon supports drag-and-drop functi
 MacOS [.dmg] and Windows [.exe] installers available above. <b> NOTE: On MacOS right click and open to override warning. </b>
 
 
-<br/>
-<br/>
-<br/>
+<hr>
+<br>
+<br>
 
 <p align="center">
   <img src="Images/IconConverter.png" width = "110"><br/>
@@ -128,10 +128,11 @@ Resizing images and conversion from PNG to .incs and .ico takes advantage of the
 
 MacOS [.dmg] installer available above. <b> NOTE: On MacOS right click and open to override warning. </b>
 
-<br/>
-<br/>
-<br/>
 
+
+<hr>
+<br>
+<br>
 
 <p align="center">
   <img src="Images/Folder Painter Logo V2.PNG" width = "120"><br/>
@@ -167,9 +168,11 @@ Python and OpenCV used for image processing the folder colour. Javascript and No
 ### Project Files 
 [Folder Painter Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Projects/Folder%20Painter)
 
-<br/>
-<br/>
-<br/>
+
+
+<hr>
+<br>
+<br>
 
 
 
@@ -207,9 +210,9 @@ All animations implemented using CSS variables and keyframes. Sound effects load
 ### Project Files 
 [Simple Connect4 Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Projects/Simple%20Connect4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](https://drive.google.com/drive/folders/1lfDyGsYl_j4C993BLizrCVzV11KzKXua?usp=sharing)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Online Pages Demo](https://michaeltr7.github.io/Simple-Connect4/)
 
-<br/>
-<br/>
-<br/>
+<hr>
+<br>
+<br>
 
 <p align="center">
   <img src="Images/Audio Dock Icon.png" width = "120"><br/>
@@ -261,11 +264,8 @@ MacOS [.dmg] and Windows [.exe] installers in progress, zipped builds available 
  
 A desktop application inspired by the drive to further implement image processing principles learned during undergraduate studies. Compiled standalone application using MATLAB. Coded programmatically and can edit any picture selected by retrieving the image through its path. Uses UI elements including uifigure, uiknob, uibutton, etc. 
 
-
-<br/>
-<br/>
-
-
+<br>
+<br>
 
 <p align="center">
   <img src="Images/ImTune Image 1.png" width = "900">
@@ -298,8 +298,9 @@ Built using MATLAB and GUI developed programatically. Application icon designed 
 
 MacOS [.dmg] and Windows [.exe] installers in progress, zipped builds available above. <b> Right click and open to override warning. </b>
 
-<br/>
-<br/>
+<hr>
+<br>
+<br>
 
 <p align="center">
   <img src="Images/App Icon Design Page.png" width = "500"><br/>
