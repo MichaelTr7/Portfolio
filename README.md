@@ -28,11 +28,14 @@
 
 <p align="center">
   <img src="Images/Habit 60 Icon.png" width = "110"><br/>
-<b>&nbsp;Habit 60 (Beta)</b>
+<b>&nbsp;Habit 60 (in progress)</b>
 </p>
 
-<br/>
+<br>
 
+A habit agenda used to incentivize important routines. An experimental project used to learn the fundamentals of developing in Swift and the Xcode IDE. Currently in progress and shifting towards migration from UIKit to SwiftUI.
+
+<br>
 
 <p align="center">
   <img src="Images/Habit 60 Summary Page 2.png" width = "700"><br/>
