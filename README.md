@@ -24,17 +24,16 @@
 [<img src="./Images/Launch Page.png" width = "1000">](https://michaeltr7.github.io/Mult-e-Kit/index.html)
 
 ### Features
-
 • [Resistor Calculator](https://michaeltr7.github.io/Mult-e-Kit/Pages/Resistor_Calculator.html)<br>
 • [Resistor List Maker (under construction)](https://michaeltr7.github.io/Mult-e-Kit/Pages/Resistor_List_Maker.html)<br>
 • [Capacitor Calculator](https://michaeltr7.github.io/Mult-e-Kit/Pages/Capacitor_Calculator.html)<br>
 • [Interactive Digital Logic Gates Tool](https://michaeltr7.github.io/Mult-e-Kit/Pages/Digital_Logic_Gates.html)<br>
+<br>
 
 ### Languages/Frameworks
 <img src="Images/Webstack_Logo.png" width = "62">
-<br/>
-
-Built using HTML, CSS and JavaScript web-technologies.
+Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface (UI) and supported on desktop and mobile devices.
+<br>
 
 ### Project Files 
 [Mult-e-Tool Source Files](https://github.com/MichaelTr7/Mult-e-Kit)
