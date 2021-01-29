@@ -24,10 +24,10 @@
 [<img src="./Images/Launch Page.png" width = "1000">](https://michaeltr7.github.io/Mult-e-Kit/index.html)
 
 ### Features
-• [Resistor Calculator](https://michaeltr7.github.io/Mult-e-Kit/Pages/Resistor_Calculator.html)<br>
-• [Resistor List Maker (under construction)](https://michaeltr7.github.io/Mult-e-Kit/Pages/Resistor_List_Maker.html)<br>
-• [Capacitor Calculator](https://michaeltr7.github.io/Mult-e-Kit/Pages/Capacitor_Calculator.html)<br>
-• [Interactive Digital Logic Gates Tool](https://michaeltr7.github.io/Mult-e-Kit/Pages/Digital_Logic_Gates.html)<br>
+- Resistor Calculator
+- Resistor List Maker (under construction)
+- Capacitor Calculator
+- Interactive Digital Logic Gates Tool
 <br>
 
 ### Languages/Frameworks
