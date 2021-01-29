@@ -31,16 +31,13 @@
 • [Interactive Digital Logic Gates Tool](https://michaeltr7.github.io/Mult-e-Kit/Pages/Digital_Logic_Gates.html)<br>
 
 ### Languages/Frameworks
-<img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Chartjs-Logo.png" width = "75" >
-
-
-All animations implemented using CSS. Profile icon supports drag-and-drop functionality. Chart.js powers the graphical portions of the application. NodeJS modules used for file handling and profile icon retrieval. 
+<img src="Images/Webstack_Logo.png" width = "62">
 <br/>
 
+Built using HTML, CSS and JavaScript web-technologies.
+
 ### Project Files 
-[GPA Grapher Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Projects/GPA%20Grapher)
-
-
+[Mult-e-Tool Source Files](https://github.com/MichaelTr7/Mult-e-Kit)
 
 <hr>
 <br>
