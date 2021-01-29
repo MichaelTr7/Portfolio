@@ -25,6 +25,22 @@
 
 ### Features
 
+• [Resistor Calculator](https://michaeltr7.github.io/Mult-e-Kit/Pages/Resistor_Calculator.html)<br>
+• [Resistor List Maker (under construction)](https://michaeltr7.github.io/Mult-e-Kit/Pages/Resistor_List_Maker.html)<br>
+• [Capacitor Calculator](https://michaeltr7.github.io/Mult-e-Kit/Pages/Capacitor_Calculator.html)<br>
+• [Interactive Digital Logic Gates Tool](https://michaeltr7.github.io/Mult-e-Kit/Pages/Digital_Logic_Gates.html)<br>
+
+### Languages/Frameworks
+<img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Chartjs-Logo.png" width = "75" >
+
+
+All animations implemented using CSS. Profile icon supports drag-and-drop functionality. Chart.js powers the graphical portions of the application. NodeJS modules used for file handling and profile icon retrieval. 
+<br/>
+
+### Project Files 
+[GPA Grapher Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Projects/GPA%20Grapher)
+
+
 
 <hr>
 <br>
