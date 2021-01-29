@@ -28,12 +28,10 @@
 - Resistor List Maker (under construction)
 - Capacitor Calculator
 - Interactive Digital Logic Gates Tool
-<br>
 
 ### Languages/Frameworks
 <img src="Images/Webstack_Logo.png" width = "62">
 Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface (UI) and supported on desktop and mobile devices.
-<br>
 
 ### Project Files 
 [Mult-e-Tool Source Files](https://github.com/MichaelTr7/Mult-e-Kit)
