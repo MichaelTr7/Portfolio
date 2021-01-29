@@ -16,7 +16,6 @@
 <p align="center">
   <img src="Images/App Dock.png" width = "700"><br/>
 </p>&nbsp;&nbsp;&nbsp;
-<hr> 
 <br/>
 <br/>
 
