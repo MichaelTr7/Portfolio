@@ -7,7 +7,7 @@
 
 
 <p align="center">
-  <b>Portfolio by Michael T</b>
+  <b>Project Wall by Michael T</b>
 <br/>Electrical Engineering Graduate
 
 </p>
