@@ -24,7 +24,6 @@
 
 ### Features
 - Resistor Calculator
-- Resistor List Maker (under construction)
 - Capacitor Calculator
 - Interactive Digital Logic Gates Tool
 
