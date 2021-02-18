@@ -29,7 +29,7 @@
 
 ### Languages/Frameworks
 <img src="Images/Webstack_Logo.png" width = "62">
-Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface (UI) and supported on desktop and mobile devices.
+Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface (UI) and supported on desktop and mobile devices. Learned about fixed positioning, scroll events to trigger animations and parsing/validating user input.
 
 ### Project Files 
 [Mult-e-Tool Source Files](https://github.com/MichaelTr7/Mult-e-Kit)
