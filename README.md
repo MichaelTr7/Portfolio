@@ -5,17 +5,24 @@
 </p>
 
 
+<br>
+<br>
+
 <p align="center">
   <b>Project Wall by Michael T</b>
 <br/>Electrical Engineering Graduate
 </p>
 
 <br>
+<br>
 
 <p align="center">
   <img src="Images/App Dock.png" width = "700"><br/>
 </p>&nbsp;&nbsp;&nbsp;
 
+
+<br>
+<br>
 
 
 [<img src="./Images/Launch Page.png" width = "1000">](https://michaeltr7.github.io/Mult-e-Kit/index.html)
