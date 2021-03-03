@@ -330,6 +330,6 @@ Reach out to me at one of the following places!
 
 <br>
 
-<p align="left">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p align="left">
  <a href="https://stackoverflow.com/users/13669087/michaeltr7"><img src="https://stackoverflow.com/users/flair/13669087.png?theme=clean" width="156" height="43.5" alt="profile for MichaelTr7 at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for MichaelTr7 at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
 </p>
