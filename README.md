@@ -1,10 +1,20 @@
-[<img src="Images/LinkedIn Badge 3.png" width = "200">](https://www.linkedin.com/in/michaeltroeung/)
-[<img src="Images/Stackoverflow Badge 3.png" width = "200">](https://stackoverflow.com/story/michaeltr7/)
-[<img src="Images/GitHub Badge 3.png" width = "200">](https://github.com/MichaelTr7)
+
+
+<p align="center">
+<img src="Images/LinkedIn Badge 3.png" width = "200">
+<img src="Images/Stackoverflow Badge 3.png" width = "200">
+<img src="Images/GitHub Badge 3.png" width = "200">
+
+
+</p>
 
 <br/>
 <br/>
 
+
+(https://www.linkedin.com/in/michaeltroeung/)
+(https://stackoverflow.com/story/michaeltr7/)
+(https://github.com/MichaelTr7)
 
 <p align="center">
   <b>Project Wall by Michael T</b>
