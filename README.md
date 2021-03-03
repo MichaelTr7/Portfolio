@@ -1,10 +1,10 @@
 
 
-<span align="center">
+<p align="center">
 <a href="https://www.linkedin.com/in/michaeltroeung/"><img src="Images/LinkedIn Badge 3.png" width = "200"></a>
 <a href="https://stackoverflow.com/story/michaeltr7/"><img src="Images/Stackoverflow Badge 3.png" width = "200"></a>
 <a href="https://github.com/MichaelTr7"><img src="Images/GitHub Badge 3.png" width = "200"></a>
-</span>
+</p>
 
 <br/>
 <br/>
