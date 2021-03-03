@@ -1,4 +1,11 @@
 <p align="center">
+<a href="https://www.linkedin.com/in/michaeltroeung/"><img src="Images/LinkedIn Badge 3.png" width = "30%"></a>
+<a href="https://stackoverflow.com/story/michaeltr7/"><img src="Images/Stackoverflow Badge 3.png" width = "30%"></a>
+<a href="https://github.com/MichaelTr7"><img src="Images/GitHub Badge 3.png" width = "30%"></a>
+</p>
+
+
+<p align="center">
   <b>Project Wall by Michael T</b>
 <br/>Electrical Engineering Graduate
 </p>
@@ -9,11 +16,6 @@
   <img src="Images/App Dock.png" width = "700"><br/>
 </p>&nbsp;&nbsp;&nbsp;
 
-<p align="center">
-<a href="https://www.linkedin.com/in/michaeltroeung/"><img src="Images/LinkedIn Badge 3.png" width = "30%"></a>
-<a href="https://stackoverflow.com/story/michaeltr7/"><img src="Images/Stackoverflow Badge 3.png" width = "30%"></a>
-<a href="https://github.com/MichaelTr7"><img src="Images/GitHub Badge 3.png" width = "30%"></a>
-</p>
 
 
 [<img src="./Images/Launch Page.png" width = "1000">](https://michaeltr7.github.io/Mult-e-Kit/index.html)
