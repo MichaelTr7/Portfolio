@@ -1,7 +1,7 @@
 
 
 <p align="center">
-<img src="Images/LinkedIn Badge 3.png" width = "200">
+<a href="https://www.linkedin.com/in/michaeltroeung/"><img src="Images/LinkedIn Badge 3.png" width = "200"></a>
 <img src="Images/Stackoverflow Badge 3.png" width = "200">
 <img src="Images/GitHub Badge 3.png" width = "200">
 
