@@ -14,6 +14,7 @@
 <br/>Electrical Engineering Graduate
 </p>
 
+
 <br>
 <br>
 
@@ -21,6 +22,9 @@
   <img src="Images/App Dock.png" width = "700"><br/>
 </p>&nbsp;&nbsp;&nbsp;
 
+<p align="center">
+All vector illustrations are designed with care using Figma and Vectornator.
+</p>
 
 <br>
 <br>
