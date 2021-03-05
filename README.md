@@ -41,6 +41,7 @@ All vector illustrations are designed with care using Figma and Vectornator.
 
 ### Languages/Frameworks
 <img src="Images/Webstack_Logo.png" width = "62">
+
 Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface (UI) and supported on desktop and mobile devices. Learned about fixed positioning for navigation elements, scroll events to trigger animations and parsing/validating user input.
 
 ### Project Files 
