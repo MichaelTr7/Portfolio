@@ -1,12 +1,11 @@
 <br>
 
-
-
-<br>
-<br>
 <p align="center">
 All vector illustrations are designed with care using Figma and Vectornator.
 </p>
+
+<br>
+<br>
 
 <p align="center">
   <img src="Images/App Dock.png" width = "700"><br/>
