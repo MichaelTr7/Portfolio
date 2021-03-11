@@ -53,7 +53,7 @@ Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface
 <br>
 
 <p align="center">
-  <a href="https://michaeltr7.github.io/Mult-e-Kit/index.html"><img src="./Images/Polarized Squares Preview.png" width = "700"></a>
+  <a href="https://michaeltr7.github.io/Polarized-Squares/"><img src="./Images/Polarized Squares Preview.png" width = "700"></a>
 </p>
 
 
