@@ -53,7 +53,6 @@ Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface
 <br>
 
 <p align="center">
-  <img src="Images/" width = "110"><br/>
 <b>&nbsp;Polarized Squares (in development)</b>
 </p>
 
