@@ -51,6 +51,27 @@ Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface
 <br>
 <br>
 
+[<img src="./Images/Polarized Squares Preview.png" width = "700">](https://michaeltr7.github.io/Mult-e-Kit/index.html)
+
+### Features
+- Drag and drop images into Polaroid style frames
+- Hot keys enabled for faster navigation
+- Background HSV (Hue, Saturation, Lightness) colour picker 
+
+### Languages/Frameworks
+<img src="Images/Webstack_Logo.png" width = "62">
+
+Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface (UI) and supported on desktop and mobile devices. Learned about fixed positioning for navigation elements, scroll events to trigger animations and parsing/validating user input. JQuery used for retrieving and displaying base64 encoded images.
+
+### Project Files 
+[Mult-e-Tool Source Files](https://github.com/MichaelTr7/Mult-e-Kit)
+
+<hr>
+<br>
+<br>
+
+
+
 
 <p align="center">
   <img src="Images/Habit 60 Icon.png" width = "110"><br/>
