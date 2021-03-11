@@ -53,6 +53,13 @@ Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface
 <br>
 
 <p align="center">
+  <img src="Images/" width = "110"><br/>
+<b>&nbsp;Polarized Squares (in development)</b>
+</p>
+
+<br>
+
+<p align="center">
   <a href="https://michaeltr7.github.io/Polarized-Squares/"><img src="./Images/Polarized Squares Preview.png" width = "700"></a>
 </p>
 
@@ -65,7 +72,7 @@ Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface
 ### Languages/Frameworks
 <img src="Images/Webstack_Logo.png" width = "62">
 
-Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface (UI) and supported on desktop and mobile devices. Learned about fixed positioning for navigation elements, scroll events to trigger animations and parsing/validating user input. JQuery used for retrieving and displaying base64 encoded images.
+Built using HTML, CSS and JavaScript web-technologies. JQuery used for retrieving and displaying base64 encoded images. Learned and practiced dealing with constraints determined by elements bounding boxes.
 
 ### Project Files 
 [Polarized Squares Source Files](https://github.com/MichaelTr7/Polarized-Squares)
@@ -73,9 +80,6 @@ Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface
 <hr>
 <br>
 <br>
-
-
-
 
 <p align="center">
   <img src="Images/Habit 60 Icon.png" width = "110"><br/>
