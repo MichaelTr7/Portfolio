@@ -68,7 +68,7 @@ Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface
 Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface (UI) and supported on desktop and mobile devices. Learned about fixed positioning for navigation elements, scroll events to trigger animations and parsing/validating user input. JQuery used for retrieving and displaying base64 encoded images.
 
 ### Project Files 
-[Mult-e-Tool Source Files](https://github.com/MichaelTr7/Mult-e-Kit)
+[Polarized Squares Source Files](https://github.com/MichaelTr7/Polarized-Squares)
 
 <hr>
 <br>
