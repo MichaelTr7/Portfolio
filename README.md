@@ -31,8 +31,9 @@ All vector illustrations are designed with care using Figma and Vectornator.
 <br>
 <br>
 
-
-[<img src="./Images/Launch Page.png" width = "1000">](https://michaeltr7.github.io/Mult-e-Kit/index.html)
+<p align="center">
+  <a href="https://michaeltr7.github.io/Mult-e-Kit/index.html"><img src="./Images/Launch Page.png" width = "800"></a>
+</p>
 
 ### Features
 - Resistor Calculator
@@ -51,7 +52,10 @@ Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface
 <br>
 <br>
 
-[<img src="./Images/Polarized Squares Preview.png" width = "700">](https://michaeltr7.github.io/Mult-e-Kit/index.html)
+<p align="center">
+  <a href="https://michaeltr7.github.io/Mult-e-Kit/index.html"><img src="./Images/Polarized Squares Preview.png" width = "700"></a>
+</p>
+
 
 ### Features
 - Drag and drop images into Polaroid style frames
