@@ -54,7 +54,7 @@ Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface
 
 <p align="center">
   <img src="Images/Habit 60 Icon.png" width = "110"><br/>
-<b>&nbsp;Habit 60 (in progress)</b>
+<b>&nbsp;Habit 60 (prototype)</b>
 </p>
 
 <br>
