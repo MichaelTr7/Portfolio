@@ -32,7 +32,7 @@ All vector illustrations are designed with care using Figma and Vectornator.
 <br>
 
 <p align="center">
-  <a href="https://michaeltr7.github.io/Mult-e-Kit/index.html"><img src="./Images/Launch Page.png" width = "800"></a>
+  <a href="https://michaeltr7.github.io/Mult-e-Tool/"><img src="./Images/Launch Page.png" width = "800"></a>
 </p>
 
 ### Features
