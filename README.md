@@ -50,7 +50,6 @@ Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface
 
 <hr>
 <br>
-<br>
 
 <p align="center">
   <img src="Images/Routine Square App Icon.png" width = "110"><br/>
@@ -75,6 +74,8 @@ Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface
  </p>
 
 <hr>
+<br>
+<br>
 
 <p align="center">
 <b>&nbsp;Polarized Squares (in development)</b>
