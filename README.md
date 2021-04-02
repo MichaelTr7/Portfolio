@@ -53,6 +53,30 @@ Built using HTML, CSS and JavaScript web-technologies. Responsive user-interface
 <br>
 
 <p align="center">
+  <img src="Images/Routine Square App Icon.png" width = "110"><br/>
+<b>Routine Square</b>
+
+</p>
+
+<p align="center">
+<a href="https://github.com/MichaelTr7/Routine-Square/releases/download/1.0.0/Routine.Squares-1.0.0.dmg"><img src="./Images/Button.png" width="20%"></a>
+</p>
+
+<p align="center"><b>A routine motivator that holds your 5 daily tasks</b><br>Resets checkmarks every midnight</p>
+<br>
+
+<p align="center">
+<img src="./Images/Preview Image 2.png" width="40%">
+</p>
+<br>
+
+<p align="center">
+<img src="./Images/Preview Image.png" width="100%">
+ </p>
+
+<hr>
+
+<p align="center">
 <b>&nbsp;Polarized Squares (in development)</b>
 </p>
 
