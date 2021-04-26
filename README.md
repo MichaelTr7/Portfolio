@@ -157,7 +157,7 @@ All animations implemented using CSS. Profile icon supports drag-and-drop functi
 <br/>
 
 ### Project Files 
-[GPA Grapher Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Projects/GPA%20Grapher)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](https://github.com/MichaelTr7/Portfolio/releases/download/GPA-Grapher-1.0.0-MacOS/GPA.Grapher-1.0.0.dmg)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Windows Build [exe]](https://github.com/MichaelTr7/Portfolio/releases/download/1.0.0-Windows/GPA.Grapher.1.0.0.exe)
+[GPA Grapher Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Projects/GPA%20Grapher)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](https://github.com/MichaelTr7/Portfolio/releases/download/GPA-Grapher-1.0.0-MacOS/GPA.Grapher-1.0.0.dmg)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Windows Build [exe]](https://github.com/MichaelTr7/Portfolio/releases/download/GPA-Grapher-1.0.0-Windows/GPA.Grapher.1.0.0.exe)
 
 
 
