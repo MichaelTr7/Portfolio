@@ -199,7 +199,7 @@ Resizing images and conversion from PNG to .incs and .ico takes advantage of the
 <br/>
 
 ### Project Files 
-[IconConverter Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Projects/IconConverter)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](IconConverter-1.0.1.dmg)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[IconConverter Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Projects/IconConverter)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](https://github.com/MichaelTr7/Portfolio/releases/download/IconConverter-1.0.0-MacOS/IconConverter-1.0.1.dmg)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 MacOS [.dmg] installer available above. <b> NOTE: On MacOS right click and open to override warning. </b>
