@@ -199,7 +199,7 @@ Resizing images and conversion from PNG to .incs and .ico takes advantage of the
 <br/>
 
 ### Project Files 
-[IconConverter Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Projects/IconConverter)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](https://drive.google.com/drive/folders/16CnL6BPPoXdi-hbTKbkRuKbJGT2Dc7y5?usp=sharing)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[IconConverter Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Projects/IconConverter)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](IconConverter-1.0.1.dmg)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 MacOS [.dmg] installer available above. <b> NOTE: On MacOS right click and open to override warning. </b>
@@ -284,7 +284,7 @@ All animations implemented using CSS variables and keyframes. Sound effects load
 <br/>
 
 ### Project Files 
-[Simple Connect4 Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Projects/Simple%20Connect4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](https://drive.google.com/drive/folders/1lfDyGsYl_j4C993BLizrCVzV11KzKXua?usp=sharing)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Online Pages Demo](https://michaeltr7.github.io/Simple-Connect4/)
+[Simple Connect4 Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Projects/Simple%20Connect4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [dmg]](https://github.com/MichaelTr7/Portfolio/releases/download/Simple-Connect4-1.0.0-MacOS/Simple.Connect4-1.0.1.dmg)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Online Pages Demo](https://michaeltr7.github.io/Simple-Connect4/)
 
 <hr>
 <br>
@@ -320,7 +320,7 @@ Javascript and the p5.js library used to calculate the Fast Fourier Transform (F
 <br/>
 
 ### Project Files 
-[Audio Dock Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Projects/Audio%20Dock)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [zip]](https://drive.google.com/drive/folders/1Z-g9GOXuyJG1UygZ2Er74UJ8IfL5ECuD?usp=sharing)
+[Audio Dock Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Projects/Audio%20Dock)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [zip]](https://github.com/MichaelTr7/Portfolio/releases/download/Audio-Dock-1.0.0-MacOS/Audio.Dock.zip)
 
 MacOS [.dmg] and Windows [.exe] installers in progress, zipped builds available above. <b> Right click and open to override warning. </b>
 
@@ -368,7 +368,7 @@ Built using MATLAB and GUI developed programatically. Application icon designed 
 <br/>
 
 ### Project Files 
-[ImTune Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Projects/ImTune) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [zip]](https://drive.google.com/drive/folders/10Wm7Y13gPYRx8QjkQi8mBrokyo62O_TN?usp=sharing)
+[ImTune Source Files](https://github.com/MichaelTr7/Michael-Troeung-Portfolio/tree/master/Projects/ImTune) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MacOS Build [zip]](https://github.com/MichaelTr7/Portfolio/releases/download/ImTune-1.0.0-MacOS/ImTune.zip)
 
 MacOS [.dmg] and Windows [.exe] installers in progress, zipped builds available above. <b> Right click and open to override warning. </b>
 
