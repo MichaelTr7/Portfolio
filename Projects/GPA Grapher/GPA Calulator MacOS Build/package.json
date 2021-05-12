@@ -51,7 +51,7 @@
     "dist": "electron-builder"
   },
   "dependencies": {
-    "chart.js": "^2.9.3"
+    "chart.js": "^2.9.4"
   },
   "devDependencies": {
     "electron": "^9.2.0",
