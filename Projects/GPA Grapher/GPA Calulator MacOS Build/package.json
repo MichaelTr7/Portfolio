@@ -54,7 +54,7 @@
     "chart.js": "^2.9.3"
   },
   "devDependencies": {
-    "electron": "^9.2.0",
+    "electron": "^11.5.0",
     "electron-builder": "^22.8.0"
   }
 }
