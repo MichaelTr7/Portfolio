@@ -346,6 +346,3 @@ Built using MATLAB and GUI developed programatically. Application icon designed 
 
 MacOS [.dmg] and Windows [.exe] installers in progress, zipped builds available above. <b> Right click and open to override warning. </b>
 
-<hr>
-<br>
-<br>
