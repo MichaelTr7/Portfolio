@@ -1,34 +1,8 @@
 <br>
-<br>
-
-<p align="center">
-All vector illustrations are designed with care using Figma and Vectornator.
-</p>
-
-<br>
-<br>
 
 <p align="center">
   <img src="Images/App Dock.png" width = "700"><br/>
 </p>&nbsp;&nbsp;&nbsp;
-
-
-<p align="center">
-  <b>Project Wall by Michael T</b>
-<br/>Electrical Engineering Graduate
-</p>
-
-
-<br>
-<br>
-
-<p align="center">
-<a href="https://stackoverflow.com/story/michaeltr7/"><img src="Images/Stackoverflow Badge 3.png" width = "40%"></a>
-<a href="https://github.com/MichaelTr7"><img src="Images/GitHub Badge 3.png" width = "40%"></a>
-</p>
-
-<br>
-<br>
 
 <p align="center">
   <a href="https://michaeltr7.github.io/Mult-e-Tool/"><img src="./Images/Launch Page.png" width = "800"></a>
