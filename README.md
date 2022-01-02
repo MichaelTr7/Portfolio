@@ -349,7 +349,3 @@ MacOS [.dmg] and Windows [.exe] installers in progress, zipped builds available 
 <hr>
 <br>
 <br>
-
-<p align="center">
-  <img src="Images/App Icon Design Page.png" width = "500"><br/>
-</p>
